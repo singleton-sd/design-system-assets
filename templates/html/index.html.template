@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Singleton SD Assets - {{VERSION}}</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://singleton-sd.gitlab.io/design-system/tokens/css/light/_variables.css" rel="stylesheet" />
+    <link href="https://singleton-sd.gitlab.io/design-system/tokens/css/dark/_variables.css" rel="stylesheet" />
+    <link href="https://singleton-sd.gitlab.io/design-system/tokens/css/root/light/_variables.css" rel="stylesheet" />
+    <link rel="manifest" href="./favicons/circle/bg-none/site.webmanifest" />
+    <link rel="apple-touch-icon" href="./favicons/circle/bg-none/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/circle/bg-none/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/circle/bg-none/favicon-16x16.png">
+    <link rel="shortcut icon" href="./favicons/circle/bg-none/favicon.png">
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const theme = urlParams.get('theme');
+      if (theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
+      window.addEventListener('message', (event) => {
+        if (event.data?.theme) {
+          document.documentElement.setAttribute('data-theme', event.data.theme);
+        }
+      });
+    </script>
+    <style type="text/css">
+      :root {
+        --primary-color: var(--fg-default);
+        --background-color: var(--bg-default);
+      }
+
+      @font-face {
+        font-family: 'Open Sauce One', sans-serif;
+        src:
+          local('Open Sauce One'),
+          url('https://fonts.cdnfonts.com/s/88496/OpenSauceOne-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @-ms-viewport {
+        width: device-width;
+      }
+      @-o-viewport {
+        width: device-width;
+      }
+      @viewport {
+        width: device-width;
+      }
+      body {
+        font-family: 'Open Sans', Arial, Tahoma;
+        font-weight: 400;
+        color: var(--primary-color);
+        background: var(--background-color);
+      }
+      hr {
+        border: none;
+        border-top: 1px solid var(--primary-color);
+      }
+
+      pre {
+        border: 1px solid var(--primary-color);
+        background-color: var(--primary-color);
+        color: var(--background-color);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 16px;
+        margin-bottom: 1.5rem;
+      }
+
+      thead th {
+        background-color: var(--background-color);
+        color: var(--primary-color);
+        text-align: left;
+        padding: 12px;
+        border-bottom: 2px solid var(--primary-color);
+      }
+
+      tbody td {
+        padding: 12px;
+        border-bottom: 1px solid var(--primary-color);
+        vertical-align: top;
+      }
+
+      tbody td:first-child {
+        white-space: nowrap;
+      }
+
+      tbody tr:hover {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+      }
+
+      tbody tr:last-child td {
+        border-bottom: none;
+      }
+
+      code {
+        color: var(--background-color);
+        background-color: var(--primary-color);
+      }
+
+      code:hover {
+        color: var(--primary-color);
+        background-color: var(--background-color);
+      }
+
+      a {
+        color: var(--primary-color);
+      }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        padding: 1rem;
+        font-size: 1rem;
+        color: var(--primary-color);
+        margin-top: 2rem;
+      }
+
+      footer a {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: text-decoration 0.2s;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        color: var(--primary-color);
+      }
+
+      footer svg {
+        width: 16px;
+        height: 16px;
+        vertical-align: text-bottom;
+      }
+
+      footer .version {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--primary-color);
+      }
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+{{CONTENT}}
+        </div>
+      </div>
+    </div>
+{{FOOTER}}
+  </body>
+</html>
