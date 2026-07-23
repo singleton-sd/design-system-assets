@@ -7,8 +7,8 @@ Editable source inputs and generated public outputs stay separate.
 ```sh
 src/logo/
 ├── sources/
-│   └── default/
-│       └── mark.png          # canonical company mark (required for yarn build)
+│   ├── dark.png              # primary mark → favicons + dark static
+│   └── light.png             # light-theme mark → light static
 └── config/
     ├── backgrounds.json
     ├── borders.json
@@ -18,9 +18,17 @@ src/logo/
     └── variants.json
 ```
 
-Open Graph JPEGs live under `src/og-image/{dark,light}/`.
+Open Graph files live under `src/og-image/{dark,light}/`. Required:
+`og-default.jpg`. Optional: `og-default@2.png`, `og-square.jpg`.
 
 Generated files belong in `dist/`, not `src/`.
+
+## Variant rules
+
+| Source | Allowed backgrounds | Allowed borders |
+|--------|---------------------|-----------------|
+| Dark | `bg-none`, `bg-black` | `none`, `bd-white` |
+| Light | `bg-none`, `bg-white` | `none`, `bd-black` |
 
 ## Outputs
 
@@ -28,7 +36,7 @@ Generated files belong in `dist/`, not `src/`.
 dist/
 ├── index.html
 ├── favicons/{circle|square}/.../
-├── logo/static/mark/{shape}/{background}/[border/]{size}.png
+├── logo/static/{dark|light}/{shape}/{background}/[border/]{size}.png
 └── og-image/{dark,light}/...
 ```
 
@@ -44,14 +52,6 @@ yarn build
 CI caps static logo PNGs at `<= 512px` when `CI=true`. Override with
 `LOGO_STATIC_MAX_SIZE=<n>`.
 
-## Adding brand colors
+## Related tickets
 
-Until DS-4 delivers the final palette, backgrounds are limited to transparent,
-white, and black. Add named fills in `backgrounds.json` and approve them in
-`variants.json` when design hands off colors.
-
-## Artwork blockers
-
-- Company mark PNG: blocked by **DS-3** / implemented in **DS-34**
-- OG JPEGs: **DS-34**
-- Custom domain `assets.singletonsd.com`: **DS-33**
+- **DS-33** — custom domain `assets.singletonsd.com`

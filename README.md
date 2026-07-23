@@ -7,24 +7,27 @@ Public builds are served at
 [assets.singletonsd.com](https://assets.singletonsd.com)
 (GitLab Pages custom domain — see **DS-33**).
 
-## Status (skeleton)
+## Sources
 
-This is the initial skeleton. A full `yarn build` requires:
+- Dark mark: `src/logo/sources/dark.png` (favicons + dark static variants)
+- Light mark: `src/logo/sources/light.png` (light static variants)
+- OG defaults: `src/og-image/{dark,light}/og-default.jpg` (optional `@2` / square)
 
-1. Canonical mark: `src/logo/sources/default/mark.png` (**DS-3** / **DS-34**)
-2. OG JPEGs under `src/og-image/dark` and `src/og-image/light` (**DS-34**)
+Variant rules:
 
-Until those land, use the config and scripts to prepare variants. Contributor
-workflow: [Logo Asset Workflow](./docs/logo-asset-workflow.md).
+- Dark: no white fill, no black border
+- Light: no black fill, no white border
 
-## Quick reference (after first successful build)
+Contributor workflow: [Logo Asset Workflow](./docs/logo-asset-workflow.md).
+
+## Quick reference
 
 - Default favicon manifest:
   [circle / bg-none / site.webmanifest](./favicons/circle/bg-none/site.webmanifest)
 - Default favicon PNG:
   [circle / bg-none / favicon-32x32.png](./favicons/circle/bg-none/favicon-32x32.png)
-- Static mark sizes:
-  under `./logo/static/mark/{circle|square}/.../{320|512|…}.png`
+- Static logos:
+  under `./logo/static/{dark|light}/{circle|square}/.../{320|512|…}.png`
 
 ## How to use
 
@@ -67,7 +70,7 @@ Scripts:
 |--------|---------|
 | `yarn build` | Full publish build into `dist/` |
 | `yarn build-manifest-icons` | Favicons + `site.webmanifest` |
-| `yarn build-static-logo-assets` | Static mark PNGs |
+| `yarn build-static-logo-assets` | Static logo PNGs |
 | `yarn generate-html` | README → `index.html` |
 
 ## Folder structure
@@ -75,23 +78,22 @@ Scripts:
 ```sh
 src/
 ├── logo/
-│   ├── config/          # shapes, backgrounds, borders, variants
-│   └── sources/default/ # mark.png (placeholder until DS-34)
+│   ├── config/     # shapes, backgrounds, borders, variants
+│   └── sources/    # dark.png, light.png
 └── og-image/
-    ├── dark/            # og-default.jpg, og-square.jpg
+    ├── dark/       # og-default.jpg (+ optional @2 / square)
     └── light/
 
-dist/                    # generated; served by GitLab Pages
+dist/               # generated; served by GitLab Pages
 ├── index.html
 ├── favicons/
-├── logo/static/mark/
+├── logo/static/{dark|light}/
 └── og-image/
 ```
 
 ## Notes
 
 - Manifest `name` / `short_name`: `Singleton SD` / `SSD`
-- Backgrounds start as transparent, white, and black until design colors arrive
 - Animations / expression pipelines are intentionally out of scope
 
 ---
