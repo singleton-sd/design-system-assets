@@ -1,16 +1,23 @@
 {
   "manifest-default": {
-    "source": "default/mark.png",
+    "source": "dark.png",
     "sizeGroup": "manifest",
     "outputType": "manifest",
     "outputPath": "favicons",
-    "variantGroup": "logo-approved"
+    "variantGroup": "logo-dark-approved"
   },
-  "mark-static-variants": {
-    "source": "default/mark.png",
+  "dark-static-variants": {
+    "source": "dark.png",
     "sizeGroup": "logo-static-hires",
     "outputType": "static",
-    "outputPath": "logo/static/mark",
-    "variantGroup": "logo-approved"
+    "outputPath": "logo/static/dark",
+    "variantGroup": "logo-dark-approved"
+  },
+  "light-static-variants": {
+    "source": "light.png",
+    "sizeGroup": "logo-static-hires",
+    "outputType": "static",
+    "outputPath": "logo/static/light",
+    "variantGroup": "logo-light-approved"
   }
 }

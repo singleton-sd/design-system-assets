@@ -9,7 +9,7 @@ const ROOT = path.join(__dirname, '..');
 const OG_IMAGE_SRC = path.join(ROOT, 'src', 'og-image');
 const OG_IMAGE_DEST_REL = 'og-image';
 
-function removeGitkeepFiles(dir: string): void {
+function removeNonAssetFiles(dir: string): void {
   let entries;
 
   try {
@@ -22,8 +22,8 @@ function removeGitkeepFiles(dir: string): void {
     const full = path.join(dir, ent.name);
 
     if (ent.isDirectory()) {
-      removeGitkeepFiles(full);
-    } else if (ent.name === '.gitkeep') {
+      removeNonAssetFiles(full);
+    } else if (ent.name === '.gitkeep' || ent.name.toLowerCase() === 'readme.md') {
       fs.unlinkSync(full);
     }
   }
@@ -31,9 +31,7 @@ function removeGitkeepFiles(dir: string): void {
 
 const REQUIRED_OG_IMAGES_REL = [
   path.join(OG_IMAGE_DEST_REL, 'dark', 'og-default.jpg'),
-  path.join(OG_IMAGE_DEST_REL, 'dark', 'og-square.jpg'),
   path.join(OG_IMAGE_DEST_REL, 'light', 'og-default.jpg'),
-  path.join(OG_IMAGE_DEST_REL, 'light', 'og-square.jpg'),
 ] as const;
 
 function copyOgImagesToDist(distDir: string): void {
@@ -47,7 +45,7 @@ function copyOgImagesToDist(distDir: string): void {
 
   fs.rmSync(destDir, { recursive: true, force: true });
   fs.cpSync(OG_IMAGE_SRC, destDir, { recursive: true });
-  removeGitkeepFiles(destDir);
+  removeNonAssetFiles(destDir);
   console.log(`Copied ${path.relative(ROOT, OG_IMAGE_SRC)} → ${path.relative(ROOT, destDir)}`);
 
   for (const rel of REQUIRED_OG_IMAGES_REL) {
