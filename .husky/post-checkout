@@ -1,0 +1,47 @@
+. "$(dirname "$0")/husky-use-node.sh"
+
+if [ ! -f ".husky/tsconfig-node.json" ]; then echo '{"compilerOptions":{"esModuleInterop":true}}' > .husky/tsconfig-node.json; fi
+
+# Get the current branch name
+BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+
+# Retrieve the previous branch
+PREVIOUS_BRANCH=$(git rev-parse --symbolic-full-name --abbrev-ref=loose @{-1})
+
+# Fallback if PREVIOUS_BRANCH is empty or invalid
+if [ -z "$PREVIOUS_BRANCH" ]; then
+    PREVIOUS_BRANCH="main" # Default fallback branch (change as needed)
+    echo "⚠️ Unable to determine the previous branch. Falling back to '$PREVIOUS_BRANCH'."
+fi
+
+# Prefer node paths so Git Bash on Windows does not require a global yarn install.
+VALIDATION_CMD="node ./node_modules/ts-node/dist/bin.js --project .husky/tsconfig-node.json .husky/check-branch.ts"
+
+# Temporarily disable script exit on error
+set +e
+OUTPUT=$($VALIDATION_CMD 2>&1)
+VALID=$?
+set -e # Re-enable automatic exit on error
+
+if [ $VALID -ne 0 ]; then
+    echo "⚠️  Invalid branch name: '$BRANCH_NAME'. Rolling back to the previous branch: '$PREVIOUS_BRANCH'."
+
+    # Switch back to the previous branch
+    if git checkout "$PREVIOUS_BRANCH"; then
+        echo "✅ Successfully switched back to '$PREVIOUS_BRANCH'."
+    else
+        echo "❌ Failed to switch back to the previous branch. Please handle it manually."
+        exit 1
+    fi
+
+    # Delete the invalid branch
+    if git branch -D "$BRANCH_NAME"; then
+        echo "✅ Successfully deleted the invalid branch: '$BRANCH_NAME'."
+    else
+        echo "❌ Failed to delete the branch: '$BRANCH_NAME'. Please delete it manually."
+    fi
+
+    exit 1
+else
+    echo "✅ Branch name validation passed for: '$BRANCH_NAME'."
+fi

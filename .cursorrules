@@ -1,0 +1,6 @@
+# Shared Agent Rules
+
+All shared agent guidance is maintained in `AGENTS.md`.
+
+Cursor agents should read `AGENTS.md` and
+`config/clickup-defaults.json` before creating ClickUp tasks.

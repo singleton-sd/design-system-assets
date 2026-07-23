@@ -1,0 +1,48 @@
+{
+  "name": "@singleton-sd/assets",
+  "version": "0.1.0",
+  "description": "Public Singleton SD logo assets, favicons, and Open Graph images served via GitLab Pages.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/singleton-sd/design-system/assets.git"
+  },
+  "author": "Patricio Perpetua",
+  "license": "MIT",
+  "scripts": {
+    "generate-html": "ts-node scripts/generate-html.ts",
+    "build": "ts-node scripts/run-build.ts",
+    "release": "release-it -VV --dry-run",
+    "release:ci": "release-it --ci",
+    "prepare": "husky",
+    "build-manifest-icons": "ts-node scripts/build-manifest-icons.ts",
+    "build-static-logo-assets": "ts-node scripts/build-static-logo-assets.ts"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@release-it/conventional-changelog": "^10.0.0",
+    "@types/node": "^20",
+    "husky": "^9.1.7",
+    "marked": "^16.0.0",
+    "release-it": "^18.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "assets",
+    "singleton-sd",
+    "singletonsd",
+    "favicons",
+    "design-system"
+  ],
+  "engines": {
+    "node": "22.x"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

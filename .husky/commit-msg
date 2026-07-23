@@ -1,0 +1,8 @@
+. "$(dirname "$0")/husky-use-node.sh"
+
+if [ ! -f ".husky/tsconfig-node.json" ]; then echo '{"compilerOptions":{"esModuleInterop":true}}' > .husky/tsconfig-node.json; fi
+
+# Prefer node paths so Git Bash on Windows does not require a global yarn install.
+node ./node_modules/ts-node/dist/bin.js --project .husky/tsconfig-node.json .husky/prepare-commit-msg.ts "$1" "$2"
+
+node ./node_modules/@commitlint/cli/cli.js --edit "$1"
