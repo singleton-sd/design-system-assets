@@ -1,2 +1,8 @@
-# Place the canonical company mark here as mark.png (square PNG, transparent preferred).
-# Blocked by DS-3 / completed in DS-34. yarn build requires this file.
+# Logo sources
+
+Place theme marks in this folder:
+
+- `dark.png` — primary mark (used for favicons / PWA manifests)
+- `light.png` — alternate mark for static logo exports
+
+Legacy path `default/mark.png` is unused; prefer the files above.
