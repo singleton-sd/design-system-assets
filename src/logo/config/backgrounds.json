@@ -1,0 +1,14 @@
+{
+  "bg-none": {
+    "name": "Transparent",
+    "fill": null
+  },
+  "bg-white": {
+    "name": "White",
+    "fill": "#FFFFFF"
+  },
+  "bg-black": {
+    "name": "Black",
+    "fill": "#000000"
+  }
+}

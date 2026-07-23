@@ -1,0 +1,17 @@
+{
+  "none": {
+    "name": "No border",
+    "color": null,
+    "widthRatio": 0
+  },
+  "bd-black": {
+    "name": "Black border",
+    "color": "#000000",
+    "widthRatio": 0.035
+  },
+  "bd-white": {
+    "name": "White border",
+    "color": "#FFFFFF",
+    "widthRatio": 0.035
+  }
+}

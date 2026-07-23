@@ -1,0 +1,64 @@
+{
+  "logo-approved": [
+    {
+      "shape": "circle",
+      "background": "bg-none",
+      "border": "none",
+      "productionApproved": true
+    },
+    {
+      "shape": "circle",
+      "background": "bg-none",
+      "border": "bd-black",
+      "productionApproved": true
+    },
+    {
+      "shape": "circle",
+      "background": "bg-none",
+      "border": "bd-white",
+      "productionApproved": true
+    },
+    {
+      "shape": "circle",
+      "background": "bg-white",
+      "border": "none",
+      "productionApproved": true
+    },
+    {
+      "shape": "circle",
+      "background": "bg-black",
+      "border": "none",
+      "productionApproved": true
+    },
+    {
+      "shape": "square",
+      "background": "bg-none",
+      "border": "none",
+      "productionApproved": true
+    },
+    {
+      "shape": "square",
+      "background": "bg-none",
+      "border": "bd-black",
+      "productionApproved": true
+    },
+    {
+      "shape": "square",
+      "background": "bg-none",
+      "border": "bd-white",
+      "productionApproved": true
+    },
+    {
+      "shape": "square",
+      "background": "bg-white",
+      "border": "none",
+      "productionApproved": true
+    },
+    {
+      "shape": "square",
+      "background": "bg-black",
+      "border": "none",
+      "productionApproved": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "manifest-default": {
+    "source": "default/mark.png",
+    "sizeGroup": "manifest",
+    "outputType": "manifest",
+    "outputPath": "favicons",
+    "variantGroup": "logo-approved"
+  },
+  "mark-static-variants": {
+    "source": "default/mark.png",
+    "sizeGroup": "logo-static-hires",
+    "outputType": "static",
+    "outputPath": "logo/static/mark",
+    "variantGroup": "logo-approved"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "square": {
+    "name": "Square",
+    "clip": "none"
+  },
+  "circle": {
+    "name": "Circle",
+    "clip": "circle"
+  }
+}
