@@ -7,6 +7,26 @@ Public builds are served at
 [assets.singletonsd.com](https://assets.singletonsd.com)
 (GitLab Pages custom domain — see **DS-33**).
 
+## Quick Downloads
+
+Use these defaults when you do not need a specific variant:
+
+- Default dark logo (512):
+  [circle / bg-none / 512.png](./logo/static/dark/circle/bg-none/512.png)
+- Default light logo (512):
+  [circle / bg-none / 512.png](./logo/static/light/circle/bg-none/512.png)
+- Default dark favicon manifest:
+  [circle / bg-none / site.webmanifest](./favicons/circle/bg-none/site.webmanifest)
+- Default dark favicon PNG:
+  [circle / bg-none / favicon-32x32.png](./favicons/circle/bg-none/favicon-32x32.png)
+- Default dark OG image:
+  [og-image / dark / og-default.jpg](./og-image/dark/og-default.jpg)
+- Default light OG image:
+  [og-image / light / og-default.jpg](./og-image/light/og-default.jpg)
+
+High-resolution static logos (for example `1024.png` / `4096.png`) are available
+in full local builds (`yarn build` without a static size cap).
+
 ## Sources
 
 - Dark mark: `src/logo/sources/dark.png` (favicons + dark static variants)
@@ -20,16 +40,58 @@ Variant rules:
 
 Contributor workflow: [Logo Asset Workflow](./docs/logo-asset-workflow.md).
 
-## Quick reference
+---
 
-- Default favicon manifest:
-  [circle / bg-none / site.webmanifest](./favicons/circle/bg-none/site.webmanifest)
-- Default favicon PNG:
-  [circle / bg-none / favicon-32x32.png](./favicons/circle/bg-none/favicon-32x32.png)
-- Static logos:
-  under `./logo/static/{dark|light}/{circle|square}/.../{320|512|…}.png`
+## Visual Preview
 
-## How to use
+### Circle Favicons (from dark mark)
+
+| Variant                | Preview                                                                                                                                                                                |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **bg-none**            | [<img src="./favicons/circle/bg-none/favicon-32x32.png" alt="Circle bg-none" width="32" height="32">](./favicons/circle/bg-none/android-chrome-512x512.png)                            |
+| **bg-none / bd-white** | [<img src="./favicons/circle/bg-none/bd-white/favicon-32x32.png" alt="Circle bg-none bd-white" width="32" height="32">](./favicons/circle/bg-none/bd-white/android-chrome-512x512.png) |
+| **bg-black**           | [<img src="./favicons/circle/bg-black/favicon-32x32.png" alt="Circle bg-black" width="32" height="32">](./favicons/circle/bg-black/android-chrome-512x512.png)                         |
+
+### Square Favicons (from dark mark)
+
+| Variant                | Preview                                                                                                                                                                                |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **bg-none**            | [<img src="./favicons/square/bg-none/favicon-32x32.png" alt="Square bg-none" width="32" height="32">](./favicons/square/bg-none/android-chrome-512x512.png)                            |
+| **bg-none / bd-white** | [<img src="./favicons/square/bg-none/bd-white/favicon-32x32.png" alt="Square bg-none bd-white" width="32" height="32">](./favicons/square/bg-none/bd-white/android-chrome-512x512.png) |
+| **bg-black**           | [<img src="./favicons/square/bg-black/favicon-32x32.png" alt="Square bg-black" width="32" height="32">](./favicons/square/bg-black/android-chrome-512x512.png)                         |
+
+### Static Logos (512)
+
+| Variant                         | Preview                                                                                                                                                              |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **dark / circle / bg-none**     | [<img src="./logo/static/dark/circle/bg-none/512.png" alt="Dark circle bg-none" width="48" height="48">](./logo/static/dark/circle/bg-none/512.png)                   |
+| **dark / circle / bg-black**    | [<img src="./logo/static/dark/circle/bg-black/512.png" alt="Dark circle bg-black" width="48" height="48">](./logo/static/dark/circle/bg-black/512.png)                |
+| **dark / circle / bd-white**    | [<img src="./logo/static/dark/circle/bg-none/bd-white/512.png" alt="Dark circle bd-white" width="48" height="48">](./logo/static/dark/circle/bg-none/bd-white/512.png) |
+| **light / circle / bg-none**    | [<img src="./logo/static/light/circle/bg-none/512.png" alt="Light circle bg-none" width="48" height="48">](./logo/static/light/circle/bg-none/512.png)                |
+| **light / circle / bg-white**   | [<img src="./logo/static/light/circle/bg-white/512.png" alt="Light circle bg-white" width="48" height="48">](./logo/static/light/circle/bg-white/512.png)             |
+| **light / circle / bd-black**   | [<img src="./logo/static/light/circle/bg-none/bd-black/512.png" alt="Light circle bd-black" width="48" height="48">](./logo/static/light/circle/bg-none/bd-black/512.png) |
+
+### OG Images
+
+| Variant            | Preview                                                                                                                             |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **dark / default** | [<img src="./og-image/dark/og-default.jpg" alt="OG Image dark default" width="120" height="63">](./og-image/dark/og-default.jpg)    |
+| **light / default**| [<img src="./og-image/light/og-default.jpg" alt="OG Image light default" width="120" height="63">](./og-image/light/og-default.jpg) |
+
+---
+
+## Available Manifest Files
+
+- [`favicons/circle/bg-none/site.webmanifest`](./favicons/circle/bg-none/site.webmanifest): Transparent circle icons
+- [`favicons/circle/bg-none/bd-white/site.webmanifest`](./favicons/circle/bg-none/bd-white/site.webmanifest): Transparent circle with white border
+- [`favicons/circle/bg-black/site.webmanifest`](./favicons/circle/bg-black/site.webmanifest): Circle on black background
+- [`favicons/square/bg-none/site.webmanifest`](./favicons/square/bg-none/site.webmanifest): Transparent square icons
+- [`favicons/square/bg-none/bd-white/site.webmanifest`](./favicons/square/bg-none/bd-white/site.webmanifest): Transparent square with white border
+- [`favicons/square/bg-black/site.webmanifest`](./favicons/square/bg-black/site.webmanifest): Square on black background
+
+---
+
+## How to Use
 
 ### Manifest in HTML
 
@@ -53,6 +115,109 @@ Contributor workflow: [Logo Asset Workflow](./docs/logo-asset-workflow.md).
 
 CDN URLs omit `/dist` because Pages serves the `dist/` tree at the site root
 (for example `https://assets.singletonsd.com/favicons/...`).
+
+### Download Asset Links
+
+#### Favicons — circle / bg-none
+
+- [android-chrome-192x192.png](./favicons/circle/bg-none/android-chrome-192x192.png)
+- [android-chrome-512x512.png](./favicons/circle/bg-none/android-chrome-512x512.png)
+- [apple-touch-icon.png](./favicons/circle/bg-none/apple-touch-icon.png)
+- [favicon-16x16.png](./favicons/circle/bg-none/favicon-16x16.png)
+- [favicon-32x32.png](./favicons/circle/bg-none/favicon-32x32.png)
+- [favicon-4096x4096.png](./favicons/circle/bg-none/favicon-4096x4096.png)
+- [favicon.png](./favicons/circle/bg-none/favicon.png)
+- [site.webmanifest](./favicons/circle/bg-none/site.webmanifest)
+
+#### Favicons — circle / bg-none / bd-white
+
+- [android-chrome-192x192.png](./favicons/circle/bg-none/bd-white/android-chrome-192x192.png)
+- [android-chrome-512x512.png](./favicons/circle/bg-none/bd-white/android-chrome-512x512.png)
+- [apple-touch-icon.png](./favicons/circle/bg-none/bd-white/apple-touch-icon.png)
+- [favicon-16x16.png](./favicons/circle/bg-none/bd-white/favicon-16x16.png)
+- [favicon-32x32.png](./favicons/circle/bg-none/bd-white/favicon-32x32.png)
+- [favicon-4096x4096.png](./favicons/circle/bg-none/bd-white/favicon-4096x4096.png)
+- [favicon.png](./favicons/circle/bg-none/bd-white/favicon.png)
+- [site.webmanifest](./favicons/circle/bg-none/bd-white/site.webmanifest)
+
+#### Favicons — circle / bg-black
+
+- [android-chrome-192x192.png](./favicons/circle/bg-black/android-chrome-192x192.png)
+- [android-chrome-512x512.png](./favicons/circle/bg-black/android-chrome-512x512.png)
+- [apple-touch-icon.png](./favicons/circle/bg-black/apple-touch-icon.png)
+- [favicon-16x16.png](./favicons/circle/bg-black/favicon-16x16.png)
+- [favicon-32x32.png](./favicons/circle/bg-black/favicon-32x32.png)
+- [favicon-4096x4096.png](./favicons/circle/bg-black/favicon-4096x4096.png)
+- [favicon.png](./favicons/circle/bg-black/favicon.png)
+- [site.webmanifest](./favicons/circle/bg-black/site.webmanifest)
+
+#### Favicons — square / bg-none
+
+- [android-chrome-192x192.png](./favicons/square/bg-none/android-chrome-192x192.png)
+- [android-chrome-512x512.png](./favicons/square/bg-none/android-chrome-512x512.png)
+- [apple-touch-icon.png](./favicons/square/bg-none/apple-touch-icon.png)
+- [favicon-16x16.png](./favicons/square/bg-none/favicon-16x16.png)
+- [favicon-32x32.png](./favicons/square/bg-none/favicon-32x32.png)
+- [favicon-4096x4096.png](./favicons/square/bg-none/favicon-4096x4096.png)
+- [favicon.png](./favicons/square/bg-none/favicon.png)
+- [site.webmanifest](./favicons/square/bg-none/site.webmanifest)
+
+#### Favicons — square / bg-none / bd-white
+
+- [android-chrome-192x192.png](./favicons/square/bg-none/bd-white/android-chrome-192x192.png)
+- [android-chrome-512x512.png](./favicons/square/bg-none/bd-white/android-chrome-512x512.png)
+- [apple-touch-icon.png](./favicons/square/bg-none/bd-white/apple-touch-icon.png)
+- [favicon-16x16.png](./favicons/square/bg-none/bd-white/favicon-16x16.png)
+- [favicon-32x32.png](./favicons/square/bg-none/bd-white/favicon-32x32.png)
+- [favicon-4096x4096.png](./favicons/square/bg-none/bd-white/favicon-4096x4096.png)
+- [favicon.png](./favicons/square/bg-none/bd-white/favicon.png)
+- [site.webmanifest](./favicons/square/bg-none/bd-white/site.webmanifest)
+
+#### Favicons — square / bg-black
+
+- [android-chrome-192x192.png](./favicons/square/bg-black/android-chrome-192x192.png)
+- [android-chrome-512x512.png](./favicons/square/bg-black/android-chrome-512x512.png)
+- [apple-touch-icon.png](./favicons/square/bg-black/apple-touch-icon.png)
+- [favicon-16x16.png](./favicons/square/bg-black/favicon-16x16.png)
+- [favicon-32x32.png](./favicons/square/bg-black/favicon-32x32.png)
+- [favicon-4096x4096.png](./favicons/square/bg-black/favicon-4096x4096.png)
+- [favicon.png](./favicons/square/bg-black/favicon.png)
+- [site.webmanifest](./favicons/square/bg-black/site.webmanifest)
+
+#### Logo static — dark / circle
+
+- [bg-none / 320.png](./logo/static/dark/circle/bg-none/320.png)
+- [bg-none / 512.png](./logo/static/dark/circle/bg-none/512.png)
+- [bg-none / bd-white / 512.png](./logo/static/dark/circle/bg-none/bd-white/512.png)
+- [bg-black / 512.png](./logo/static/dark/circle/bg-black/512.png)
+
+#### Logo static — dark / square
+
+- [bg-none / 512.png](./logo/static/dark/square/bg-none/512.png)
+- [bg-none / bd-white / 512.png](./logo/static/dark/square/bg-none/bd-white/512.png)
+- [bg-black / 512.png](./logo/static/dark/square/bg-black/512.png)
+
+#### Logo static — light / circle
+
+- [bg-none / 320.png](./logo/static/light/circle/bg-none/320.png)
+- [bg-none / 512.png](./logo/static/light/circle/bg-none/512.png)
+- [bg-none / bd-black / 512.png](./logo/static/light/circle/bg-none/bd-black/512.png)
+- [bg-white / 512.png](./logo/static/light/circle/bg-white/512.png)
+
+#### Logo static — light / square
+
+- [bg-none / 512.png](./logo/static/light/square/bg-none/512.png)
+- [bg-none / bd-black / 512.png](./logo/static/light/square/bg-none/bd-black/512.png)
+- [bg-white / 512.png](./logo/static/light/square/bg-white/512.png)
+
+#### OG images
+
+- [dark / og-default.jpg](./og-image/dark/og-default.jpg)
+- [dark / og-default@2.png](./og-image/dark/og-default@2.png)
+- [light / og-default.jpg](./og-image/light/og-default.jpg)
+- [light / og-default@2.png](./og-image/light/og-default@2.png)
+
+---
 
 ## Build
 
