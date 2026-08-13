@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.2.0 (2026-08-13)
+
+* fix: DS-64 Avoid UAC in Windows git hooks ([7612b46](https://gitlab.com/singleton-sd/design-system/assets/commit/7612b46))
+* fix: DS-67 Pin changelog plugin to 10.0.1 ([ea589c7](https://gitlab.com/singleton-sd/design-system/assets/commit/ea589c7))
+* fix: DS-69 Remap assets index to --ssd-* tokens ([eaca104](https://gitlab.com/singleton-sd/design-system/assets/commit/eaca104))
+* feat: DS-30 Port logo favicon build pipeline ([a738a39](https://gitlab.com/singleton-sd/design-system/assets/commit/a738a39))
+* feat: DS-30 Tune dark light logo variants ([7a92ba3](https://gitlab.com/singleton-sd/design-system/assets/commit/7a92ba3))
+* feat: DS-34 Add dark light logos and OG ([f3d67ea](https://gitlab.com/singleton-sd/design-system/assets/commit/f3d67ea))
+* feat: DS-35 Add wordmark lockup asset pipeline ([39b8fc9](https://gitlab.com/singleton-sd/design-system/assets/commit/39b8fc9))
+* docs: DS-32 Add common asset download links ([2445f02](https://gitlab.com/singleton-sd/design-system/assets/commit/2445f02))
+* docs: DS-32 Add README and brand metadata ([44195d4](https://gitlab.com/singleton-sd/design-system/assets/commit/44195d4))
+* docs: DS-32 Refresh README for dark light ([2e07415](https://gitlab.com/singleton-sd/design-system/assets/commit/2e07415))
+* chore: DS-31 Scaffold assets repo conventions ([0b18384](https://gitlab.com/singleton-sd/design-system/assets/commit/0b18384))
+* chore: DS-34 Add logo and OG placeholders ([73d3c60](https://gitlab.com/singleton-sd/design-system/assets/commit/73d3c60))
+
 All notable changes to this project will be documented in this file.
 
 ## [0.1.0] - Unreleased
