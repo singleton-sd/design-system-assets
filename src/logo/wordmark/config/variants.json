@@ -1,0 +1,30 @@
+{
+  "wordmark-light-approved": [
+    {
+      "background": "bg-gray-light",
+      "productionApproved": true
+    },
+    {
+      "background": "bg-white",
+      "productionApproved": true
+    },
+    {
+      "background": "bg-none",
+      "productionApproved": true
+    }
+  ],
+  "wordmark-dark-approved": [
+    {
+      "background": "bg-gray",
+      "productionApproved": true
+    },
+    {
+      "background": "bg-black",
+      "productionApproved": true
+    },
+    {
+      "background": "bg-none",
+      "productionApproved": true
+    }
+  ]
+}

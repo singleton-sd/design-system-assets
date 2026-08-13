@@ -1,0 +1,15 @@
+{
+  "package": "@singleton-sd/assets",
+  "clearSpace": "mark-height",
+  "roles": ["legal", "descriptor", "compact"],
+  "themes": ["light", "dark"],
+  "preferredVector": "svg",
+  "preferredRaster": "png",
+  "inventory": {
+    "mark": "src/logo/sources/",
+    "wordmark": "src/logo/wordmark/sources/{legal,descriptor,compact}/",
+    "og": "src/og-image/{light,dark}/",
+    "email": "src/email/",
+    "documents": "src/documents/"
+  }
+}
