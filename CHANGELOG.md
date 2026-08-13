@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 (2026-08-13)
+
+* feat: DS-35 Add Figma PNG logo masters ([10e58ed](https://gitlab.com/singleton-sd/design-system/assets/commit/10e58ed))
+* feat: DS-35 Add legal wordmark PNG masters ([c422256](https://gitlab.com/singleton-sd/design-system/assets/commit/c422256))
+* feat: DS-35 Add SVG PNG wordmark and mark masters ([ae62b24](https://gitlab.com/singleton-sd/design-system/assets/commit/ae62b24))
+
 ## 0.2.0 (2026-08-13)
 
 * fix: DS-64 Avoid UAC in Windows git hooks ([7612b46](https://gitlab.com/singleton-sd/design-system/assets/commit/7612b46))
