@@ -1,0 +1,50 @@
+{
+  "legal-light": {
+    "role": "legal",
+    "theme": "light",
+    "source": "light.png",
+    "sizeGroup": "wordmark-static-hires",
+    "outputPath": "logo/wordmark/legal/light",
+    "variantGroup": "wordmark-light-approved"
+  },
+  "legal-dark": {
+    "role": "legal",
+    "theme": "dark",
+    "source": "dark.png",
+    "sizeGroup": "wordmark-static-hires",
+    "outputPath": "logo/wordmark/legal/dark",
+    "variantGroup": "wordmark-dark-approved"
+  },
+  "descriptor-light": {
+    "role": "descriptor",
+    "theme": "light",
+    "source": "light.png",
+    "sizeGroup": "wordmark-static-hires",
+    "outputPath": "logo/wordmark/descriptor/light",
+    "variantGroup": "wordmark-light-approved"
+  },
+  "descriptor-dark": {
+    "role": "descriptor",
+    "theme": "dark",
+    "source": "dark.png",
+    "sizeGroup": "wordmark-static-hires",
+    "outputPath": "logo/wordmark/descriptor/dark",
+    "variantGroup": "wordmark-dark-approved"
+  },
+  "compact-light": {
+    "role": "compact",
+    "theme": "light",
+    "source": "light.png",
+    "sizeGroup": "wordmark-static-hires",
+    "outputPath": "logo/wordmark/compact/light",
+    "variantGroup": "wordmark-light-approved"
+  },
+  "compact-dark": {
+    "role": "compact",
+    "theme": "dark",
+    "source": "dark.png",
+    "sizeGroup": "wordmark-static-hires",
+    "outputPath": "logo/wordmark/compact/dark",
+    "variantGroup": "wordmark-dark-approved"
+  }
+}

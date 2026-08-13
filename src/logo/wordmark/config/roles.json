@@ -1,0 +1,17 @@
+{
+  "legal": {
+    "name": "Legal",
+    "description": "</ SINGLETON > with Software Pty Ltd — letters, contracts, invoices",
+    "sourceDir": "legal"
+  },
+  "descriptor": {
+    "name": "Descriptor",
+    "description": "</ SINGLETON > with Software Development — web and marketing",
+    "sourceDir": "descriptor"
+  },
+  "compact": {
+    "name": "Compact",
+    "description": "</ SINGLETON SD > single-line — nav, signatures, tight spaces",
+    "sourceDir": "compact"
+  }
+}

@@ -31,14 +31,18 @@ in full local builds (`yarn build` without a static size cap).
 
 - Dark mark: `src/logo/sources/dark.png` (favicons + dark static variants)
 - Light mark: `src/logo/sources/light.png` (light static variants)
+- Wordmarks: `src/logo/wordmark/sources/{legal,descriptor,compact}/{light,dark}.png`
 - OG defaults: `src/og-image/{dark,light}/og-default.jpg` (optional `@2` / square)
 
 Variant rules:
 
-- Dark: no white fill, no black border
-- Light: no black fill, no white border
+- Dark mark: no white fill, no black border
+- Light mark: no black fill, no white border
+- Wordmark light: `bg-gray-light`, `bg-white`, `bg-none`
+- Wordmark dark: `bg-gray`, `bg-black`, `bg-none`
 
 Contributor workflow: [Logo Asset Workflow](./docs/logo-asset-workflow.md).
+Wordmark drop guide: [src/logo/wordmark/README.md](./src/logo/wordmark/README.md).
 
 ---
 
@@ -235,7 +239,8 @@ Scripts:
 |--------|---------|
 | `yarn build` | Full publish build into `dist/` |
 | `yarn build-manifest-icons` | Favicons + `site.webmanifest` |
-| `yarn build-static-logo-assets` | Static logo PNGs |
+| `yarn build-static-logo-assets` | Static icon-mark PNGs |
+| `yarn build-wordmark-assets` | Wordmark lockup PNGs (+ optional SVG copy) |
 | `yarn generate-html` | README → `index.html` |
 
 ## Folder structure
@@ -243,8 +248,11 @@ Scripts:
 ```sh
 src/
 ├── logo/
-│   ├── config/     # shapes, backgrounds, borders, variants
-│   └── sources/    # dark.png, light.png
+│   ├── config/     # icon mark: shapes, backgrounds, borders, variants
+│   ├── sources/    # dark.png, light.png
+│   └── wordmark/   # lockups: legal / descriptor / compact
+│       ├── config/
+│       └── sources/{legal,descriptor,compact}/
 └── og-image/
     ├── dark/       # og-default.jpg (+ optional @2 / square)
     └── light/
@@ -253,6 +261,7 @@ dist/               # generated; served by GitLab Pages
 ├── index.html
 ├── favicons/
 ├── logo/static/{dark|light}/
+├── logo/wordmark/{legal|descriptor|compact}/
 └── og-image/
 ```
 

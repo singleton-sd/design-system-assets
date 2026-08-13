@@ -1,0 +1,22 @@
+{
+  "bg-gray-light": {
+    "name": "Light gray",
+    "fill": "#E6E6E6"
+  },
+  "bg-white": {
+    "name": "White",
+    "fill": "#FFFFFF"
+  },
+  "bg-gray": {
+    "name": "Medium gray",
+    "fill": "#737373"
+  },
+  "bg-black": {
+    "name": "Black",
+    "fill": "#000000"
+  },
+  "bg-none": {
+    "name": "Transparent",
+    "fill": null
+  }
+}
