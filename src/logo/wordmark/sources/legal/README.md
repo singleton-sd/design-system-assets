@@ -14,6 +14,6 @@ Lockup text (do not drop masters until the Figma layer is corrected):
 SOFTWARE PTY LTD
 ```
 
-The Figma `company_name` component still outlines **SOTFWARE PTY LTD**. Descriptor and compact masters were exported; legal is withheld so the misspelling does not ship on the CDN.
+The Figma `company_name` text nodes still read **SOTFWARE PTY LTD** (light `2130:50`, dark `2453:392`). Descriptor, compact, and S-mark PNG masters were exported at scale 4; legal is withheld so the misspelling does not ship on the CDN.
 
 Optional SVG masters (`light.svg`, `dark.svg`) are copied to `dist` as-is when present.
