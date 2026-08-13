@@ -27,8 +27,6 @@ src/logo/wordmark/sources/
 
 Export masters **without** background fill (transparent). The build composites the four style backgrounds.
 
-Fix **SOTFWARE → SOFTWARE** in the legal lockup before exporting.
-
 ## Generated styles
 
 | Theme source | Backgrounds |
