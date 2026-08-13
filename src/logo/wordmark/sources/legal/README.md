@@ -7,7 +7,7 @@ Place transparent PNG masters here (no baked-in background):
 | `light.png` | Black text + gold `</` `>` — used for light-gray / white / transparent |
 | `dark.png` | White text + gold `</` `>` — used for medium-gray / black / transparent |
 
-Lockup text (fix typo before export):
+Lockup text:
 
 ```text
 </ SINGLETON >
