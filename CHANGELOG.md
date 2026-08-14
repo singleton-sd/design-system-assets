@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 (2026-08-14)
+
+* docs: DS-46 Link tokens agent docs ([d283de6](https://gitlab.com/singleton-sd/design-system/assets/commit/d283de6))
+* docs: DS-46 Point README at AGENTS.md ([cac2e84](https://gitlab.com/singleton-sd/design-system/assets/commit/cac2e84))
+* feat: DS-71 Publish public brand guide snapshot ([11dba0f](https://gitlab.com/singleton-sd/design-system/assets/commit/11dba0f))
+
 ## <small>0.4.1 (2026-08-14)</small>
 
 * fix: DS-72 Document why file checkouts skip nvm ([ee27834](https://gitlab.com/singleton-sd/design-system/assets/commit/ee27834))
