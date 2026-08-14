@@ -1,6 +1,8 @@
 #!/bin/sh
 
-# Only proceed if this is a branch checkout (not a file checkout)
+# Only proceed if this is a branch checkout (not a file checkout).
+# Worktree add/restore is a file checkout: skip before loading Node so
+# nvm-windows is never consulted on those paths.
 if [ "$3" -eq 0 ]; then
   echo "ℹ️ File checkout detected. Skipping branch validation."
   exit 0
