@@ -6,8 +6,10 @@ manifests, and Open Graph images.
 Served from
 [assets.singletonsd.com](https://assets.singletonsd.com)
 (GitLab Pages). Token values live in `@singleton-sd/tokens`; Penpot is the
-style-guide home. Brand rules:
-[BRAND.md](./BRAND.md).
+style-guide home. Brand rules: [BRAND.md](./BRAND.md). Agent working
+agreements: [AGENTS.md](./AGENTS.md). Token contract:
+[FOUNDATIONS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/docs/FOUNDATIONS.md)
+· [DESIGN.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/DESIGN.md).
 
 ## At a glance
 
@@ -189,6 +191,8 @@ Signature blocks and letterhead / footer marks will land under `src/email/` and
 ---
 
 ## Build and contribute
+
+Agent working agreements: [AGENTS.md](./AGENTS.md).
 
 ```sh
 yarn install
