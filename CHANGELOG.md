@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 (2026-08-14)
+
+* feat: DS-44 Add email and docs asset packs ([5dc597e](https://gitlab.com/singleton-sd/design-system/assets/commit/5dc597e))
+* docs: DS-70 Showcase assets catalog on CDN homepage ([979d947](https://gitlab.com/singleton-sd/design-system/assets/commit/979d947))
+
 ## 0.3.0 (2026-08-13)
 
 * feat: DS-35 Add Figma PNG logo masters ([10e58ed](https://gitlab.com/singleton-sd/design-system/assets/commit/10e58ed))
