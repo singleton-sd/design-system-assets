@@ -99,6 +99,8 @@ async function generateHtml(): Promise<void> {
   console.log(`Generated ${path.relative(ROOT, OUTPUT_FILE)} for version ${packageJson.version}.`);
 }
 
+export { constructReleaseUrl, createFooter };
+
 if (require.main === module) {
   generateHtml().catch((error) => {
     const message = error instanceof Error ? error.message : String(error);

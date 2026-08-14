@@ -4,6 +4,8 @@ Source of truth for **logo/favicon/OG binaries** is this package (`@singleton-sd
 
 Token **values** live in `@singleton-sd/tokens`. Penpot is the style-guide home (`Singleton SD — Brand System`).
 
+Shareable snapshot (no Penpot login): [assets.singletonsd.com/brand/](https://assets.singletonsd.com/brand/). Print from the browser to save a PDF.
+
 ## Formats
 
 - **SVG** — preferred for web and print vectors. Drop masters next to PNGs (`light.svg` / `dark.svg`).

@@ -83,6 +83,7 @@ async function main(): Promise<void> {
 
   const results = await Promise.allSettled([
     runYarnScript('generate-html'),
+    runYarnScript('generate-brand-html'),
     runYarnScript('build-manifest-icons'),
     runYarnScript('build-static-logo-assets'),
     runYarnScript('build-wordmark-assets'),
@@ -104,6 +105,17 @@ async function main(): Promise<void> {
   const indexSrc = path.join(ROOT, 'index.html');
   const indexDest = path.join(distDir, 'index.html');
   fs.copyFileSync(indexSrc, indexDest);
+
+  const brandSrc = path.join(ROOT, 'brand', 'index.html');
+  const brandDestDir = path.join(distDir, 'brand');
+  const brandDest = path.join(brandDestDir, 'index.html');
+
+  if (!fs.existsSync(brandSrc)) {
+    throw new Error('Missing brand/index.html. Run yarn generate-brand-html.');
+  }
+
+  fs.mkdirSync(brandDestDir, { recursive: true });
+  fs.copyFileSync(brandSrc, brandDest);
   copyOgImagesToDist(distDir);
 }
 

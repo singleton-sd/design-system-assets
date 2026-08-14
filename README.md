@@ -9,6 +9,10 @@ Served from
 style-guide home. Brand rules:
 [BRAND.md](./BRAND.md).
 
+**Brand guide (no Penpot):**
+[assets.singletonsd.com/brand/](./brand/) —
+open in a browser, or Print → Save as PDF.
+
 ## At a glance
 
 | Asset | Preview | Default download |
@@ -202,6 +206,7 @@ yarn build
 | `yarn build-static-logo-assets` | Static icon-mark PNGs |
 | `yarn build-wordmark-assets` | Wordmark lockup PNGs (+ SVG copy) |
 | `yarn generate-html` | README → `index.html` (site homepage) |
+| `yarn generate-brand-html` | Brand book → `brand/index.html` |
 
 Size caps:
 
@@ -228,9 +233,12 @@ src/
 meta.json                # inventory pointers
 dist/                    # generated; served by GitLab Pages
 ├── index.html
+├── brand/index.html     # public brand-guide snapshot
 ├── favicons/
 ├── logo/static/{dark|light}/
 ├── logo/wordmark/{legal|descriptor|compact}/
+├── email/signature/
+├── documents/{letterhead,footer}/
 └── og-image/
 ```
 
