@@ -17,7 +17,8 @@
     "prepare": "husky",
     "build-manifest-icons": "ts-node scripts/build-manifest-icons.ts",
     "build-static-logo-assets": "ts-node scripts/build-static-logo-assets.ts",
-    "build-wordmark-assets": "ts-node scripts/build-wordmark-assets.ts"
+    "build-wordmark-assets": "ts-node scripts/build-wordmark-assets.ts",
+    "build-email-docs-assets": "ts-node scripts/build-email-docs-assets.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
