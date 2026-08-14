@@ -37,3 +37,14 @@ Fallback only when skill access is unavailable:
 - Subject length: 50 chars max
 - Ticket required in subject (for example `DS-31`)
 - Format: `type: DS-N Description in sentence case`
+
+## Related docs
+
+This package is the source of truth for **logo/favicon/OG binaries**. Token **values** live in `@singleton-sd/tokens`. Penpot is the style-guide home.
+
+- Brand usage: [BRAND.md](BRAND.md)
+- Public CDN: https://assets.singletonsd.com
+- Tokens operating manual: [AGENTS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/AGENTS.md) · [docs/FOUNDATIONS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/docs/FOUNDATIONS.md)
+- Tokens gallery/agent identity: [DESIGN.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/DESIGN.md)
+- Tokens gallery: https://tokens.design.singletonsd.com/
+- Local sibling checkout: `../tokens/`

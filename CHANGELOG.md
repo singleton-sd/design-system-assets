@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.4.1 (2026-08-14)</small>
+
+* fix: DS-72 Document why file checkouts skip nvm ([ee27834](https://gitlab.com/singleton-sd/design-system/assets/commit/ee27834))
+* fix: DS-72 Harden remaining Windows git hooks ([7714939](https://gitlab.com/singleton-sd/design-system/assets/commit/7714939))
+
 ## 0.4.0 (2026-08-14)
 
 * feat: DS-44 Add email and docs asset packs ([5dc597e](https://gitlab.com/singleton-sd/design-system/assets/commit/5dc597e))
