@@ -4,6 +4,8 @@ Source of truth for **logo/favicon/OG binaries** is this package (`@singleton-sd
 
 Token **values** live in `@singleton-sd/tokens` — [AGENTS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/AGENTS.md) · [docs/FOUNDATIONS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/docs/FOUNDATIONS.md) · gallery https://tokens.design.singletonsd.com/. Penpot is the style-guide home (`Singleton SD — Brand System`). CSS color roles use `--ssd-*` (see tokens FOUNDATIONS); do not treat `--fg-*` as the live API.
 
+Shareable snapshot (no Penpot login): [assets.singletonsd.com/brand/](https://assets.singletonsd.com/brand/). Print from the browser to save a PDF.
+
 ## Formats
 
 - **SVG** — preferred for web and print vectors. Drop masters next to PNGs (`light.svg` / `dark.svg`).

@@ -11,6 +11,7 @@
   "license": "MIT",
   "scripts": {
     "generate-html": "ts-node scripts/generate-html.ts",
+    "generate-brand-html": "ts-node scripts/generate-brand-html.ts",
     "build": "ts-node scripts/run-build.ts",
     "release": "release-it -VV --dry-run",
     "release:ci": "release-it --ci",
