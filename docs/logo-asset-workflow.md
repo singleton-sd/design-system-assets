@@ -60,7 +60,18 @@ dist/
 ├── favicons/{circle|square}/.../
 ├── logo/static/{dark|light}/{shape}/{background}/[border/]{size}.png
 ├── logo/wordmark/{legal|descriptor|compact}/{light|dark}/{background}/{width}.png
+├── email/signature/{light|dark}/{background}/{width}.png
+├── documents/letterhead/{light|dark}/{background}/{width}.png
+├── documents/footer/{light|dark}/{background}/{width}.png
 └── og-image/{dark,light}/...
+```
+
+Email/docs packs also sync masters into:
+
+```sh
+src/email/signature/{light,dark}.{png,svg}
+src/documents/letterhead/{light,dark}.{png,svg}
+src/documents/footer/{light,dark}.{png,svg}
 ```
 
 ## Commands
@@ -69,6 +80,7 @@ dist/
 yarn build-manifest-icons
 yarn build-static-logo-assets
 yarn build-wordmark-assets
+yarn build-email-docs-assets
 yarn generate-html
 yarn build
 ```
@@ -83,3 +95,4 @@ Wordmark widths default-cap at `<= 2560px` in CI. Override with
 
 - **DS-33** — custom domain `assets.singletonsd.com`
 - **DS-35** — wordmark lockups (legal / descriptor / compact)
+- **DS-44** — email signature + document letterhead/footer packs

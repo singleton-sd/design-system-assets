@@ -86,6 +86,7 @@ async function main(): Promise<void> {
     runYarnScript('build-manifest-icons'),
     runYarnScript('build-static-logo-assets'),
     runYarnScript('build-wordmark-assets'),
+    runYarnScript('build-email-docs-assets'),
   ]);
 
   const failures = results.filter((r): r is PromiseRejectedResult => r.status === 'rejected');

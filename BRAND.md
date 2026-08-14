@@ -34,8 +34,23 @@ Mark (circular S) lives under `src/logo/sources/`.
 src/logo/                 # mark + static variants
 src/logo/wordmark/        # legal / descriptor / compact
 src/og-image/
-src/email/                # signature blocks
-src/documents/            # letterhead / footer marks
+src/email/signature/      # compact masters for mail signatures
+src/documents/letterhead/ # legal masters for letters/contracts
+src/documents/footer/     # legal masters sized for footers
 ```
+
+## Email & docs packs (DS-44)
+
+```sh
+yarn build-email-docs-assets
+```
+
+Writes sized PNGs under `dist/email/` and `dist/documents/`, and refreshes pack masters under `src/email` / `src/documents` from wordmark sources.
+
+| Pack | Role | Typical widths |
+| --- | --- | --- |
+| Email signature | `compact` | 320–800 |
+| Letterhead | `legal` | 1200–2400 |
+| Footer | `legal` | 400–800 |
 
 See [docs/logo-asset-workflow.md](docs/logo-asset-workflow.md).
