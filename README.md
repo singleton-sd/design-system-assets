@@ -21,7 +21,7 @@ open in a browser, or Print → Save as PDF.
 | ----- | ------- | ---------------- |
 | **Dark mark** (512) | [<img src="./logo/static/dark/circle/bg-none/512.png" alt="Dark mark" width="96" height="96">](./logo/static/dark/circle/bg-none/512.png) | [512.png](./logo/static/dark/circle/bg-none/512.png) |
 | **Light mark** (512) | [<img src="./logo/static/light/circle/bg-none/512.png" alt="Light mark" width="96" height="96">](./logo/static/light/circle/bg-none/512.png) | [512.png](./logo/static/light/circle/bg-none/512.png) |
-| **Favicon** | [<img src="./favicons/circle/bg-none/favicon-32x32.png" alt="Favicon" width="32" height="32">](./favicons/circle/bg-none/favicon-32x32.png) | [favicon-32x32.png](./favicons/circle/bg-none/favicon-32x32.png) · [site.webmanifest](./favicons/circle/bg-none/site.webmanifest) |
+| **Favicon** | [<img src="./favicons/circle/bg-none/android-chrome-512x512.png" alt="Favicon" width="64" height="64">](./favicons/circle/bg-none/favicon-32x32.png) | [favicon-32x32.png](./favicons/circle/bg-none/favicon-32x32.png) · [site.webmanifest](./favicons/circle/bg-none/site.webmanifest) |
 | **OG dark** | [<img src="./og-image/dark/og-default.jpg" alt="OG dark" width="240" height="126">](./og-image/dark/og-default.jpg) | [og-default.jpg](./og-image/dark/og-default.jpg) |
 | **OG light** | [<img src="./og-image/light/og-default.jpg" alt="OG light" width="240" height="126">](./og-image/light/og-default.jpg) | [og-default.jpg](./og-image/light/og-default.jpg) |
 | **Compact wordmark** (dark) | [<img src="./logo/wordmark/compact/dark/bg-none/1280.png" alt="Compact wordmark dark" width="240">](./logo/wordmark/compact/dark/bg-none/1280.png) | [1280.png](./logo/wordmark/compact/dark/bg-none/1280.png) |
@@ -60,12 +60,12 @@ Circular **S** mark. Prefer `circle` / `bg-none` for product UI.
 
 | Variant | Preview |
 | ------- | ------- |
-| **dark / circle / bg-none** | [<img src="./logo/static/dark/circle/bg-none/512.png" alt="Dark circle bg-none" width="64" height="64">](./logo/static/dark/circle/bg-none/512.png) |
-| **dark / circle / bg-black** | [<img src="./logo/static/dark/circle/bg-black/512.png" alt="Dark circle bg-black" width="64" height="64">](./logo/static/dark/circle/bg-black/512.png) |
-| **dark / circle / bd-white** | [<img src="./logo/static/dark/circle/bg-none/bd-white/512.png" alt="Dark circle bd-white" width="64" height="64">](./logo/static/dark/circle/bg-none/bd-white/512.png) |
-| **light / circle / bg-none** | [<img src="./logo/static/light/circle/bg-none/512.png" alt="Light circle bg-none" width="64" height="64">](./logo/static/light/circle/bg-none/512.png) |
-| **light / circle / bg-white** | [<img src="./logo/static/light/circle/bg-white/512.png" alt="Light circle bg-white" width="64" height="64">](./logo/static/light/circle/bg-white/512.png) |
-| **light / circle / bd-black** | [<img src="./logo/static/light/circle/bg-none/bd-black/512.png" alt="Light circle bd-black" width="64" height="64">](./logo/static/light/circle/bg-none/bd-black/512.png) |
+| **dark / circle / bg-none** | [<img src="./logo/static/dark/circle/bg-none/512.png" alt="Dark circle bg-none" width="80" height="80">](./logo/static/dark/circle/bg-none/512.png) |
+| **dark / circle / bg-black** | [<img src="./logo/static/dark/circle/bg-black/512.png" alt="Dark circle bg-black" width="80" height="80">](./logo/static/dark/circle/bg-black/512.png) |
+| **dark / circle / bd-white** | [<img src="./logo/static/dark/circle/bg-none/bd-white/512.png" alt="Dark circle bd-white" width="80" height="80">](./logo/static/dark/circle/bg-none/bd-white/512.png) |
+| **light / circle / bg-none** | [<img src="./logo/static/light/circle/bg-none/512.png" alt="Light circle bg-none" width="80" height="80">](./logo/static/light/circle/bg-none/512.png) |
+| **light / circle / bg-white** | [<img src="./logo/static/light/circle/bg-white/512.png" alt="Light circle bg-white" width="80" height="80">](./logo/static/light/circle/bg-white/512.png) |
+| **light / circle / bd-black** | [<img src="./logo/static/light/circle/bg-none/bd-black/512.png" alt="Light circle bd-black" width="80" height="80">](./logo/static/light/circle/bg-none/bd-black/512.png) |
 
 Square cuts use the same path with `square` instead of `circle`. Common sizes:
 `320`, `512` (and `1024` / `4096` in uncapped builds).
@@ -108,17 +108,17 @@ Generated from the dark mark. Default set: **circle / bg-none**.
 
 | Variant | Preview |
 | ------- | ------- |
-| **bg-none** | [<img src="./favicons/circle/bg-none/favicon-32x32.png" alt="Circle bg-none" width="40" height="40">](./favicons/circle/bg-none/android-chrome-512x512.png) |
-| **bg-none / bd-white** | [<img src="./favicons/circle/bg-none/bd-white/favicon-32x32.png" alt="Circle bg-none bd-white" width="40" height="40">](./favicons/circle/bg-none/bd-white/android-chrome-512x512.png) |
-| **bg-black** | [<img src="./favicons/circle/bg-black/favicon-32x32.png" alt="Circle bg-black" width="40" height="40">](./favicons/circle/bg-black/android-chrome-512x512.png) |
+| **bg-none** | [<img src="./favicons/circle/bg-none/android-chrome-512x512.png" alt="Circle bg-none" width="64" height="64">](./favicons/circle/bg-none/android-chrome-512x512.png) |
+| **bg-none / bd-white** | [<img src="./favicons/circle/bg-none/bd-white/android-chrome-512x512.png" alt="Circle bg-none bd-white" width="64" height="64">](./favicons/circle/bg-none/bd-white/android-chrome-512x512.png) |
+| **bg-black** | [<img src="./favicons/circle/bg-black/android-chrome-512x512.png" alt="Circle bg-black" width="64" height="64">](./favicons/circle/bg-black/android-chrome-512x512.png) |
 
 #### Square
 
 | Variant | Preview |
 | ------- | ------- |
-| **bg-none** | [<img src="./favicons/square/bg-none/favicon-32x32.png" alt="Square bg-none" width="40" height="40">](./favicons/square/bg-none/android-chrome-512x512.png) |
-| **bg-none / bd-white** | [<img src="./favicons/square/bg-none/bd-white/favicon-32x32.png" alt="Square bg-none bd-white" width="40" height="40">](./favicons/square/bg-none/bd-white/android-chrome-512x512.png) |
-| **bg-black** | [<img src="./favicons/square/bg-black/favicon-32x32.png" alt="Square bg-black" width="40" height="40">](./favicons/square/bg-black/android-chrome-512x512.png) |
+| **bg-none** | [<img src="./favicons/square/bg-none/android-chrome-512x512.png" alt="Square bg-none" width="64" height="64">](./favicons/square/bg-none/android-chrome-512x512.png) |
+| **bg-none / bd-white** | [<img src="./favicons/square/bg-none/bd-white/android-chrome-512x512.png" alt="Square bg-none bd-white" width="64" height="64">](./favicons/square/bg-none/bd-white/android-chrome-512x512.png) |
+| **bg-black** | [<img src="./favicons/square/bg-black/android-chrome-512x512.png" alt="Square bg-black" width="64" height="64">](./favicons/square/bg-black/android-chrome-512x512.png) |
 
 #### Manifests
 
