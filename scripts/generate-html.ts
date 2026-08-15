@@ -3,6 +3,7 @@
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
 import { marked } from 'marked';
+import { enhanceReadmeHtml } from './lib/enhance-readme-html';
 
 interface PackageJson {
   version: string;
@@ -68,7 +69,7 @@ function createFooter(version: string, releaseUrl: string): string {
 }
 
 function assertTemplatePlaceholders(template: string): void {
-  for (const placeholder of ['{{VERSION}}', '{{CONTENT}}', '{{FOOTER}}']) {
+  for (const placeholder of ['{{VERSION}}', '{{CONTENT}}', '{{NAV}}', '{{FOOTER}}']) {
     if (!template.includes(placeholder)) {
       throw new Error(`Template is missing required placeholder: ${placeholder}`);
     }
@@ -88,12 +89,14 @@ async function generateHtml(): Promise<void> {
 
   assertTemplatePlaceholders(template);
 
-  const content = await marked.parse(readme);
+  const markdownHtml = await marked.parse(readme);
+  const { content, nav } = enhanceReadmeHtml(markdownHtml);
   const releaseUrl = constructReleaseUrl(packageJson.version, packageJson.repository);
   const html = template
-    .replace('{{VERSION}}', packageJson.version)
-    .replace('{{CONTENT}}', content.trim())
-    .replace('{{FOOTER}}', createFooter(packageJson.version, releaseUrl));
+    .replaceAll('{{VERSION}}', packageJson.version)
+    .replaceAll('{{NAV}}', nav)
+    .replaceAll('{{CONTENT}}', content.trim())
+    .replaceAll('{{FOOTER}}', createFooter(packageJson.version, releaseUrl));
 
   await fs.writeFile(OUTPUT_FILE, html);
   console.log(`Generated ${path.relative(ROOT, OUTPUT_FILE)} for version ${packageJson.version}.`);
