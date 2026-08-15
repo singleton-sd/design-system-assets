@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.0 (2026-08-15)
+
+* chore: DS-70 Open merge request ([7f5756b](https://gitlab.com/singleton-sd/design-system/assets/commit/7f5756b))
+* feat: DS-70 Polish CDN homepage presentation ([53d64c4](https://gitlab.com/singleton-sd/design-system/assets/commit/53d64c4))
+
 ## 0.5.0 (2026-08-14)
 
 * docs: DS-46 Link tokens agent docs ([d283de6](https://gitlab.com/singleton-sd/design-system/assets/commit/d283de6))
