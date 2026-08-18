@@ -1,0 +1,6 @@
+{
+  "inputs": ["README.md"],
+  "outDir": "dist",
+  "theme": "ssd",
+  "tokens": "cdn"
+}

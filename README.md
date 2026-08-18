@@ -209,7 +209,7 @@ yarn build
 | `yarn build-manifest-icons` | Favicons + `site.webmanifest` |
 | `yarn build-static-logo-assets` | Static icon-mark PNGs |
 | `yarn build-wordmark-assets` | Wordmark lockup PNGs (+ SVG copy) |
-| `yarn generate-html` | README → `index.html` (site homepage) |
+| `yarn generate-html` | README → `dist/index.html` via `@singleton-sd/scripts-readme-to-html` |
 | `yarn generate-brand-html` | Brand book → `brand/index.html` |
 
 Size caps:
@@ -237,6 +237,7 @@ src/
 meta.json                # inventory pointers
 dist/                    # generated; served by GitLab Pages
 ├── index.html
+├── chrome.css           # catalog chrome from readme-to-html
 ├── brand/index.html     # public brand-guide snapshot
 ├── favicons/
 ├── logo/static/{dark|light}/

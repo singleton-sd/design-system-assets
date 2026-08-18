@@ -17,6 +17,7 @@ variables:
   PAGES_SOURCE_FOLDER: 'dist'
   PAGES_ENABLED: 'true'
   NODE_COMMON_BUILD_BUILD_COMMAND: 'build'
+  NPM_TOKEN: $CI_JOB_TOKEN
 
 stages:
   - install
