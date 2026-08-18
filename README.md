@@ -203,6 +203,9 @@ yarn install
 yarn build
 ```
 
+GitLab npm: `.npmrc` scopes `@singleton-sd` to GitLab’s package registry.
+Yarn 1 requires `NPM_TOKEN` (a GitLab PAT locally; CI uses `CI_JOB_TOKEN`).
+
 | Script | Purpose |
 | ------ | ------- |
 | `yarn build` | Full publish build into `dist/` |
