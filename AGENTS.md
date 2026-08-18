@@ -45,6 +45,7 @@ This package is the source of truth for **logo/favicon/OG binaries**. Token **va
 - Brand usage: [BRAND.md](BRAND.md)
 - Public CDN: https://assets.singletonsd.com
 - Tokens operating manual: [AGENTS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/AGENTS.md) · [docs/FOUNDATIONS.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/docs/FOUNDATIONS.md)
+- Figma is deprecated: [FIGMA-DEPRECATED.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/docs/FIGMA-DEPRECATED.md)
 - Tokens gallery/agent identity: [DESIGN.md](https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/DESIGN.md)
 - Tokens gallery: https://tokens.design.singletonsd.com/
 - Local sibling checkout: `../tokens/`
