@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.7.1 (2026-08-19)</small>
+
+* fix: DS-85 Drop npm auth for public packages ([fd896f1](https://gitlab.com/singleton-sd/design-system/assets/commit/fd896f1))
+
 ## 0.7.0 (2026-08-19)
 
 * docs: DS-85 Note NPM_TOKEN for GitLab npm ([5b9c5d3](https://gitlab.com/singleton-sd/design-system/assets/commit/5b9c5d3))
