@@ -57,6 +57,7 @@ Roles: `legal`, `descriptor`, `compact`. Masters must be transparent (no baked b
 ```sh
 dist/
 ├── index.html
+├── chrome.css
 ├── brand/index.html
 ├── favicons/{circle|square}/.../
 ├── logo/static/{dark|light}/{shape}/{background}/[border/]{size}.png
@@ -82,7 +83,7 @@ yarn build-manifest-icons
 yarn build-static-logo-assets
 yarn build-wordmark-assets
 yarn build-email-docs-assets
-yarn generate-html
+yarn generate-html          # README → dist/index.html (after binaries)
 yarn generate-brand-html
 yarn build
 ```

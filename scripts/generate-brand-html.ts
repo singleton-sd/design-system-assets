@@ -2,7 +2,7 @@
 
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
-import { constructReleaseUrl, createFooter } from './generate-html';
+import { constructReleaseUrl, createFooter } from './lib/html-footer';
 
 interface PackageJson {
   version: string;

@@ -10,7 +10,7 @@
   "author": "Patricio Perpetua",
   "license": "MIT",
   "scripts": {
-    "generate-html": "ts-node scripts/generate-html.ts",
+    "generate-html": "readme-to-html --config readme-to-html.config.json",
     "generate-brand-html": "ts-node scripts/generate-brand-html.ts",
     "build": "ts-node scripts/run-build.ts",
     "release": "release-it -VV --dry-run",
@@ -25,9 +25,9 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@release-it/conventional-changelog": "10.0.1",
+    "@singleton-sd/scripts-readme-to-html": "0.2.0",
     "@types/node": "^20",
     "husky": "^9.1.7",
-    "marked": "^16.0.0",
     "release-it": "^18.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
