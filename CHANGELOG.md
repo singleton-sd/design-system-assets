@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.0 (2026-08-19)
+
+* docs: DS-85 Note NPM_TOKEN for GitLab npm ([5b9c5d3](https://gitlab.com/singleton-sd/design-system/assets/commit/5b9c5d3))
+* feat: DS-85 Use readme-to-html for catalog ([0514a66](https://gitlab.com/singleton-sd/design-system/assets/commit/0514a66))
+
 ## 0.6.0 (2026-08-15)
 
 * chore: DS-70 Open merge request ([7f5756b](https://gitlab.com/singleton-sd/design-system/assets/commit/7f5756b))
