@@ -68,7 +68,7 @@ dist/
 └── og-image/{dark,light}/...
 ```
 
-Email/docs packs also sync masters into:
+Email/docs source companions are committed for direct discovery under:
 
 ```sh
 src/email/signature/{light,dark}.{png,svg}
@@ -88,8 +88,8 @@ yarn generate-brand-html
 yarn build
 ```
 
-CI caps static logo PNGs at `<= 512px` when `CI=true`. Override with
-`LOGO_STATIC_MAX_SIZE=<n>`.
+The build never modifies these committed companions. CI caps static logo PNGs
+at `<= 512px` when `CI=true`. Override with `LOGO_STATIC_MAX_SIZE=<n>`.
 
 Wordmark widths default-cap at `<= 2560px` in CI. Override with
 `WORDMARK_STATIC_MAX_SIZE=<n>` (falls back to `LOGO_STATIC_MAX_SIZE` if set).

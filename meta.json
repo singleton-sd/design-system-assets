@@ -10,6 +10,9 @@
     "wordmark": "src/logo/wordmark/sources/{legal,descriptor,compact}/",
     "og": "src/og-image/{light,dark}/",
     "email": "src/email/",
-    "documents": "src/documents/"
+    "documents": "src/documents/",
+    "illustrations": "src/illustrations/",
+    "screenshots": "src/screenshots/",
+    "marketing": "src/marketing/"
   }
 }

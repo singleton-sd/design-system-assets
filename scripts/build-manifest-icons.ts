@@ -38,6 +38,13 @@ interface WebManifest {
   display: 'standalone';
 }
 
+interface ProductConfig {
+  name: string;
+  shortName: string;
+  themeColor: string;
+  backgroundColor: string;
+}
+
 const ROOT = process.cwd();
 const LOGO_DIR = path.join(ROOT, 'src', 'logo');
 const CONFIG_DIR = path.join(LOGO_DIR, 'config');
@@ -114,29 +121,32 @@ function getOutputFileNames(size: number): string[] {
   return outputFiles;
 }
 
-function createWebManifest(outputPath: string): WebManifest {
+function createWebManifest(product: ProductConfig): WebManifest {
   return {
-    name: 'Singleton SD',
-    short_name: 'SSD',
+    name: product.name,
+    short_name: product.shortName,
     icons: [192, 512].map((size) => ({
-      src: `/${outputPath}/android-chrome-${size}x${size}.png`,
+      src: `android-chrome-${size}x${size}.png`,
       sizes: `${size}x${size}`,
       type: 'image/png',
     })),
-    theme_color: '#FFFFFF',
-    background_color: '#FFFFFF',
+    theme_color: product.themeColor,
+    background_color: product.backgroundColor,
     display: 'standalone',
   };
 }
 
 async function main(): Promise<void> {
-  const [backgrounds, borders, shapes, sizeGroups, outputPresets, variantGroups] = await Promise.all([
+  const [backgrounds, borders, shapes, sizeGroups, outputPresets, variantGroups, product] = await Promise.all([
     readJson<ConfigMap<BackgroundPreset>>('backgrounds.json'),
     readJson<ConfigMap<BorderPreset>>('borders.json'),
     readJson<ConfigMap<ShapePreset>>('shapes.json'),
     readJson<ConfigMap<number[]>>('size-groups.json'),
     readJson<ConfigMap<OutputPreset>>('output-presets.json'),
     readJson<ConfigMap<OutputVariant[]>>('variants.json'),
+    fs
+      .readFile(path.join(ROOT, 'config', 'product.json'), 'utf8')
+      .then((content) => JSON.parse(content) as ProductConfig),
   ]);
 
   const [presetName, preset] = getManifestPreset(outputPresets);
@@ -156,8 +166,6 @@ async function main(): Promise<void> {
       : undefined;
     const border = assertConfigured(borders, variant.border, 'border');
     const outputDir = getVariantOutputDir(DIST_DIR, preset.outputPath, variant);
-    const relativeOutputPath = path.relative(DIST_DIR, outputDir).replaceAll(path.sep, '/');
-
     await ensureDir(outputDir);
 
     for (const size of sizes) {
@@ -170,7 +178,7 @@ async function main(): Promise<void> {
     }
 
     const manifestFile = path.join(outputDir, 'site.webmanifest');
-    const manifest = createWebManifest(relativeOutputPath);
+    const manifest = createWebManifest(product);
 
     await fs.writeFile(manifestFile, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
     console.log(`Creating ${path.relative(ROOT, manifestFile)}`);
