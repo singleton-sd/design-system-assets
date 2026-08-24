@@ -40,12 +40,38 @@ async function assertExists(relativePath: string, directory = false): Promise<vo
 
 async function validateSvg(relativePath: string): Promise<void> {
   const content = await fs.readFile(path.join(ROOT, relativePath), 'utf8');
-  const forbidden = [/<script\b/i, /\son\w+\s*=/i, /(?:href|src)\s*=\s*["']https?:/i];
+  const forbidden = [/<script\b/i, /\son\w+\s*=/i];
   if (!/<svg\b/i.test(content) || !/viewBox\s*=/.test(content)) {
     throw new Error(`${relativePath} must be an SVG with a viewBox.`);
   }
   if (forbidden.some((pattern) => pattern.test(content))) {
-    throw new Error(`${relativePath} contains active content or an external reference.`);
+    throw new Error(`${relativePath} contains active content.`);
+  }
+  assertLocalSvgReferences(content, relativePath);
+}
+
+function assertLocalSvgReferences(content: string, relativePath: string): void {
+  const references: string[] = [];
+  const attributePattern = /(?:href|src)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/gi;
+  const cssUrlPattern = /url\(\s*(?:"([^"]*)"|'([^']*)'|([^\s)]+))\s*\)/gi;
+
+  for (const pattern of [attributePattern, cssUrlPattern]) {
+    for (const match of content.matchAll(pattern)) {
+      references.push(match[1] ?? match[2] ?? match[3] ?? '');
+    }
+  }
+
+  const relativePathReference = /^(?:[A-Za-z0-9_.-]+\/)*[A-Za-z0-9_.-]+(?:[?#][^\s]*)?$/;
+  const external = references.find(
+    (reference) =>
+      !reference.startsWith('#') &&
+      !(reference.startsWith('/') && !reference.startsWith('//')) &&
+      !reference.startsWith('./') &&
+      !reference.startsWith('../') &&
+      !relativePathReference.test(reference),
+  );
+  if (external !== undefined) {
+    throw new Error(`${relativePath} contains a non-local reference: ${external}`);
   }
 }
 
@@ -92,4 +118,4 @@ if (require.main === module) {
   });
 }
 
-export { main };
+export { assertLocalSvgReferences, main };

@@ -242,7 +242,7 @@ src/
 └── documents/           # letterhead / footer marks
 
 meta.json                # inventory pointers
-dist/                    # generated; served by GitLab Pages
+dist/                    # generated; served by GitLab during migration and GitHub after cutover
 ├── index.html
 ├── chrome.css           # catalog chrome from readme-to-html
 ├── brand/index.html     # public brand-guide snapshot
@@ -256,7 +256,8 @@ dist/                    # generated; served by GitLab Pages
 
 ## Notes
 
-- Package: `@singleton-sd/assets` (GitLab Releases; npm publish disabled).
+- Package: `@singleton-sd/assets` (GitLab Releases during migration; GitHub
+  Releases receive generated archives; npm publish disabled).
 - Animations / expression pipelines are intentionally out of scope.
 - Tagged GitHub builds publish immutable `/releases/X.Y.Z/` Pages snapshots
   and attach the same generated assets to GitHub Releases.

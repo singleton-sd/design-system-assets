@@ -48,6 +48,7 @@ the approved source paths until the repository owner approves them.
 ```sh
 yarn install --frozen-lockfile
 yarn validate
+yarn test
 yarn build
 ```
 
@@ -56,17 +57,20 @@ The build must start clean, generate the complete `dist/` catalog, produce
 
 ## Publishing contract
 
-`main` publishes the current catalog at the Pages root. Every semantic version
-tag also
+`main` publishes the current catalog at the Pages root. Every valid stable
+semantic version tag (`1.2.3` or `v1.2.3`) also
 publishes an immutable snapshot:
 
 ```text
 https://<asset-host>/releases/1.2.3/
 ```
 
-The tag workflow creates a GitHub Release containing the same generated output,
-its manifest, and a SHA-256 checksum. Firmware and other pinned consumers use a
-tagged Pages path or release archive; ordinary web consumers may use the root.
+Before publishing, the workflow validates the tag and rejects the deployment if
+`releases/<tag>/` already exists. This prevents a moved or force-updated tag from
+overwriting an immutable snapshot. The tag workflow creates a GitHub Release
+containing the same generated output, its manifest, and a SHA-256 checksum.
+Firmware and other pinned consumers use a tagged Pages path or release archive;
+ordinary web consumers may use the root.
 
 ## Creating a product repository
 
