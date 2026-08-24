@@ -12,6 +12,7 @@ for (const content of [
   '<svg><use href="//cdn.example/mark.svg"/></svg>',
   '<svg><style>.a{fill:url(https://cdn.example/paint.svg)}</style></svg>',
   '<svg><style>@import "https://cdn.example/style.css";</style></svg>',
+  '<svg><style>@import/**/"https://cdn.example/obfuscated.css";</style></svg>',
   '<svg><image href="data:image/png;base64,AAAA"/></svg>',
 ]) {
   assert.throws(

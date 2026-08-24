@@ -54,7 +54,8 @@ function assertLocalSvgReferences(content: string, relativePath: string): void {
   const references: string[] = [];
   const attributePattern = /(?:href|src)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/gi;
   const cssUrlPattern = /url\(\s*(?:"([^"]*)"|'([^']*)'|([^\s)]+))\s*\)/gi;
-  const cssImportPattern = /@import\s+(?:"([^"]*)"|'([^']*)')/gi;
+  const cssImportPattern =
+    /@import(?:\s|\/\*[\s\S]*?\*\/)+(?:"([^"]*)"|'([^']*)')/gi;
 
   for (const pattern of [attributePattern, cssUrlPattern, cssImportPattern]) {
     for (const match of content.matchAll(pattern)) {
