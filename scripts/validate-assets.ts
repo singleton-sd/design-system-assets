@@ -56,9 +56,14 @@ function assertLocalSvgReferences(content: string, relativePath: string): void {
   const cssUrlPattern = /url\(\s*(?:"([^"]*)"|'([^']*)'|([^\s)]+))\s*\)/gi;
   const cssImportPattern =
     /@import(?:\s|\/\*[\s\S]*?\*\/)+(?:"([^"]*)"|'([^']*)')/gi;
+  const normalizedCssContent = normalizeCssEscapes(content);
 
-  for (const pattern of [attributePattern, cssUrlPattern, cssImportPattern]) {
-    for (const match of content.matchAll(pattern)) {
+  for (const [pattern, source] of [
+    [attributePattern, content],
+    [cssUrlPattern, normalizedCssContent],
+    [cssImportPattern, normalizedCssContent],
+  ] as const) {
+    for (const match of source.matchAll(pattern)) {
       references.push(match[1] ?? match[2] ?? match[3] ?? '');
     }
   }
@@ -75,6 +80,19 @@ function assertLocalSvgReferences(content: string, relativePath: string): void {
   if (external !== undefined) {
     throw new Error(`${relativePath} contains a non-local reference: ${external}`);
   }
+}
+
+function normalizeCssEscapes(content: string): string {
+  return content.replace(
+    /\\([0-9A-Fa-f]{1,6})(?:\r\n|[\t\n\f\r ])?|\\([^\n\f\r0-9A-Fa-f])/g,
+    (_match, hexadecimal: string | undefined, escaped: string | undefined) => {
+      if (!hexadecimal) return escaped ?? '';
+      const codePoint = Number.parseInt(hexadecimal, 16);
+      return codePoint === 0 || codePoint > 0x10ffff
+        ? '\uFFFD'
+        : String.fromCodePoint(codePoint);
+    },
+  );
 }
 
 async function findFiles(dir: string): Promise<string[]> {
