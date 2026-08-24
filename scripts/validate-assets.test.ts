@@ -8,6 +8,14 @@ assert.doesNotThrow(() =>
   ),
 );
 
+assert.doesNotThrow(() =>
+  assertLocalSvgReferences(
+    String.raw`<svg><style>.a{fill:url("icons/\
+logo.svg")}</style></svg>`,
+    'continued-local.svg',
+  ),
+);
+
 for (const content of [
   '<svg><use href="//cdn.example/mark.svg"/></svg>',
   '<svg><style>.a{fill:url(https://cdn.example/paint.svg)}</style></svg>',

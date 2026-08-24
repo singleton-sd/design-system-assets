@@ -83,7 +83,7 @@ function assertLocalSvgReferences(content: string, relativePath: string): void {
 }
 
 function normalizeCssEscapes(content: string): string {
-  return content.replace(
+  return content.replace(/\\(?:\r\n|[\n\f\r])/g, '').replace(
     /\\([0-9A-Fa-f]{1,6})(?:\r\n|[\t\n\f\r ])?|\\([^\n\f\r0-9A-Fa-f])/g,
     (_match, hexadecimal: string | undefined, escaped: string | undefined) => {
       if (!hexadecimal) return escaped ?? '';
