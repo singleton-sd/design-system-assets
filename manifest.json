@@ -1,0 +1,1121 @@
+{
+  "schemaVersion": 1,
+  "product": {
+    "id": "singleton-sd",
+    "name": "Singleton SD",
+    "publicUrl": "https://assets.singletonsd.com"
+  },
+  "version": "0.7.1",
+  "assets": [
+    {
+      "path": "brand/index.html",
+      "mediaType": "text/html",
+      "bytes": 20307,
+      "sha256": "f3384389c85b822f94ef2eca9362691d702d6292bb0e90a87990d52efb5ca81f"
+    },
+    {
+      "path": "chrome.css",
+      "mediaType": "text/css",
+      "bytes": 14737,
+      "sha256": "becc86df335e53da28bcabc71c1155e19dc3161853abe3aee97bc4fb5ce6ef30"
+    },
+    {
+      "path": "documents/footer/dark/bg-black/400.png",
+      "mediaType": "image/png",
+      "bytes": 5119,
+      "sha256": "1bb732417d109abb45c31aabd4baf88af6b6a697ec5685fe81724eaf86d88d6b"
+    },
+    {
+      "path": "documents/footer/dark/bg-black/600.png",
+      "mediaType": "image/png",
+      "bytes": 7681,
+      "sha256": "a5bbdb124ac3256e31816363071dfcac4b478804d2b421877ca7f3b137b58734"
+    },
+    {
+      "path": "documents/footer/dark/bg-black/800.png",
+      "mediaType": "image/png",
+      "bytes": 9926,
+      "sha256": "8d0e850387a964c0828905d169eebbf9f87d90f29bf17d6aff5d8560920c241a"
+    },
+    {
+      "path": "documents/footer/dark/bg-none/400.png",
+      "mediaType": "image/png",
+      "bytes": 5462,
+      "sha256": "4057ea57313a040a4d043d3db053e50b175127d7c6949b6bf8a6b3a02a14caff"
+    },
+    {
+      "path": "documents/footer/dark/bg-none/600.png",
+      "mediaType": "image/png",
+      "bytes": 8088,
+      "sha256": "d295599c0d21a8d2113ca3f40762f2ccabcd7b0088513ebf2f11b793b36b7f61"
+    },
+    {
+      "path": "documents/footer/dark/bg-none/800.png",
+      "mediaType": "image/png",
+      "bytes": 10376,
+      "sha256": "31f09bbf902fdd334cc00ad7565fed9806545ef4cf8667c0c7abecf254db2331"
+    },
+    {
+      "path": "documents/footer/dark/dark.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 10981,
+      "sha256": "1bfe3df5c424998ece98822dcb99dc1212c3865381d40c6bf2f44016026c6e75"
+    },
+    {
+      "path": "documents/footer/light/bg-none/400.png",
+      "mediaType": "image/png",
+      "bytes": 5488,
+      "sha256": "cfb68bd646458ce971241fece9902aece75201a549e622e9497f8f2bbcf3fab3"
+    },
+    {
+      "path": "documents/footer/light/bg-none/600.png",
+      "mediaType": "image/png",
+      "bytes": 8095,
+      "sha256": "9113c913aba7faba96cddc0634b9d55cd5f9ed8d98daa3f01196be8e70d56980"
+    },
+    {
+      "path": "documents/footer/light/bg-none/800.png",
+      "mediaType": "image/png",
+      "bytes": 10494,
+      "sha256": "93840ab6629bf6517a91bff0da1106dc2ec0d42be57d93fe5d988d2ceac0be76"
+    },
+    {
+      "path": "documents/footer/light/bg-white/400.png",
+      "mediaType": "image/png",
+      "bytes": 5122,
+      "sha256": "31b298747953aac502414db6d30e2428b86d4dea147246ceb6394f04b2f2c7ca"
+    },
+    {
+      "path": "documents/footer/light/bg-white/600.png",
+      "mediaType": "image/png",
+      "bytes": 7572,
+      "sha256": "e68f899b2cf5efe60b7674e7720757ea24f08ebaf3046347c1c188c3734b3045"
+    },
+    {
+      "path": "documents/footer/light/bg-white/800.png",
+      "mediaType": "image/png",
+      "bytes": 9935,
+      "sha256": "51c41d15873d86902e5061c6dfb25ec177b2a5a6557b087e570a15e73020b829"
+    },
+    {
+      "path": "documents/footer/light/light.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 10981,
+      "sha256": "188864846870226f41f9624b6a21794ad0efaa20e2585755462b9d75135533d8"
+    },
+    {
+      "path": "documents/letterhead/dark/bg-black/1200.png",
+      "mediaType": "image/png",
+      "bytes": 14627,
+      "sha256": "17a2d92dcc05025ad6feef10efab992fe20dde7b49876ca0d9ca34e9da8f97dd"
+    },
+    {
+      "path": "documents/letterhead/dark/bg-black/1600.png",
+      "mediaType": "image/png",
+      "bytes": 21162,
+      "sha256": "a8bcb2ed4cbad964299827800ee8e1ca92861abe9154ad54c8e537a56cbc8278"
+    },
+    {
+      "path": "documents/letterhead/dark/bg-black/2400.png",
+      "mediaType": "image/png",
+      "bytes": 33952,
+      "sha256": "9b1ec75cbc8819681a8a2a829e7189f0df5533657a741c14d2b2125f6fe3ad04"
+    },
+    {
+      "path": "documents/letterhead/dark/bg-none/1200.png",
+      "mediaType": "image/png",
+      "bytes": 15252,
+      "sha256": "e064103324ca9b90e417dad476e9d2e4499f9cbf27410727e232ba98b641c3e0"
+    },
+    {
+      "path": "documents/letterhead/dark/bg-none/1600.png",
+      "mediaType": "image/png",
+      "bytes": 21667,
+      "sha256": "1e90fcc366bff794c8a4701e771d45e04bb098219fafffe241613bedc32098bc"
+    },
+    {
+      "path": "documents/letterhead/dark/bg-none/2400.png",
+      "mediaType": "image/png",
+      "bytes": 34651,
+      "sha256": "d83ef470f1d37af132ff3cdb3ad30ea86c12052fe237fcca5861abcb9bc5a67e"
+    },
+    {
+      "path": "documents/letterhead/dark/dark.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 10981,
+      "sha256": "1bfe3df5c424998ece98822dcb99dc1212c3865381d40c6bf2f44016026c6e75"
+    },
+    {
+      "path": "documents/letterhead/light/bg-none/1200.png",
+      "mediaType": "image/png",
+      "bytes": 15575,
+      "sha256": "6823b52097739a960cb711f07e9b9c9dddba3eb1dc875d9d95329fda21d4592d"
+    },
+    {
+      "path": "documents/letterhead/light/bg-none/1600.png",
+      "mediaType": "image/png",
+      "bytes": 21837,
+      "sha256": "67a1eb523110f3aee96a16c8a25cac89f54d1a8710bdeb8db7f2fb926d23bf4a"
+    },
+    {
+      "path": "documents/letterhead/light/bg-none/2400.png",
+      "mediaType": "image/png",
+      "bytes": 34691,
+      "sha256": "99c7f6796a53b3071efb36a22e3daa4d661a5edc777591fbd2d0bbee4b3f0837"
+    },
+    {
+      "path": "documents/letterhead/light/bg-white/1200.png",
+      "mediaType": "image/png",
+      "bytes": 14853,
+      "sha256": "a923954988edb825b02693c6e48d6359f5c2ae1a6cc73de1432e8c4287d8f623"
+    },
+    {
+      "path": "documents/letterhead/light/bg-white/1600.png",
+      "mediaType": "image/png",
+      "bytes": 20948,
+      "sha256": "1cd02af3f3f1542004009d485684a5315794b7a5c1446a6cddfdf189ee360715"
+    },
+    {
+      "path": "documents/letterhead/light/bg-white/2400.png",
+      "mediaType": "image/png",
+      "bytes": 33095,
+      "sha256": "fd22a6078c7ebb21a6be8912ccdd9c4fff44dbb1c87f45aa638b2cc4179257b5"
+    },
+    {
+      "path": "documents/letterhead/light/light.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 10981,
+      "sha256": "188864846870226f41f9624b6a21794ad0efaa20e2585755462b9d75135533d8"
+    },
+    {
+      "path": "email/signature/dark/bg-black/320.png",
+      "mediaType": "image/png",
+      "bytes": 3978,
+      "sha256": "a38caa66e260baf9cc60d744103d07995a61fcf223cbe05e102213672a14f74f"
+    },
+    {
+      "path": "email/signature/dark/bg-black/480.png",
+      "mediaType": "image/png",
+      "bytes": 5852,
+      "sha256": "e193a9a14ca4fd7cf0687f944cc4fd615caed119dd7603d58c229c2359733ca5"
+    },
+    {
+      "path": "email/signature/dark/bg-black/640.png",
+      "mediaType": "image/png",
+      "bytes": 7820,
+      "sha256": "b89e3e13e7e9357d62569f24d9b477d6e65038f6b1297fdd0b15ff041fea4c9f"
+    },
+    {
+      "path": "email/signature/dark/bg-black/800.png",
+      "mediaType": "image/png",
+      "bytes": 9389,
+      "sha256": "98263a757b61b636bd3f742838f8dc708017c40a20ca3b53fd107a32c40921bb"
+    },
+    {
+      "path": "email/signature/dark/bg-none/320.png",
+      "mediaType": "image/png",
+      "bytes": 4298,
+      "sha256": "753b13146dfff47538cbd2af701e767eed2ef6dc49837036cbeff8d6d9fece48"
+    },
+    {
+      "path": "email/signature/dark/bg-none/480.png",
+      "mediaType": "image/png",
+      "bytes": 6229,
+      "sha256": "e7cc614cc31f9400ba67d0fd265b83458e672d999985ed7511cdbbfe95ce6775"
+    },
+    {
+      "path": "email/signature/dark/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 8237,
+      "sha256": "f6dacf54654f64c92424ea937b8d2a6643af3cd4eb487c51b05726b0e5eea1b1"
+    },
+    {
+      "path": "email/signature/dark/bg-none/800.png",
+      "mediaType": "image/png",
+      "bytes": 9866,
+      "sha256": "0469d572d1276f1889b3c4acab2c4d645ca4cf931867fdf4cd01e7fbdf07939c"
+    },
+    {
+      "path": "email/signature/dark/dark.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 7765,
+      "sha256": "de713711d6c45c90d1d8e51690d44222de2fa71ce8cd0bee6fd84d1504a5f462"
+    },
+    {
+      "path": "email/signature/light/bg-none/320.png",
+      "mediaType": "image/png",
+      "bytes": 4342,
+      "sha256": "7fd5fc8739375d05975eb76b0bbb68585165676f0596261291df444dbae19f4d"
+    },
+    {
+      "path": "email/signature/light/bg-none/480.png",
+      "mediaType": "image/png",
+      "bytes": 6254,
+      "sha256": "5a788fa9246cd178965005d78af06797d65b1301d95c859999c0968d0afbbe9b"
+    },
+    {
+      "path": "email/signature/light/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 8287,
+      "sha256": "47d1881c8b7aa84cf08137099355be865aa9db865626d2c4295826384eba8a44"
+    },
+    {
+      "path": "email/signature/light/bg-none/800.png",
+      "mediaType": "image/png",
+      "bytes": 9944,
+      "sha256": "f9b6fbdb9f9aeed5fd1aee1792eca3bb9e896bc451d96729e54decc0bc776954"
+    },
+    {
+      "path": "email/signature/light/bg-white/320.png",
+      "mediaType": "image/png",
+      "bytes": 3989,
+      "sha256": "5c8932b22b3a4b10b5c7bf02396af4d6a62f335eea974ce018018352c03cf4d2"
+    },
+    {
+      "path": "email/signature/light/bg-white/480.png",
+      "mediaType": "image/png",
+      "bytes": 5829,
+      "sha256": "aa1ea328cfb84f907414e31570e7ebcf75493bfc0cd852734daabdaca1ed6ae2"
+    },
+    {
+      "path": "email/signature/light/bg-white/640.png",
+      "mediaType": "image/png",
+      "bytes": 7738,
+      "sha256": "d72529e485d6fe9aff139bf8a196db272d64aa8a9cd48e7fe00c939d8f79406b"
+    },
+    {
+      "path": "email/signature/light/bg-white/800.png",
+      "mediaType": "image/png",
+      "bytes": 9274,
+      "sha256": "89c3d03738cad139ee5f3ece8f16542674b36758853f2c1fdf414424051ea39e"
+    },
+    {
+      "path": "email/signature/light/light.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 7757,
+      "sha256": "c0fc27bd85fe5103ac81873d742db0214b536f3d8139660f175f143339eb8dd6"
+    },
+    {
+      "path": "favicons/circle/bg-black/android-chrome-192x192.png",
+      "mediaType": "image/png",
+      "bytes": 5572,
+      "sha256": "3d53c1e82e7cb8ca580dd83b29a9388418080807def251c7586b85b178e4b6e6"
+    },
+    {
+      "path": "favicons/circle/bg-black/android-chrome-512x512.png",
+      "mediaType": "image/png",
+      "bytes": 8172,
+      "sha256": "1a348b73ee867f30e9dbe14c7784e726dc3515aca0ce2dbac1e627b346b0a0ba"
+    },
+    {
+      "path": "favicons/circle/bg-black/apple-touch-icon.png",
+      "mediaType": "image/png",
+      "bytes": 5195,
+      "sha256": "9d80e601f90791cc22eb7823ce0e3586031b8ef299f097e6373dc14b737707bc"
+    },
+    {
+      "path": "favicons/circle/bg-black/favicon-16x16.png",
+      "mediaType": "image/png",
+      "bytes": 672,
+      "sha256": "20a3d84eca98ce186b49930a41019a5738894777719f5d5e2990fea98ae76e19"
+    },
+    {
+      "path": "favicons/circle/bg-black/favicon-32x32.png",
+      "mediaType": "image/png",
+      "bytes": 1380,
+      "sha256": "2450cf945093e826f3bf8988489b317d3843c7c7be284055eeaa1fa8719aa74f"
+    },
+    {
+      "path": "favicons/circle/bg-black/favicon-4096x4096.png",
+      "mediaType": "image/png",
+      "bytes": 294544,
+      "sha256": "48b258d7b99dbbe31eecd29f65c1a8e3ea0b2227e94386b3c27d0002862400a1"
+    },
+    {
+      "path": "favicons/circle/bg-black/favicon.png",
+      "mediaType": "image/png",
+      "bytes": 1380,
+      "sha256": "2450cf945093e826f3bf8988489b317d3843c7c7be284055eeaa1fa8719aa74f"
+    },
+    {
+      "path": "favicons/circle/bg-black/site.webmanifest",
+      "mediaType": "application/manifest+json",
+      "bytes": 373,
+      "sha256": "231d1e3eb824a6e6f3aaca072994944f493f1fefe0b1b1eed0159179742eedab"
+    },
+    {
+      "path": "favicons/circle/bg-none/android-chrome-192x192.png",
+      "mediaType": "image/png",
+      "bytes": 4544,
+      "sha256": "6d68415a10ef670877b91d2ad055dcaf5d841f4d8781dff58b080d5cf299852d"
+    },
+    {
+      "path": "favicons/circle/bg-none/android-chrome-512x512.png",
+      "mediaType": "image/png",
+      "bytes": 3796,
+      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+    },
+    {
+      "path": "favicons/circle/bg-none/apple-touch-icon.png",
+      "mediaType": "image/png",
+      "bytes": 4242,
+      "sha256": "1d55fe12b7bc626e6d46c43789d9352c77e105b5231b9e234b2b60ca30697fb2"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/android-chrome-192x192.png",
+      "mediaType": "image/png",
+      "bytes": 6959,
+      "sha256": "682df0717aba9ca1470afba8d93c5c61f4b523bbe2ad951143f7aa855f6e48a4"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/android-chrome-512x512.png",
+      "mediaType": "image/png",
+      "bytes": 11555,
+      "sha256": "a568bfd8564604b249c70192524c26936d07073372b988de0cc0803cbf60af1f"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/apple-touch-icon.png",
+      "mediaType": "image/png",
+      "bytes": 6494,
+      "sha256": "ea718d2884674da11f2f7c0836accf74f4e23fc4d56ec237aac7db0a73cf860b"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/favicon-16x16.png",
+      "mediaType": "image/png",
+      "bytes": 837,
+      "sha256": "5af8f139eb2b853944461bc478bb5f1de1cabe39570f2f648ce79bf22ba55299"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/favicon-32x32.png",
+      "mediaType": "image/png",
+      "bytes": 1691,
+      "sha256": "7dad24c9123054c04eb314df2b8bcaa09d0f8275a504883eb96c3ceeda585a0d"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/favicon-4096x4096.png",
+      "mediaType": "image/png",
+      "bytes": 326808,
+      "sha256": "a2edababc42693991fe3a6950e6edac9904ee36ad40811534f26fb3f98cfd735"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/favicon.png",
+      "mediaType": "image/png",
+      "bytes": 1691,
+      "sha256": "7dad24c9123054c04eb314df2b8bcaa09d0f8275a504883eb96c3ceeda585a0d"
+    },
+    {
+      "path": "favicons/circle/bg-none/bd-white/site.webmanifest",
+      "mediaType": "application/manifest+json",
+      "bytes": 373,
+      "sha256": "231d1e3eb824a6e6f3aaca072994944f493f1fefe0b1b1eed0159179742eedab"
+    },
+    {
+      "path": "favicons/circle/bg-none/favicon-16x16.png",
+      "mediaType": "image/png",
+      "bytes": 546,
+      "sha256": "2c985cf3f92785065b026552b986e300cc6cbc796a5e59dddf9a55aa37002c9f"
+    },
+    {
+      "path": "favicons/circle/bg-none/favicon-32x32.png",
+      "mediaType": "image/png",
+      "bytes": 1108,
+      "sha256": "5fa9506ab8503a9c3b325c00f94971ccf94b047d4a33c7d9991f9d582e251e1e"
+    },
+    {
+      "path": "favicons/circle/bg-none/favicon-4096x4096.png",
+      "mediaType": "image/png",
+      "bytes": 274834,
+      "sha256": "2adb1d637fce94b79fb87542213cf8ccb968abf767dd8fe4cac9d3cf068e7bdd"
+    },
+    {
+      "path": "favicons/circle/bg-none/favicon.png",
+      "mediaType": "image/png",
+      "bytes": 1108,
+      "sha256": "5fa9506ab8503a9c3b325c00f94971ccf94b047d4a33c7d9991f9d582e251e1e"
+    },
+    {
+      "path": "favicons/circle/bg-none/site.webmanifest",
+      "mediaType": "application/manifest+json",
+      "bytes": 373,
+      "sha256": "231d1e3eb824a6e6f3aaca072994944f493f1fefe0b1b1eed0159179742eedab"
+    },
+    {
+      "path": "favicons/square/bg-black/android-chrome-192x192.png",
+      "mediaType": "image/png",
+      "bytes": 4202,
+      "sha256": "1c08e3ee7894e4e39daa2d0ccfa07be5e67c7aea4f3290de7db79e059b904048"
+    },
+    {
+      "path": "favicons/square/bg-black/android-chrome-512x512.png",
+      "mediaType": "image/png",
+      "bytes": 3707,
+      "sha256": "3026bf9bd4efc27fdfa2fd85a230e2475d46a34555d772d9f545c277fee0ee8e"
+    },
+    {
+      "path": "favicons/square/bg-black/apple-touch-icon.png",
+      "mediaType": "image/png",
+      "bytes": 3908,
+      "sha256": "2658b2df6a00865d9f4f097d0aeb9dfe7639a14a5da86b11c00114556359cec3"
+    },
+    {
+      "path": "favicons/square/bg-black/favicon-16x16.png",
+      "mediaType": "image/png",
+      "bytes": 457,
+      "sha256": "fb694d3e1eea039c6284bb6e72b2a96ac2e58d8e0e017e53bfd33314829c1c38"
+    },
+    {
+      "path": "favicons/square/bg-black/favicon-32x32.png",
+      "mediaType": "image/png",
+      "bytes": 926,
+      "sha256": "e5033b010e83e407000ec2a60ab584ec8806198a7c8c4abe020133e02302eb13"
+    },
+    {
+      "path": "favicons/square/bg-black/favicon-4096x4096.png",
+      "mediaType": "image/png",
+      "bytes": 274341,
+      "sha256": "9030cfd2a96b948e4e2822dc3f59de2be6ded295a965db128404723a4bace9c9"
+    },
+    {
+      "path": "favicons/square/bg-black/favicon.png",
+      "mediaType": "image/png",
+      "bytes": 926,
+      "sha256": "e5033b010e83e407000ec2a60ab584ec8806198a7c8c4abe020133e02302eb13"
+    },
+    {
+      "path": "favicons/square/bg-black/site.webmanifest",
+      "mediaType": "application/manifest+json",
+      "bytes": 373,
+      "sha256": "231d1e3eb824a6e6f3aaca072994944f493f1fefe0b1b1eed0159179742eedab"
+    },
+    {
+      "path": "favicons/square/bg-none/android-chrome-192x192.png",
+      "mediaType": "image/png",
+      "bytes": 4544,
+      "sha256": "6d68415a10ef670877b91d2ad055dcaf5d841f4d8781dff58b080d5cf299852d"
+    },
+    {
+      "path": "favicons/square/bg-none/android-chrome-512x512.png",
+      "mediaType": "image/png",
+      "bytes": 3796,
+      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+    },
+    {
+      "path": "favicons/square/bg-none/apple-touch-icon.png",
+      "mediaType": "image/png",
+      "bytes": 4242,
+      "sha256": "1d55fe12b7bc626e6d46c43789d9352c77e105b5231b9e234b2b60ca30697fb2"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/android-chrome-192x192.png",
+      "mediaType": "image/png",
+      "bytes": 4689,
+      "sha256": "55a4bdbc7e1558e8c27a1ae017dda39d916ab18b21494bcd6854b16052802a55"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/android-chrome-512x512.png",
+      "mediaType": "image/png",
+      "bytes": 4511,
+      "sha256": "9fe1cac878c8ab0c7f57c5ea98dd0cd9600fd48ce0e0066e280daa181fa7b6d7"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/apple-touch-icon.png",
+      "mediaType": "image/png",
+      "bytes": 4361,
+      "sha256": "6371883875ac0a080121df1fdce938a034fb7024db9b36b8e66889ea8923a4d4"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/favicon-16x16.png",
+      "mediaType": "image/png",
+      "bytes": 538,
+      "sha256": "ef4df44f0d118930ebf2c3ca324ee680112601fcdd5cdc2fec22eda9a9538f1d"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/favicon-32x32.png",
+      "mediaType": "image/png",
+      "bytes": 1142,
+      "sha256": "d63f1ee954ced06925324d94cc73249ba78f6c0bbd0055ef28c75d353146a750"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/favicon-4096x4096.png",
+      "mediaType": "image/png",
+      "bytes": 286822,
+      "sha256": "b0b0e6c85da8d317fcbb005e071944871a4202c824dd3e5737704a246bc88f24"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/favicon.png",
+      "mediaType": "image/png",
+      "bytes": 1142,
+      "sha256": "d63f1ee954ced06925324d94cc73249ba78f6c0bbd0055ef28c75d353146a750"
+    },
+    {
+      "path": "favicons/square/bg-none/bd-white/site.webmanifest",
+      "mediaType": "application/manifest+json",
+      "bytes": 373,
+      "sha256": "231d1e3eb824a6e6f3aaca072994944f493f1fefe0b1b1eed0159179742eedab"
+    },
+    {
+      "path": "favicons/square/bg-none/favicon-16x16.png",
+      "mediaType": "image/png",
+      "bytes": 549,
+      "sha256": "d9ff070d4b0ed6e71c6bd91c4c278c07ead52d60b3290c6359f58142a915e528"
+    },
+    {
+      "path": "favicons/square/bg-none/favicon-32x32.png",
+      "mediaType": "image/png",
+      "bytes": 1108,
+      "sha256": "d3e14e5d77f449db045dbd6d9c97c9e866a8e48ee9e05a0493b5fc682e0a973e"
+    },
+    {
+      "path": "favicons/square/bg-none/favicon-4096x4096.png",
+      "mediaType": "image/png",
+      "bytes": 274834,
+      "sha256": "2adb1d637fce94b79fb87542213cf8ccb968abf767dd8fe4cac9d3cf068e7bdd"
+    },
+    {
+      "path": "favicons/square/bg-none/favicon.png",
+      "mediaType": "image/png",
+      "bytes": 1108,
+      "sha256": "d3e14e5d77f449db045dbd6d9c97c9e866a8e48ee9e05a0493b5fc682e0a973e"
+    },
+    {
+      "path": "favicons/square/bg-none/site.webmanifest",
+      "mediaType": "application/manifest+json",
+      "bytes": 373,
+      "sha256": "231d1e3eb824a6e6f3aaca072994944f493f1fefe0b1b1eed0159179742eedab"
+    },
+    {
+      "path": "index.html",
+      "mediaType": "text/html",
+      "bytes": 23179,
+      "sha256": "6a4c46117503c3fcee3d61caf33365d26c8cbc6bebd288af7cd8298984e4d225"
+    },
+    {
+      "path": "logo/static/dark/circle/bg-black/320.png",
+      "mediaType": "image/png",
+      "bytes": 9208,
+      "sha256": "0ab64b2c3b12b541ceeaf959adf9dbc92d483c3ea84153798fd2d91ca93fd64b"
+    },
+    {
+      "path": "logo/static/dark/circle/bg-black/512.png",
+      "mediaType": "image/png",
+      "bytes": 8172,
+      "sha256": "1a348b73ee867f30e9dbe14c7784e726dc3515aca0ce2dbac1e627b346b0a0ba"
+    },
+    {
+      "path": "logo/static/dark/circle/bg-none/320.png",
+      "mediaType": "image/png",
+      "bytes": 7140,
+      "sha256": "1963d5dc0ae6e3a1b59ccde261dd603ffa97c45e8dda3c1dc1f0fd31309f743e"
+    },
+    {
+      "path": "logo/static/dark/circle/bg-none/512.png",
+      "mediaType": "image/png",
+      "bytes": 3796,
+      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+    },
+    {
+      "path": "logo/static/dark/circle/bg-none/bd-white/320.png",
+      "mediaType": "image/png",
+      "bytes": 11464,
+      "sha256": "8d5321be3540f9e11a301d8ea740b35c8a39b3ca2674a3b3728fa3b66eb7ee19"
+    },
+    {
+      "path": "logo/static/dark/circle/bg-none/bd-white/512.png",
+      "mediaType": "image/png",
+      "bytes": 11555,
+      "sha256": "a568bfd8564604b249c70192524c26936d07073372b988de0cc0803cbf60af1f"
+    },
+    {
+      "path": "logo/static/dark/square/bg-black/320.png",
+      "mediaType": "image/png",
+      "bytes": 6823,
+      "sha256": "d89d1d32c992e1847a1b5cc89411bf43fa0246d6e0d0777252ab6962110f60ce"
+    },
+    {
+      "path": "logo/static/dark/square/bg-black/512.png",
+      "mediaType": "image/png",
+      "bytes": 3707,
+      "sha256": "3026bf9bd4efc27fdfa2fd85a230e2475d46a34555d772d9f545c277fee0ee8e"
+    },
+    {
+      "path": "logo/static/dark/square/bg-none/320.png",
+      "mediaType": "image/png",
+      "bytes": 7140,
+      "sha256": "1963d5dc0ae6e3a1b59ccde261dd603ffa97c45e8dda3c1dc1f0fd31309f743e"
+    },
+    {
+      "path": "logo/static/dark/square/bg-none/512.png",
+      "mediaType": "image/png",
+      "bytes": 3796,
+      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+    },
+    {
+      "path": "logo/static/dark/square/bg-none/bd-white/320.png",
+      "mediaType": "image/png",
+      "bytes": 7475,
+      "sha256": "6ea7e6dd6641075a1925f41976dcb558c3cd224fd8b0f7973b847cb6f5620b9d"
+    },
+    {
+      "path": "logo/static/dark/square/bg-none/bd-white/512.png",
+      "mediaType": "image/png",
+      "bytes": 4511,
+      "sha256": "9fe1cac878c8ab0c7f57c5ea98dd0cd9600fd48ce0e0066e280daa181fa7b6d7"
+    },
+    {
+      "path": "logo/static/light/circle/bg-none/320.png",
+      "mediaType": "image/png",
+      "bytes": 7292,
+      "sha256": "0cc321b52e10c64af947a6d5b78ef621ec9b2ec0c9a1edcead60869d860317d9"
+    },
+    {
+      "path": "logo/static/light/circle/bg-none/512.png",
+      "mediaType": "image/png",
+      "bytes": 3841,
+      "sha256": "6ce2a97b7db853b204b19f790eaba09bd2f4b878fcbfbc8e938397d20f643568"
+    },
+    {
+      "path": "logo/static/light/circle/bg-none/bd-black/320.png",
+      "mediaType": "image/png",
+      "bytes": 11577,
+      "sha256": "76b3c81f17fe4af9024631a75bf1f4cb86e8292b7bc5d7e868ea733d0ec01db9"
+    },
+    {
+      "path": "logo/static/light/circle/bg-none/bd-black/512.png",
+      "mediaType": "image/png",
+      "bytes": 11625,
+      "sha256": "c6f832a54591c80cae15b17f45fe5b7c8ffb0ecf3c2ea9337987b0512bb68692"
+    },
+    {
+      "path": "logo/static/light/circle/bg-white/320.png",
+      "mediaType": "image/png",
+      "bytes": 9184,
+      "sha256": "8d336603c1a2615791a9dc2ea8022e1c68bc633f956562657950b9dd3a76ba59"
+    },
+    {
+      "path": "logo/static/light/circle/bg-white/512.png",
+      "mediaType": "image/png",
+      "bytes": 8176,
+      "sha256": "aa2dd1fed6a9601a07b7934b3ac957aa7d3c896f582564c6851bcbfd11199e98"
+    },
+    {
+      "path": "logo/static/light/square/bg-none/320.png",
+      "mediaType": "image/png",
+      "bytes": 7292,
+      "sha256": "0cc321b52e10c64af947a6d5b78ef621ec9b2ec0c9a1edcead60869d860317d9"
+    },
+    {
+      "path": "logo/static/light/square/bg-none/512.png",
+      "mediaType": "image/png",
+      "bytes": 3841,
+      "sha256": "6ce2a97b7db853b204b19f790eaba09bd2f4b878fcbfbc8e938397d20f643568"
+    },
+    {
+      "path": "logo/static/light/square/bg-none/bd-black/320.png",
+      "mediaType": "image/png",
+      "bytes": 7622,
+      "sha256": "e2dd1631cd5395166b4f837e5494d905d561e283a6ee6e28630d3d7b0e9d9883"
+    },
+    {
+      "path": "logo/static/light/square/bg-none/bd-black/512.png",
+      "mediaType": "image/png",
+      "bytes": 4551,
+      "sha256": "6b71ac1122d368233748e77a66948634445750bf7e5c13b90128d10f5410ab04"
+    },
+    {
+      "path": "logo/static/light/square/bg-white/320.png",
+      "mediaType": "image/png",
+      "bytes": 6816,
+      "sha256": "14111482768a45d995f3ad82205fe210bd455a69979b445bf0f83551a080cf49"
+    },
+    {
+      "path": "logo/static/light/square/bg-white/512.png",
+      "mediaType": "image/png",
+      "bytes": 3704,
+      "sha256": "67f2929dd56ccbd6e4085cc7ad4ca6e2260c4d0838d69344c260400e19338d92"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-black/1280.png",
+      "mediaType": "image/png",
+      "bytes": 14933,
+      "sha256": "ae07314ec4fdee680f0d4f7871b12fc4ae6535b87b6037fd9fabea9932252249"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-black/2560.png",
+      "mediaType": "image/png",
+      "bytes": 31162,
+      "sha256": "4d3bf8ca38e7d022d3497a6e7026bf3ba265d74882725fea4b2a6c8996a4d66b"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-black/640.png",
+      "mediaType": "image/png",
+      "bytes": 7820,
+      "sha256": "b89e3e13e7e9357d62569f24d9b477d6e65038f6b1297fdd0b15ff041fea4c9f"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-gray/1280.png",
+      "mediaType": "image/png",
+      "bytes": 13856,
+      "sha256": "873655a68bd53535fca7f6b05a81ba0057e2949aa1e142e7848a5153e05b59c8"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-gray/2560.png",
+      "mediaType": "image/png",
+      "bytes": 28779,
+      "sha256": "dfd3834bde4fda9a465581a189901efdbbce0daab50cc341b735dfe6d6101ce7"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-gray/640.png",
+      "mediaType": "image/png",
+      "bytes": 7157,
+      "sha256": "959fbca1a24134d06e7925a2c7cc544976e210b5b0ce9d5b855aaf93c184c9c6"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-none/1280.png",
+      "mediaType": "image/png",
+      "bytes": 15433,
+      "sha256": "34cda6fe4c80a84d701a37f110a1df7e50fa277f057c957bbf908bb7de0fc128"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-none/2560.png",
+      "mediaType": "image/png",
+      "bytes": 31702,
+      "sha256": "ed78b569d2843644b35c6dee3aa5208c1792cdf428df5d52ab0099bacbaaaec0"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 8237,
+      "sha256": "f6dacf54654f64c92424ea937b8d2a6643af3cd4eb487c51b05726b0e5eea1b1"
+    },
+    {
+      "path": "logo/wordmark/compact/dark/dark.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 7765,
+      "sha256": "de713711d6c45c90d1d8e51690d44222de2fa71ce8cd0bee6fd84d1504a5f462"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-gray-light/1280.png",
+      "mediaType": "image/png",
+      "bytes": 14670,
+      "sha256": "0bdb3a0bc026b0c01357fcbaf72349c108d5fc46351e0b4fd2490b517f8c0a67"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-gray-light/2560.png",
+      "mediaType": "image/png",
+      "bytes": 30299,
+      "sha256": "789d85090ac5eb87bc97c4997142f10bd14e3424c6a285c4b83ff91ee0d343ed"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-gray-light/640.png",
+      "mediaType": "image/png",
+      "bytes": 7763,
+      "sha256": "283285e3fe643b7d5486fed8a09d39c954c83217ebb4c4fb97a1d9aff3c96424"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-none/1280.png",
+      "mediaType": "image/png",
+      "bytes": 15503,
+      "sha256": "dddeb8572e32dada88d8a7b3ad5e67e4b090a9615fafa6f0c48d76fd6af2a69d"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-none/2560.png",
+      "mediaType": "image/png",
+      "bytes": 31840,
+      "sha256": "9d2bab844302acf819b3c6029206e3a91b7538609afdf522e56e99e88648a221"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 8287,
+      "sha256": "47d1881c8b7aa84cf08137099355be865aa9db865626d2c4295826384eba8a44"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-white/1280.png",
+      "mediaType": "image/png",
+      "bytes": 14669,
+      "sha256": "429c0f000fb46cbbc94b6f2241050851302d1f45c16235a545afd4ad5c82f32a"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-white/2560.png",
+      "mediaType": "image/png",
+      "bytes": 30365,
+      "sha256": "271104fff47f1986419a963ea97d61e8b0f398102872b4e63c4c4ecf19314fbd"
+    },
+    {
+      "path": "logo/wordmark/compact/light/bg-white/640.png",
+      "mediaType": "image/png",
+      "bytes": 7738,
+      "sha256": "d72529e485d6fe9aff139bf8a196db272d64aa8a9cd48e7fe00c939d8f79406b"
+    },
+    {
+      "path": "logo/wordmark/compact/light/light.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 7757,
+      "sha256": "c0fc27bd85fe5103ac81873d742db0214b536f3d8139660f175f143339eb8dd6"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-black/1280.png",
+      "mediaType": "image/png",
+      "bytes": 17204,
+      "sha256": "cdfde329baf3784539afedcc8c5dc061bb3a87a0297c399fe6ea8a4310bca9d9"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-black/2560.png",
+      "mediaType": "image/png",
+      "bytes": 38457,
+      "sha256": "b4be1f103afd02812d004f16d8b6f7a91e6da57df4597f9e61e2d5241fc7dd14"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-black/640.png",
+      "mediaType": "image/png",
+      "bytes": 8681,
+      "sha256": "5d68d52c4d4e8c069a76d6bc10fffefbba5cc507933b8ae6564d1909a4d241e2"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-gray/1280.png",
+      "mediaType": "image/png",
+      "bytes": 15823,
+      "sha256": "ef61e25c3d039c4eeb2b3321fe6d39c7cddcdaefc2c7a3fafedf52aaa72dbf16"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-gray/2560.png",
+      "mediaType": "image/png",
+      "bytes": 35455,
+      "sha256": "6da1eba87f8cd100b8bdb76c63b521de9f9da8e9778974a089603988b146c988"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-gray/640.png",
+      "mediaType": "image/png",
+      "bytes": 7993,
+      "sha256": "005fe2746f1d8c27a6b6b7098821e79ee278bb90aab5c40e341328b3341fdde4"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-none/1280.png",
+      "mediaType": "image/png",
+      "bytes": 17796,
+      "sha256": "53510b17f937dc1c4afde668d54c7b0de475b8159018e2b41d59a03b49b9eb35"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-none/2560.png",
+      "mediaType": "image/png",
+      "bytes": 39279,
+      "sha256": "2b7695b6255a05f33e120dea77b9c9b0dad0becc753d97dcc89821fe39c196d2"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 9056,
+      "sha256": "b157c19c817b556622f82e465695ce9a7b178eabc0f1056c6ddb13734aabf8ec"
+    },
+    {
+      "path": "logo/wordmark/descriptor/dark/dark.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 13779,
+      "sha256": "8f158865a4c6ead23f3ce3362db265a8d2bad20825e037978cb5457fd7efe975"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-gray-light/1280.png",
+      "mediaType": "image/png",
+      "bytes": 17203,
+      "sha256": "fc625aa43b2e2fabe04685be31e48d435e37192a34faac43032e82798af84639"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-gray-light/2560.png",
+      "mediaType": "image/png",
+      "bytes": 37815,
+      "sha256": "21a38b132d5602787d1851e21c96072d46599b8957654fdd0e629360afb7fe37"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-gray-light/640.png",
+      "mediaType": "image/png",
+      "bytes": 8612,
+      "sha256": "86fd92c816ea3ead0428aa683996c208adf1366470791a7c673699399c1bed92"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-none/1280.png",
+      "mediaType": "image/png",
+      "bytes": 18015,
+      "sha256": "089b3f3f1f15d3c20e03b0b49316640c7a63b799b15384da52668b4660da4e69"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-none/2560.png",
+      "mediaType": "image/png",
+      "bytes": 39512,
+      "sha256": "4b7868fc05cdb9cb8c45428b3c893d5e927e689aec178682441914192e8bed19"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 9157,
+      "sha256": "591d88a50f6992b2f1174f062ff11869b3160f2361f73feef1548d1e899508c2"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-white/1280.png",
+      "mediaType": "image/png",
+      "bytes": 17203,
+      "sha256": "01fea363dbc5e38fed60e4dd1c7acd4ebd58cb8d46f935bc3023ae051c08b13c"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-white/2560.png",
+      "mediaType": "image/png",
+      "bytes": 37769,
+      "sha256": "dd70e6e67fe1822c33753f5a4887121b9844625d4f0f76c762d1b77420d50dca"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/bg-white/640.png",
+      "mediaType": "image/png",
+      "bytes": 8625,
+      "sha256": "7c8fb66b1424d64d2411cf274b607efcc22d36ef93a51a44a7685c14900eee42"
+    },
+    {
+      "path": "logo/wordmark/descriptor/light/light.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 13777,
+      "sha256": "0161779061a19d27e5f41efa8819a9b88cd25599fdf1bc149cab57c2a6c0a9c1"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-black/1280.png",
+      "mediaType": "image/png",
+      "bytes": 15868,
+      "sha256": "0a8b28eef1baac6bb3b3d4cb6732de8e8e3e756111c2a85706a5b80bf5f99484"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-black/2560.png",
+      "mediaType": "image/png",
+      "bytes": 34861,
+      "sha256": "a769fdc943577dcb66923de9a006e8b68b158f5f72280171238051c5ea36f885"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-black/640.png",
+      "mediaType": "image/png",
+      "bytes": 8051,
+      "sha256": "920fe656bdef9b50843f4a977165e058cdf53d3c15426838d29e7147453a9a7c"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-gray/1280.png",
+      "mediaType": "image/png",
+      "bytes": 14688,
+      "sha256": "350035b55a69e3cabbc381a9ff21e2674fc8e5ca5a7310c6cae1d8a235974fb3"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-gray/2560.png",
+      "mediaType": "image/png",
+      "bytes": 31923,
+      "sha256": "5a5cc99ff615102a0ce42916f3b03315d00943b972d7789c5e37ca8fc2715c84"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-gray/640.png",
+      "mediaType": "image/png",
+      "bytes": 7383,
+      "sha256": "e3e62b2d123d53320c0f7688c4957543aefdcaf038f6a53032e39135ab6a16b9"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-none/1280.png",
+      "mediaType": "image/png",
+      "bytes": 16413,
+      "sha256": "e009c8b361d45ff65fdcb4ee2a982275a47e18666a2c2f26f6f9b6e37fdebfc6"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-none/2560.png",
+      "mediaType": "image/png",
+      "bytes": 35601,
+      "sha256": "c202cfffaba44da4b8c5e428535685e1b3b39c6361b43718893e5f60c84fe15d"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 8408,
+      "sha256": "5d44dd408ab5639d7c13474a52d902ef6aa2d2417fd847b2c89ec0ff0dc69c8e"
+    },
+    {
+      "path": "logo/wordmark/legal/dark/dark.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 10981,
+      "sha256": "1bfe3df5c424998ece98822dcb99dc1212c3865381d40c6bf2f44016026c6e75"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-gray-light/1280.png",
+      "mediaType": "image/png",
+      "bytes": 15709,
+      "sha256": "56566ee6d8f683882517226fd65ac94dd60d61e95383eed09175b689b5de7088"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-gray-light/2560.png",
+      "mediaType": "image/png",
+      "bytes": 34300,
+      "sha256": "46ecd3c134eda477eebd48ee2e41c88111f31923b4b0df14b2c79e79221e93fd"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-gray-light/640.png",
+      "mediaType": "image/png",
+      "bytes": 7876,
+      "sha256": "7dc2b9b1b33548fed5000eff11804cfe72592b86fcf5d297d2b804acedcb3cca"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-none/1280.png",
+      "mediaType": "image/png",
+      "bytes": 16471,
+      "sha256": "32bf8b5be5567de378c45ec7a26420c5687976b8f15ecc7b9aeeb93e660540cf"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-none/2560.png",
+      "mediaType": "image/png",
+      "bytes": 35900,
+      "sha256": "b08d899781a56a5b6ebe1e9dace815abb86e14651f7be7193bb03630c8e11a9a"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-none/640.png",
+      "mediaType": "image/png",
+      "bytes": 8484,
+      "sha256": "6ae479f7b0588c8b2cfa3faa97dc130ce633475677bad183506c4da07b327b24"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-white/1280.png",
+      "mediaType": "image/png",
+      "bytes": 15701,
+      "sha256": "e89997249151543252eae43a9cab75ed16e93f109e5b12eacab2026e5618e445"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-white/2560.png",
+      "mediaType": "image/png",
+      "bytes": 34254,
+      "sha256": "23357b5578c773968a5888b16e627c40a58bfbcdd34d19f618c5e7340d92654e"
+    },
+    {
+      "path": "logo/wordmark/legal/light/bg-white/640.png",
+      "mediaType": "image/png",
+      "bytes": 7917,
+      "sha256": "799750a4638a427e5becbb6198aa8ddd6ced8cb56150443054b1312bccf4e5c3"
+    },
+    {
+      "path": "logo/wordmark/legal/light/light.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 10981,
+      "sha256": "188864846870226f41f9624b6a21794ad0efaa20e2585755462b9d75135533d8"
+    },
+    {
+      "path": "og-image/dark/og-default.jpg",
+      "mediaType": "image/jpeg",
+      "bytes": 198743,
+      "sha256": "8d307d7aa35cd069b57225ed96942646be0f0628c166c3b67c4b7af462db1227"
+    },
+    {
+      "path": "og-image/dark/og-default@2.png",
+      "mediaType": "image/png",
+      "bytes": 73271,
+      "sha256": "6114bfb9e69ca365c38a5301be5eb30112ac3c7eb56cea55ab05b6e92fd3afe0"
+    },
+    {
+      "path": "og-image/light/og-default.jpg",
+      "mediaType": "image/jpeg",
+      "bytes": 185282,
+      "sha256": "e9ed5cd13a633e74ba8e27a0b77f5acb73bbc44577561d274d6f73a4686b4650"
+    },
+    {
+      "path": "og-image/light/og-default@2.png",
+      "mediaType": "image/png",
+      "bytes": 76824,
+      "sha256": "0ab7bd3df4353a6f84f0b380fdccd7a6e24659ceb42d190f6dc18ad4067c0b34"
+    }
+  ]
+}

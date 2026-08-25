@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>design-system-assets</title>
+        <link rel="manifest" href="https://assets.singletonsd.com/favicons/circle/bg-none/site.webmanifest" />
+    <link rel="apple-touch-icon" href="https://assets.singletonsd.com/favicons/circle/bg-none/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://assets.singletonsd.com/favicons/circle/bg-none/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://assets.singletonsd.com/favicons/circle/bg-none/favicon-16x16.png" />
+    <link rel="shortcut icon" href="https://assets.singletonsd.com/favicons/circle/bg-none/favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="design-system-assets" />
+    <meta property="og:image" content="https://assets.singletonsd.com/og-image/dark/og-default.jpg" />
+    <meta property="og:image" content="https://assets.singletonsd.com/og-image/light/og-default.jpg" />
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/open-sauce-sans" />
+    <link rel="stylesheet" href="https://tokens.design.singletonsd.com/css/root/light/_variables.css" />
+    <link rel="stylesheet" href="https://tokens.design.singletonsd.com/css/light/_variables.css" />
+    <link rel="stylesheet" href="https://tokens.design.singletonsd.com/css/dark/_variables.css" />
+    <link rel="stylesheet" href="chrome.css" />
+    <style>
+:root {
+  --rh-color-text: var(--ssd-color-text-default);
+  --rh-color-text-muted: var(--ssd-color-text-muted);
+  --rh-color-text-inverse: var(--ssd-color-text-inverse);
+  --rh-color-background: var(--ssd-color-background-default);
+  --rh-color-background-muted: var(--ssd-color-background-muted);
+  --rh-color-background-inverse: var(--ssd-color-background-inverse);
+  --rh-color-border: var(--ssd-color-border-default);
+  --rh-color-link: var(--ssd-color-text-link);
+  --rh-font-family-body: var(--ssd-font-family-body);
+  --rh-font-family-heading: var(--ssd-font-family-heading);
+  --rh-font-family-mono: var(--ssd-font-family-mono);
+  --rh-radius-md: var(--ssd-radius-md);
+}
+    </style>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const theme = urlParams.get('theme');
+      if (theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
+    </script>
+  </head>
+  <body class="rh-page">
+    <header class="rh-header print-hide">
+      <div class="rh-header-inner">
+        <a class="rh-brand" href="#">
+          <img class="rh-wordmark rh-wordmark-light" src="https://assets.singletonsd.com/logo/wordmark/compact/light/bg-none/640.png" alt="Singleton SD" />
+          <img class="rh-wordmark rh-wordmark-dark" src="https://assets.singletonsd.com/logo/wordmark/compact/dark/bg-none/640.png" alt="" aria-hidden="true" />
+          <span class="rh-header-title">design-system-assets</span>
+        </a>
+        <nav class="rh-nav-links" aria-label="On this page">
+          <a href="#at-a-glance">At a glance</a>
+          <a href="#cdn-url-convention">CDN URL convention</a>
+          <a href="#catalog">Catalog</a>
+          <a href="#how-to-use">How to use</a>
+          <a href="#build-and-contribute">Build and contribute</a>
+          <a href="#notes">Notes</a>
+        </nav>
+        <div class="rh-nav-actions">
+          <button type="button" id="rh-theme-toggle">Dark</button>
+          <button type="button" onclick="window.print()">Print</button>
+        </div>
+      </div>
+    </header>
+    <main class="rh-article">
+<h1>Singleton SD Assets</h1>
+<p>Binary brand assets for Singleton SD — icon mark, wordmarks, favicons, PWA
+manifests, and Open Graph images.</p>
+<p>Served from
+<a href="https://assets.singletonsd.com">assets.singletonsd.com</a>
+(GitLab Pages). Token values live in <code>@singleton-sd/tokens</code>; Penpot is the
+style-guide home. Brand rules: <a href="./BRAND.md">BRAND.md</a>. Agent working
+agreements: <a href="./AGENTS.md">AGENTS.md</a>. Token contract:
+<a href="https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/docs/FOUNDATIONS.md">FOUNDATIONS.md</a>
+· <a href="https://gitlab.com/singleton-sd/design-system/tokens/-/blob/main/DESIGN.md">DESIGN.md</a>.</p>
+<p><strong>Brand guide (no Penpot):</strong>
+<a href="./brand/">assets.singletonsd.com/brand/</a> —
+open in a browser, or Print → Save as PDF.</p>
+<h2 id="at-a-glance">At a glance</h2>
+<table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Preview</th>
+<th>Default download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Dark mark</strong> (512)</td>
+<td><a href="./logo/static/dark/circle/bg-none/512.png"><img src="./logo/static/dark/circle/bg-none/512.png" alt="Dark mark" width="96" height="96"></a></td>
+<td><a href="./logo/static/dark/circle/bg-none/512.png">512.png</a></td>
+</tr>
+<tr>
+<td><strong>Light mark</strong> (512)</td>
+<td><a href="./logo/static/light/circle/bg-none/512.png"><img src="./logo/static/light/circle/bg-none/512.png" alt="Light mark" width="96" height="96"></a></td>
+<td><a href="./logo/static/light/circle/bg-none/512.png">512.png</a></td>
+</tr>
+<tr>
+<td><strong>Favicon</strong></td>
+<td><a href="./favicons/circle/bg-none/favicon-32x32.png"><img src="./favicons/circle/bg-none/android-chrome-512x512.png" alt="Favicon" width="64" height="64"></a></td>
+<td><a href="./favicons/circle/bg-none/favicon-32x32.png">favicon-32x32.png</a> · <a href="./favicons/circle/bg-none/site.webmanifest">site.webmanifest</a></td>
+</tr>
+<tr>
+<td><strong>OG dark</strong></td>
+<td><a href="./og-image/dark/og-default.jpg"><img src="./og-image/dark/og-default.jpg" alt="OG dark" width="240" height="126"></a></td>
+<td><a href="./og-image/dark/og-default.jpg">og-default.jpg</a></td>
+</tr>
+<tr>
+<td><strong>OG light</strong></td>
+<td><a href="./og-image/light/og-default.jpg"><img src="./og-image/light/og-default.jpg" alt="OG light" width="240" height="126"></a></td>
+<td><a href="./og-image/light/og-default.jpg">og-default.jpg</a></td>
+</tr>
+<tr>
+<td><strong>Compact wordmark</strong> (dark)</td>
+<td><a href="./logo/wordmark/compact/dark/bg-none/1280.png"><img src="./logo/wordmark/compact/dark/bg-none/1280.png" alt="Compact wordmark dark" width="240"></a></td>
+<td><a href="./logo/wordmark/compact/dark/bg-none/1280.png">1280.png</a></td>
+</tr>
+</tbody></table>
+<p>Use these when you do not need a specific shape, background, or border variant.</p>
+<h2 id="cdn-url-convention">CDN URL convention</h2>
+<p>Pages serves the <code>dist/</code> tree at the site root — omit <code>/dist</code> from public URLs.</p>
+<pre><code class="language-text">https://assets.singletonsd.com/logo/static/{dark|light}/{circle|square}/{bg-…}/{size}.png
+https://assets.singletonsd.com/logo/wordmark/{legal|descriptor|compact}/{light|dark}/{bg-…}/{width}.png
+https://assets.singletonsd.com/logo/wordmark/{legal|descriptor|compact}/{light|dark}/{light|dark}.svg
+https://assets.singletonsd.com/favicons/{circle|square}/{bg-…}/…
+https://assets.singletonsd.com/og-image/{dark|light}/og-default.jpg
+</code></pre>
+<p>Examples:</p>
+<ul>
+<li><code>https://assets.singletonsd.com/logo/static/dark/circle/bg-none/512.png</code></li>
+<li><code>https://assets.singletonsd.com/logo/wordmark/descriptor/light/bg-none/1280.png</code></li>
+<li><code>https://assets.singletonsd.com/favicons/circle/bg-none/site.webmanifest</code></li>
+</ul>
+<p>Browse a folder on the CDN for the full size matrix. CI builds cap static mark
+PNGs at <code>&lt;= 512px</code> and wordmarks at <code>&lt;= 2560px</code>; uncapped local builds can emit
+<code>1024</code> / <code>4096</code> (mark) and <code>4096</code> (wordmark).</p>
+<hr>
+<h2 id="catalog">Catalog</h2>
+<h3>Icon mark</h3>
+<p>Circular <strong>S</strong> mark. Prefer <code>circle</code> / <code>bg-none</code> for product UI.</p>
+<table>
+<thead>
+<tr>
+<th>Variant</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>dark / circle / bg-none</strong></td>
+<td><a href="./logo/static/dark/circle/bg-none/512.png"><img src="./logo/static/dark/circle/bg-none/512.png" alt="Dark circle bg-none" width="80" height="80"></a></td>
+</tr>
+<tr>
+<td><strong>dark / circle / bg-black</strong></td>
+<td><a href="./logo/static/dark/circle/bg-black/512.png"><img src="./logo/static/dark/circle/bg-black/512.png" alt="Dark circle bg-black" width="80" height="80"></a></td>
+</tr>
+<tr>
+<td><strong>dark / circle / bd-white</strong></td>
+<td><a href="./logo/static/dark/circle/bg-none/bd-white/512.png"><img src="./logo/static/dark/circle/bg-none/bd-white/512.png" alt="Dark circle bd-white" width="80" height="80"></a></td>
+</tr>
+<tr>
+<td><strong>light / circle / bg-none</strong></td>
+<td><a href="./logo/static/light/circle/bg-none/512.png"><img src="./logo/static/light/circle/bg-none/512.png" alt="Light circle bg-none" width="80" height="80"></a></td>
+</tr>
+<tr>
+<td><strong>light / circle / bg-white</strong></td>
+<td><a href="./logo/static/light/circle/bg-white/512.png"><img src="./logo/static/light/circle/bg-white/512.png" alt="Light circle bg-white" width="80" height="80"></a></td>
+</tr>
+<tr>
+<td><strong>light / circle / bd-black</strong></td>
+<td><a href="./logo/static/light/circle/bg-none/bd-black/512.png"><img src="./logo/static/light/circle/bg-none/bd-black/512.png" alt="Light circle bd-black" width="80" height="80"></a></td>
+</tr>
+</tbody></table>
+<p>Square cuts use the same path with <code>square</code> instead of <code>circle</code>. Common sizes:
+<code>320</code>, <code>512</code> (and <code>1024</code> / <code>4096</code> in uncapped builds).</p>
+<p>Variant rules:</p>
+<ul>
+<li>Dark mark: no white fill, no black border</li>
+<li>Light mark: no black fill, no white border</li>
+</ul>
+<h3>Wordmarks</h3>
+<p>Horizontal lockups by role. PNG sizes: <code>640</code>, <code>1280</code>, <code>2560</code> (+ <code>4096</code> uncapped).
+SVG masters are copied next to each theme folder.</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Wording</th>
+<th>Typical use</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>legal</code></td>
+<td><code>&lt;/ SINGLETON &gt;</code> + Software Pty Ltd</td>
+<td>Letters, contracts</td>
+</tr>
+<tr>
+<td><code>descriptor</code></td>
+<td><code>&lt;/ SINGLETON &gt;</code> + Software Development</td>
+<td>Web, marketing</td>
+</tr>
+<tr>
+<td><code>compact</code></td>
+<td><code>&lt;/ SINGLETON SD &gt;</code></td>
+<td>Nav, signatures</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Role / theme</th>
+<th>Preview (<code>bg-none</code> / 1280)</th>
+<th>SVG</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>legal / dark</strong></td>
+<td><a href="./logo/wordmark/legal/dark/bg-none/1280.png"><img src="./logo/wordmark/legal/dark/bg-none/1280.png" alt="Legal dark" width="280"></a></td>
+<td><a href="./logo/wordmark/legal/dark/dark.svg">dark.svg</a></td>
+</tr>
+<tr>
+<td><strong>legal / light</strong></td>
+<td><a href="./logo/wordmark/legal/light/bg-none/1280.png"><img src="./logo/wordmark/legal/light/bg-none/1280.png" alt="Legal light" width="280"></a></td>
+<td><a href="./logo/wordmark/legal/light/light.svg">light.svg</a></td>
+</tr>
+<tr>
+<td><strong>descriptor / dark</strong></td>
+<td><a href="./logo/wordmark/descriptor/dark/bg-none/1280.png"><img src="./logo/wordmark/descriptor/dark/bg-none/1280.png" alt="Descriptor dark" width="280"></a></td>
+<td><a href="./logo/wordmark/descriptor/dark/dark.svg">dark.svg</a></td>
+</tr>
+<tr>
+<td><strong>descriptor / light</strong></td>
+<td><a href="./logo/wordmark/descriptor/light/bg-none/1280.png"><img src="./logo/wordmark/descriptor/light/bg-none/1280.png" alt="Descriptor light" width="280"></a></td>
+<td><a href="./logo/wordmark/descriptor/light/light.svg">light.svg</a></td>
+</tr>
+<tr>
+<td><strong>compact / dark</strong></td>
+<td><a href="./logo/wordmark/compact/dark/bg-none/1280.png"><img src="./logo/wordmark/compact/dark/bg-none/1280.png" alt="Compact dark" width="240"></a></td>
+<td><a href="./logo/wordmark/compact/dark/dark.svg">dark.svg</a></td>
+</tr>
+<tr>
+<td><strong>compact / light</strong></td>
+<td><a href="./logo/wordmark/compact/light/bg-none/1280.png"><img src="./logo/wordmark/compact/light/bg-none/1280.png" alt="Compact light" width="240"></a></td>
+<td><a href="./logo/wordmark/compact/light/light.svg">light.svg</a></td>
+</tr>
+</tbody></table>
+<p>Backgrounds:</p>
+<ul>
+<li>Light masters → <code>bg-gray-light</code>, <code>bg-white</code>, <code>bg-none</code></li>
+<li>Dark masters → <code>bg-gray</code>, <code>bg-black</code>, <code>bg-none</code></li>
+</ul>
+<h3>Favicons and manifests</h3>
+<p>Generated from the dark mark. Default set: <strong>circle / bg-none</strong>.</p>
+<h4>Circle</h4>
+<table>
+<thead>
+<tr>
+<th>Variant</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>bg-none</strong></td>
+<td><a href="./favicons/circle/bg-none/android-chrome-512x512.png"><img src="./favicons/circle/bg-none/android-chrome-512x512.png" alt="Circle bg-none" width="64" height="64"></a></td>
+</tr>
+<tr>
+<td><strong>bg-none / bd-white</strong></td>
+<td><a href="./favicons/circle/bg-none/bd-white/android-chrome-512x512.png"><img src="./favicons/circle/bg-none/bd-white/android-chrome-512x512.png" alt="Circle bg-none bd-white" width="64" height="64"></a></td>
+</tr>
+<tr>
+<td><strong>bg-black</strong></td>
+<td><a href="./favicons/circle/bg-black/android-chrome-512x512.png"><img src="./favicons/circle/bg-black/android-chrome-512x512.png" alt="Circle bg-black" width="64" height="64"></a></td>
+</tr>
+</tbody></table>
+<h4>Square</h4>
+<table>
+<thead>
+<tr>
+<th>Variant</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>bg-none</strong></td>
+<td><a href="./favicons/square/bg-none/android-chrome-512x512.png"><img src="./favicons/square/bg-none/android-chrome-512x512.png" alt="Square bg-none" width="64" height="64"></a></td>
+</tr>
+<tr>
+<td><strong>bg-none / bd-white</strong></td>
+<td><a href="./favicons/square/bg-none/bd-white/android-chrome-512x512.png"><img src="./favicons/square/bg-none/bd-white/android-chrome-512x512.png" alt="Square bg-none bd-white" width="64" height="64"></a></td>
+</tr>
+<tr>
+<td><strong>bg-black</strong></td>
+<td><a href="./favicons/square/bg-black/android-chrome-512x512.png"><img src="./favicons/square/bg-black/android-chrome-512x512.png" alt="Square bg-black" width="64" height="64"></a></td>
+</tr>
+</tbody></table>
+<h4>Manifests</h4>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="./favicons/circle/bg-none/site.webmanifest">circle / bg-none</a></td>
+<td>Transparent circle</td>
+</tr>
+<tr>
+<td><a href="./favicons/circle/bg-none/bd-white/site.webmanifest">circle / bg-none / bd-white</a></td>
+<td>Transparent circle + white border</td>
+</tr>
+<tr>
+<td><a href="./favicons/circle/bg-black/site.webmanifest">circle / bg-black</a></td>
+<td>Circle on black</td>
+</tr>
+<tr>
+<td><a href="./favicons/square/bg-none/site.webmanifest">square / bg-none</a></td>
+<td>Transparent square</td>
+</tr>
+<tr>
+<td><a href="./favicons/square/bg-none/bd-white/site.webmanifest">square / bg-none / bd-white</a></td>
+<td>Transparent square + white border</td>
+</tr>
+<tr>
+<td><a href="./favicons/square/bg-black/site.webmanifest">square / bg-black</a></td>
+<td>Square on black</td>
+</tr>
+</tbody></table>
+<p>Each favicon folder also includes <code>favicon-16x16.png</code>, <code>favicon-32x32.png</code>,
+<code>apple-touch-icon.png</code>, <code>android-chrome-192x192.png</code>, <code>android-chrome-512x512.png</code>,
+<code>favicon.png</code>, and <code>favicon-4096x4096.png</code>.</p>
+<p>Manifest <code>name</code> / <code>short_name</code>: <strong>Singleton SD</strong> / <strong>SSD</strong>.</p>
+<h3>Open Graph</h3>
+<table>
+<thead>
+<tr>
+<th>Variant</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>dark / default</strong></td>
+<td><a href="./og-image/dark/og-default.jpg"><img src="./og-image/dark/og-default.jpg" alt="OG dark" width="240" height="126"></a></td>
+</tr>
+<tr>
+<td><strong>light / default</strong></td>
+<td><a href="./og-image/light/og-default.jpg"><img src="./og-image/light/og-default.jpg" alt="OG light" width="240" height="126"></a></td>
+</tr>
+</tbody></table>
+<p>Optional retina files: <a href="./og-image/dark/og-default@2.png">dark @2</a>,
+<a href="./og-image/light/og-default@2.png">light @2</a>.</p>
+<h3>Email and documents</h3>
+<p>Signature blocks and letterhead / footer marks live under <code>src/email/</code> and
+<code>src/documents/</code>. See <a href="./BRAND.md">BRAND.md</a> for roles and trademark copy.</p>
+<hr>
+<h2 id="how-to-use">How to use</h2>
+<h3>Favicons in HTML (CDN)</h3>
+<pre><code class="language-html">&lt;link
+  rel=&quot;manifest&quot;
+  href=&quot;https://assets.singletonsd.com/favicons/circle/bg-none/site.webmanifest&quot;
+/&gt;
+&lt;link
+  rel=&quot;apple-touch-icon&quot;
+  href=&quot;https://assets.singletonsd.com/favicons/circle/bg-none/apple-touch-icon.png&quot;
+/&gt;
+&lt;link
+  rel=&quot;icon&quot;
+  type=&quot;image/png&quot;
+  sizes=&quot;32x32&quot;
+  href=&quot;https://assets.singletonsd.com/favicons/circle/bg-none/favicon-32x32.png&quot;
+/&gt;
+&lt;link
+  rel=&quot;icon&quot;
+  type=&quot;image/png&quot;
+  sizes=&quot;16x16&quot;
+  href=&quot;https://assets.singletonsd.com/favicons/circle/bg-none/favicon-16x16.png&quot;
+/&gt;
+&lt;link
+  rel=&quot;shortcut icon&quot;
+  href=&quot;https://assets.singletonsd.com/favicons/circle/bg-none/favicon.png&quot;
+/&gt;
+</code></pre>
+<h3>Brand usage (short)</h3>
+<ul>
+<li>Do not stretch; keep aspect ratio.</li>
+<li>Clear space ≈ mark height.</li>
+<li>Prefer SVG for web/print vectors; PNG for email and favicon/OG pipelines.</li>
+<li>Full rules: <a href="./BRAND.md">BRAND.md</a>.</li>
+</ul>
+<hr>
+<h2 id="build-and-contribute">Build and contribute</h2>
+<p>Agent working agreements: <a href="./AGENTS.md">AGENTS.md</a>.</p>
+<pre><code class="language-sh">yarn install
+yarn build
+</code></pre>
+<p>GitLab npm: <code>.npmrc</code> scopes <code>@singleton-sd</code> to GitLab’s package registry.
+Public packages do not need a token.</p>
+<table>
+<thead>
+<tr>
+<th>Script</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>yarn build</code></td>
+<td>Full publish build into <code>dist/</code></td>
+</tr>
+<tr>
+<td><code>yarn validate</code></td>
+<td>Validate required sources, product config, and SVG safety</td>
+</tr>
+<tr>
+<td><code>yarn build-manifest-icons</code></td>
+<td>Favicons + <code>site.webmanifest</code></td>
+</tr>
+<tr>
+<td><code>yarn build-static-logo-assets</code></td>
+<td>Static icon-mark PNGs</td>
+</tr>
+<tr>
+<td><code>yarn build-wordmark-assets</code></td>
+<td>Wordmark lockup PNGs (+ SVG copy)</td>
+</tr>
+<tr>
+<td><code>yarn generate-html</code></td>
+<td>README → <code>dist/index.html</code> via <code>@singleton-sd/scripts-readme-to-html</code></td>
+</tr>
+<tr>
+<td><code>yarn generate-brand-html</code></td>
+<td>Brand book → <code>brand/index.html</code></td>
+</tr>
+</tbody></table>
+<p>Size caps:</p>
+<ul>
+<li>CI (<code>CI=true</code>): mark static <code>&lt;= 512</code>, wordmark static <code>&lt;= 2560</code></li>
+<li>Overrides: <code>LOGO_STATIC_MAX_SIZE</code>, <code>WORDMARK_STATIC_MAX_SIZE</code></li>
+</ul>
+<p>Contributor workflow: <a href="./docs/logo-asset-workflow.md">Logo Asset Workflow</a>.
+Wordmark drop guide: <a href="./src/logo/wordmark/README.md">src/logo/wordmark/README.md</a>.</p>
+<h3>Layout</h3>
+<pre><code class="language-text">src/
+├── logo/
+│   ├── config/          # mark: shapes, backgrounds, borders, variants
+│   ├── sources/         # dark|light .png / .svg
+│   └── wordmark/        # legal / descriptor / compact
+│       ├── config/
+│       └── sources/{legal,descriptor,compact}/
+├── og-image/{dark,light}/
+├── illustrations/       # approved illustration masters
+├── screenshots/         # approved current product screenshots
+├── marketing/           # approved launch/social/campaign graphics
+├── email/               # signature blocks
+└── documents/           # letterhead / footer marks
+
+meta.json                # inventory pointers
+dist/                    # generated; served by GitLab during migration and GitHub after cutover
+├── index.html
+├── chrome.css           # catalog chrome from readme-to-html
+├── brand/index.html     # public brand-guide snapshot
+├── favicons/
+├── logo/static/{dark|light}/
+├── logo/wordmark/{legal|descriptor|compact}/
+├── email/signature/
+├── documents/{letterhead,footer}/
+└── og-image/
+</code></pre>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Package: <code>@singleton-sd/assets</code> (GitLab Releases during migration; GitHub
+Releases receive generated archives; npm publish disabled).</li>
+<li>Animations / expression pipelines are intentionally out of scope.</li>
+<li>Tagged GitHub builds publish immutable <code>/releases/X.Y.Z/</code> Pages snapshots
+and attach the same generated assets to GitHub Releases.</li>
+<li>Product repositories must follow the full mandatory scope in
+<a href="./docs/product-assets-recipe.md">docs/product-assets-recipe.md</a>.</li>
+</ul>
+<hr>
+<p>© 2026 Singleton SD. All rights reserved.</p>
+    </main>
+    <footer class="rh-footer">
+    <a href="https://gitlab.com/singleton-sd/design-system/assets" target="_blank" rel="noopener noreferrer">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"></path>
+        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+      </svg>
+      Source Code
+    </a>
+    <a href="https://gitlab.com/singleton-sd/design-system/assets/-/releases/0.7.1" target="_blank" rel="noopener noreferrer" class="version"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"></circle>
+        <path d="M12 16v-4M12 8h.01"></path>
+      </svg>
+      0.7.1</a>
+    </footer>
+    <script>
+      const root = document.documentElement;
+      const themeToggle = document.getElementById('rh-theme-toggle');
+
+      function syncThemeToggle() {
+        if (!themeToggle) {
+          return;
+        }
+        themeToggle.textContent = root.getAttribute('data-theme') === 'dark' ? 'Light' : 'Dark';
+      }
+
+      themeToggle?.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        syncThemeToggle();
+      });
+
+      window.addEventListener('message', (event) => {
+        if (event.data?.theme) {
+          root.setAttribute('data-theme', event.data.theme);
+          syncThemeToggle();
+        }
+      });
+
+      syncThemeToggle();
+    </script>
+  </body>
+</html>
