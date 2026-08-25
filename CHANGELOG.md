@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.8.0 (2026-08-25)
+
+* fix: DS-86 Complete review safeguards ([767138c](https://gitlab.com/singleton-sd/design-system/assets/commit/767138c))
+* fix: DS-86 Harden asset publishing ([614432a](https://gitlab.com/singleton-sd/design-system/assets/commit/614432a))
+* fix: DS-86 Normalize CSS continuations ([e622cb8](https://gitlab.com/singleton-sd/design-system/assets/commit/e622cb8))
+* fix: DS-86 Normalize CSS escapes ([71ec5f7](https://gitlab.com/singleton-sd/design-system/assets/commit/71ec5f7))
+* fix: DS-86 Validate obfuscated imports ([65cfa79](https://gitlab.com/singleton-sd/design-system/assets/commit/65cfa79))
+* feat: DS-86 Add product assets recipe ([1fad239](https://gitlab.com/singleton-sd/design-system/assets/commit/1fad239))
+* chore: DS-60 Open merge request ([e4f30d4](https://gitlab.com/singleton-sd/design-system/assets/commit/e4f30d4))
+* docs: DS-60 Point agents at Figma deprecation ([4f9b7a4](https://gitlab.com/singleton-sd/design-system/assets/commit/4f9b7a4))
+
 ## <small>0.7.1 (2026-08-19)</small>
 
 * fix: DS-85 Drop npm auth for public packages ([fd896f1](https://gitlab.com/singleton-sd/design-system/assets/commit/fd896f1))

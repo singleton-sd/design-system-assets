@@ -1,6 +1,6 @@
 {
   "name": "@singleton-sd/assets",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "Public Singleton SD logo assets, favicons, and Open Graph images served via GitLab Pages.",
   "main": "index.js",
   "repository": {
