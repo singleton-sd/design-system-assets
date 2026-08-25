@@ -26,8 +26,6 @@ interface PackSpec {
 const ROOT = process.cwd();
 const WORDMARK_SOURCES = path.join(ROOT, 'src', 'logo', 'wordmark', 'sources');
 const WORDMARK_CONFIG = path.join(ROOT, 'src', 'logo', 'wordmark', 'config');
-const EMAIL_SRC = path.join(ROOT, 'src', 'email');
-const DOCS_SRC = path.join(ROOT, 'src', 'documents');
 const DIST = path.join(ROOT, 'dist');
 const PADDING_RATIO = 0.08;
 
@@ -50,31 +48,6 @@ async function copyIfExists(from: string, to: string): Promise<boolean> {
     return true;
   } catch {
     return false;
-  }
-}
-
-async function syncSourcePacks(): Promise<void> {
-  const copies: Array<[string, string]> = [
-    ['compact/light.png', path.join(EMAIL_SRC, 'signature', 'light.png')],
-    ['compact/dark.png', path.join(EMAIL_SRC, 'signature', 'dark.png')],
-    ['compact/light.svg', path.join(EMAIL_SRC, 'signature', 'light.svg')],
-    ['compact/dark.svg', path.join(EMAIL_SRC, 'signature', 'dark.svg')],
-    ['legal/light.png', path.join(DOCS_SRC, 'letterhead', 'light.png')],
-    ['legal/dark.png', path.join(DOCS_SRC, 'letterhead', 'dark.png')],
-    ['legal/light.svg', path.join(DOCS_SRC, 'letterhead', 'light.svg')],
-    ['legal/dark.svg', path.join(DOCS_SRC, 'letterhead', 'dark.svg')],
-    ['legal/light.png', path.join(DOCS_SRC, 'footer', 'light.png')],
-    ['legal/dark.png', path.join(DOCS_SRC, 'footer', 'dark.png')],
-    ['legal/light.svg', path.join(DOCS_SRC, 'footer', 'light.svg')],
-    ['legal/dark.svg', path.join(DOCS_SRC, 'footer', 'dark.svg')],
-  ];
-
-  for (const [rel, dest] of copies) {
-    const src = path.join(WORDMARK_SOURCES, rel);
-    const ok = await copyIfExists(src, dest);
-    if (!ok) {
-      throw new Error(`Missing wordmark master required for packs: ${rel}`);
-    }
   }
 }
 
@@ -117,8 +90,6 @@ async function main(): Promise<void> {
   const backgrounds = await readJson<Record<string, BackgroundPreset>>(
     path.join(WORDMARK_CONFIG, 'backgrounds.json'),
   );
-
-  await syncSourcePacks();
 
   const packs: PackSpec[] = [
     {
@@ -177,7 +148,6 @@ async function main(): Promise<void> {
   }
 
   console.log(`Built ${total} email/docs PNGs under dist/email and dist/documents`);
-  console.log('Synced pack masters under src/email and src/documents');
 }
 
 if (require.main === module) {

@@ -8,6 +8,7 @@ const ROOT = path.join(__dirname, '..');
 
 const OG_IMAGE_SRC = path.join(ROOT, 'src', 'og-image');
 const OG_IMAGE_DEST_REL = 'og-image';
+const PUBLIC_COLLECTIONS = ['illustrations', 'screenshots', 'marketing'] as const;
 
 function removeNonAssetFiles(dir: string): void {
   let entries;
@@ -59,6 +60,16 @@ function copyOgImagesToDist(distDir: string): void {
   }
 }
 
+function copyPublicCollectionsToDist(distDir: string): void {
+  for (const collection of PUBLIC_COLLECTIONS) {
+    const source = path.join(ROOT, 'src', collection);
+    const destination = path.join(distDir, collection);
+    fs.cpSync(source, destination, { recursive: true });
+    removeNonAssetFiles(destination);
+    console.log(`Copied src/${collection} → dist/${collection}`);
+  }
+}
+
 function runYarnScript(scriptName: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const child = spawn('yarn', [scriptName], {
@@ -80,6 +91,9 @@ function runYarnScript(scriptName: string): Promise<void> {
 
 async function main(): Promise<void> {
   const distDir = path.join(ROOT, 'dist');
+
+  fs.rmSync(distDir, { recursive: true, force: true });
+  fs.rmSync(path.join(ROOT, 'brand'), { recursive: true, force: true });
 
   const results = await Promise.allSettled([
     runYarnScript('generate-brand-html'),
@@ -112,8 +126,10 @@ async function main(): Promise<void> {
   fs.mkdirSync(brandDestDir, { recursive: true });
   fs.copyFileSync(brandSrc, brandDest);
   copyOgImagesToDist(distDir);
+  copyPublicCollectionsToDist(distDir);
 
   await runYarnScript('generate-html');
+  await runYarnScript('generate-asset-manifest');
 }
 
 if (require.main === module) {

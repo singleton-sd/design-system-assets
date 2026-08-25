@@ -1,0 +1,51 @@
+name: Publish release assets
+
+on:
+  push:
+    tags: ['*.*.*', 'v*.*.*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+      - run: yarn install --frozen-lockfile
+      - name: Validate semantic version tag
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          if [[ ! "$RELEASE_TAG" =~ ^v?(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]; then
+            echo "Unsupported release tag: $RELEASE_TAG" >&2
+            exit 1
+          fi
+      - run: yarn validate
+      - run: yarn test
+      - run: yarn build
+        env:
+          CI: 'true'
+      - name: Package generated assets
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          asset_id=$(node -p "require('./config/product.json').id")
+          archive="${asset_id}-assets-${RELEASE_TAG}.tar.gz"
+          tar -czf "$archive" -C dist .
+          sha256sum "$archive" > "$archive.sha256"
+      - name: Create GitHub release with generated assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          asset_id=$(node -p "require('./config/product.json').id")
+          archive="${asset_id}-assets-${RELEASE_TAG}.tar.gz"
+          gh release create "$RELEASE_TAG" \
+            "$archive" "$archive.sha256" dist/manifest.json \
+            --verify-tag --generate-notes --title "$RELEASE_TAG"

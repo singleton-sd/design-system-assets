@@ -147,9 +147,9 @@ Manifest `name` / `short_name`: **Singleton SD** / **SSD**.
 Optional retina files: [dark @2](./og-image/dark/og-default@2.png),
 [light @2](./og-image/light/og-default@2.png).
 
-### Email and documents (planned)
+### Email and documents
 
-Signature blocks and letterhead / footer marks will land under `src/email/` and
+Signature blocks and letterhead / footer marks live under `src/email/` and
 `src/documents/`. See [BRAND.md](./BRAND.md) for roles and trademark copy.
 
 ---
@@ -209,6 +209,7 @@ Public packages do not need a token.
 | Script | Purpose |
 | ------ | ------- |
 | `yarn build` | Full publish build into `dist/` |
+| `yarn validate` | Validate required sources, product config, and SVG safety |
 | `yarn build-manifest-icons` | Favicons + `site.webmanifest` |
 | `yarn build-static-logo-assets` | Static icon-mark PNGs |
 | `yarn build-wordmark-assets` | Wordmark lockup PNGs (+ SVG copy) |
@@ -234,11 +235,14 @@ src/
 │       ├── config/
 │       └── sources/{legal,descriptor,compact}/
 ├── og-image/{dark,light}/
-├── email/               # planned signature blocks
-└── documents/           # planned letterhead / footer marks
+├── illustrations/       # approved illustration masters
+├── screenshots/         # approved current product screenshots
+├── marketing/           # approved launch/social/campaign graphics
+├── email/               # signature blocks
+└── documents/           # letterhead / footer marks
 
 meta.json                # inventory pointers
-dist/                    # generated; served by GitLab Pages
+dist/                    # generated; served by GitLab during migration and GitHub after cutover
 ├── index.html
 ├── chrome.css           # catalog chrome from readme-to-html
 ├── brand/index.html     # public brand-guide snapshot
@@ -252,8 +256,13 @@ dist/                    # generated; served by GitLab Pages
 
 ## Notes
 
-- Package: `@singleton-sd/assets` (GitLab Releases; npm publish disabled).
+- Package: `@singleton-sd/assets` (GitLab Releases during migration; GitHub
+  Releases receive generated archives; npm publish disabled).
 - Animations / expression pipelines are intentionally out of scope.
+- Tagged GitHub builds publish immutable `/releases/X.Y.Z/` Pages snapshots
+  and attach the same generated assets to GitHub Releases.
+- Product repositories must follow the full mandatory scope in
+  [docs/product-assets-recipe.md](./docs/product-assets-recipe.md).
 
 ---
 
