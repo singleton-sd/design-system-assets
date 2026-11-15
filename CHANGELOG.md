@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0 (2026-11-15)
+
+* build(deps): SSD-943 Bump tokens and readme-to-html ([0455bad](https://gitlab.com/singleton-sd/design-system/assets/commit/0455bad))
+* feat(logo): SSD-943 Re-set wordmarks in Plus Jakarta Sans ([7884ccf](https://gitlab.com/singleton-sd/design-system/assets/commit/7884ccf))
+
 ## 0.8.0 (2026-08-25)
 
 * fix: DS-86 Complete review safeguards ([767138c](https://gitlab.com/singleton-sd/design-system/assets/commit/767138c))
