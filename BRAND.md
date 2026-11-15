@@ -31,7 +31,7 @@ Brand font: **Plus Jakarta Sans** ([Google Fonts](https://fonts.google.com/speci
 | --- | --- |
 | Headings | 700 |
 | Body | 400 |
-| Lockup descriptors (`SOFTWARE DEVELOPMENT`, `SOFTWARE PTY LTD`) | 400 |
+| Lockup descriptors (`SOFTWARE DEVELOPMENT`, `SOFTWARE PTY LTD`) | 500 |
 | `</ SINGLETON >` wordmark and `</S>` mark | 700 |
 
 Every wordmark and mark SVG has its text converted to outlines, so no font needs to be installed to use them. Token values (`--ssd-font-family-heading` / `--ssd-font-family-body`) live in `@singleton-sd/tokens`.
