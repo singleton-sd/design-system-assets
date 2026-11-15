@@ -5,13 +5,13 @@
     "name": "Singleton SD",
     "publicUrl": "https://assets.singletonsd.com"
   },
-  "version": "0.8.0",
+  "version": "0.9.0",
   "assets": [
     {
       "path": "brand/index.html",
       "mediaType": "text/html",
       "bytes": 20502,
-      "sha256": "838a0589231c74ef1acf4af2567c27dcacd2d954e279ddbde23c602fc372cec4"
+      "sha256": "a6170dada0db504451692a4501a179aa40079d790f2fa5bb7e2b454be30f8a96"
     },
     {
       "path": "chrome.css",
@@ -587,7 +587,7 @@
       "path": "index.html",
       "mediaType": "text/html",
       "bytes": 23271,
-      "sha256": "ffa3fdcd0b516430abbea48eecad055b7feec6830ae4619e9ec5a1cf63c4eefc"
+      "sha256": "c88874d0e72225b1e8713e9bc1ea7ddc657e8fcbbd67ce264dc3acbd008faf73"
     },
     {
       "path": "logo/static/dark/circle/bg-black/320.png",
