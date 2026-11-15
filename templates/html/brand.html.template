@@ -11,7 +11,9 @@
     <link href="https://tokens.design.singletonsd.com/css/root/light/_variables.css" rel="stylesheet" />
     <link href="https://tokens.design.singletonsd.com/css/light/_variables.css" rel="stylesheet" />
     <link href="https://tokens.design.singletonsd.com/css/dark/_variables.css" rel="stylesheet" />
-    <link href="https://fonts.cdnfonts.com/css/open-sauce-sans" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="manifest" href="../favicons/circle/bg-none/site.webmanifest" />
     <link rel="apple-touch-icon" href="../favicons/circle/bg-none/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../favicons/circle/bg-none/favicon-32x32.png" />
@@ -25,7 +27,7 @@
         --brand: var(--ssd-color-yellow-light-500, #c89200);
         --inverse: var(--ssd-color-background-inverse, #000000);
         --radius: var(--ssd-radius-md, 8px);
-        --font: var(--ssd-font-family-body, "Open Sauce Sans"), system-ui, sans-serif;
+        --font: var(--ssd-font-family-body, "Plus Jakarta Sans"), system-ui, sans-serif;
       }
 
       [data-theme="dark"] {
@@ -194,8 +196,8 @@
           <div><div class="swatch" style="background: var(--ssd-color-border-focus)"></div><div class="swatch-label">border.focus</div></div>
         </div>
         <h3 style="margin-top: 32px;">Typography</h3>
-        <div class="type-row"><strong style="font-size: 36px;">Heading / Open Sauce Sans 700</strong><span class="caption">--ssd-font-family-heading · --ssd-font-size-500</span></div>
-        <div class="type-row"><span style="font-size: 16px;">Body / Open Sauce Sans 400 — used for UI copy and this guide.</span><span class="caption">--ssd-font-family-body · --ssd-font-size-300</span></div>
+        <div class="type-row"><strong style="font-size: 36px;">Heading / Plus Jakarta Sans 700</strong><span class="caption">--ssd-font-family-heading · --ssd-font-size-500</span></div>
+        <div class="type-row"><span style="font-size: 16px;">Body / Plus Jakarta Sans 400 — used for UI copy and this guide.</span><span class="caption">--ssd-font-family-body · --ssd-font-size-300</span></div>
         <h3 style="margin-top: 32px;">Space &amp; radius</h3>
         <p>Space scale: 4 / 8 / 16 / 24 / 32 / 48 / 64. Radius: sm 4 · md 8 · lg 12 · xl 16 · full.</p>
       </div>
@@ -318,7 +320,7 @@
         </p>
         <div class="letter">
           <img src="../documents/letterhead/light/bg-none/1200.png" alt="Legal letterhead" style="width:min(100%,360px)" />
-          <p class="tiny">Contract body uses Open Sauce Sans. Keep the legal lockup; do not retype SOFTWARE PTY LTD.</p>
+          <p class="tiny">Contract body uses Plus Jakarta Sans. Keep the legal lockup; do not retype SOFTWARE PTY LTD.</p>
           <img src="../documents/footer/light/bg-none/400.png" alt="Legal footer" style="width:min(100%,180px)" />
         </div>
       </div>

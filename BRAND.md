@@ -23,6 +23,19 @@ Wordmarks use assets names, not Figma names:
 
 Mark (circular S) lives under `src/logo/sources/`.
 
+## Typography
+
+Brand font: **Plus Jakarta Sans** ([Google Fonts](https://fonts.google.com/specimen/Plus+Jakarta+Sans), SIL Open Font License 1.1). It replaced Open Sauce Sans in November 2026.
+
+| Use | Weight |
+| --- | --- |
+| Headings | 700 |
+| Body | 400 |
+| Lockup descriptors (`SOFTWARE DEVELOPMENT`, `SOFTWARE PTY LTD`) | 400 |
+| `</ SINGLETON >` wordmark and `</S>` mark | 700 |
+
+Every wordmark and mark SVG has its text converted to outlines, so no font needs to be installed to use them. Token values (`--ssd-font-family-heading` / `--ssd-font-family-body`) live in `@singleton-sd/tokens`.
+
 ## Usage
 
 - Do not stretch. Keep aspect ratio.
