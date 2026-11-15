@@ -5,13 +5,13 @@
     "name": "Singleton SD",
     "publicUrl": "https://assets.singletonsd.com"
   },
-  "version": "0.7.1",
+  "version": "0.8.0",
   "assets": [
     {
       "path": "brand/index.html",
       "mediaType": "text/html",
-      "bytes": 20307,
-      "sha256": "f3384389c85b822f94ef2eca9362691d702d6292bb0e90a87990d52efb5ca81f"
+      "bytes": 20502,
+      "sha256": "838a0589231c74ef1acf4af2567c27dcacd2d954e279ddbde23c602fc372cec4"
     },
     {
       "path": "chrome.css",
@@ -22,320 +22,320 @@
     {
       "path": "documents/footer/dark/bg-black/400.png",
       "mediaType": "image/png",
-      "bytes": 5119,
-      "sha256": "1bb732417d109abb45c31aabd4baf88af6b6a697ec5685fe81724eaf86d88d6b"
+      "bytes": 5112,
+      "sha256": "2f5f98ff2e3bc49161dbe3eeff9484190a33404a430eb56b5760ff5cf42a09e4"
     },
     {
       "path": "documents/footer/dark/bg-black/600.png",
       "mediaType": "image/png",
-      "bytes": 7681,
-      "sha256": "a5bbdb124ac3256e31816363071dfcac4b478804d2b421877ca7f3b137b58734"
+      "bytes": 7774,
+      "sha256": "722a2436f5fa774b2d0ddddcf12f21a04b00b3f3e3c53bee3682d49096699b0a"
     },
     {
       "path": "documents/footer/dark/bg-black/800.png",
       "mediaType": "image/png",
-      "bytes": 9926,
-      "sha256": "8d0e850387a964c0828905d169eebbf9f87d90f29bf17d6aff5d8560920c241a"
+      "bytes": 9808,
+      "sha256": "b53f28d5f8bb5836026c142a864033ab8aac34669d02434dc907ea05a5805b94"
     },
     {
       "path": "documents/footer/dark/bg-none/400.png",
       "mediaType": "image/png",
-      "bytes": 5462,
-      "sha256": "4057ea57313a040a4d043d3db053e50b175127d7c6949b6bf8a6b3a02a14caff"
+      "bytes": 5419,
+      "sha256": "a92ce84cdbdfdfb2a5c7b80f22154af11fa4b304b4f9c095b52058d9bae98a76"
     },
     {
       "path": "documents/footer/dark/bg-none/600.png",
       "mediaType": "image/png",
-      "bytes": 8088,
-      "sha256": "d295599c0d21a8d2113ca3f40762f2ccabcd7b0088513ebf2f11b793b36b7f61"
+      "bytes": 8171,
+      "sha256": "c0c71dff15219fa12ec0515c2f44ba4a20ea54efc652e9a521730285abf0738e"
     },
     {
       "path": "documents/footer/dark/bg-none/800.png",
       "mediaType": "image/png",
-      "bytes": 10376,
-      "sha256": "31f09bbf902fdd334cc00ad7565fed9806545ef4cf8667c0c7abecf254db2331"
+      "bytes": 10236,
+      "sha256": "1e95338b8e4ba0d3774c3beb617550070b0ec677af05de0aebc769e26b1b7aa5"
     },
     {
       "path": "documents/footer/dark/dark.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 10981,
-      "sha256": "1bfe3df5c424998ece98822dcb99dc1212c3865381d40c6bf2f44016026c6e75"
+      "bytes": 7726,
+      "sha256": "b895fb16e0f6be06ad9cf9020ec39646dfccc8f2ac01c9bd2940618972ea578d"
     },
     {
       "path": "documents/footer/light/bg-none/400.png",
       "mediaType": "image/png",
-      "bytes": 5488,
-      "sha256": "cfb68bd646458ce971241fece9902aece75201a549e622e9497f8f2bbcf3fab3"
+      "bytes": 5459,
+      "sha256": "19d011bbbcd5583bc1a64ec56e62988607687c80fa625e0c0d3062d9fb5c8632"
     },
     {
       "path": "documents/footer/light/bg-none/600.png",
       "mediaType": "image/png",
-      "bytes": 8095,
-      "sha256": "9113c913aba7faba96cddc0634b9d55cd5f9ed8d98daa3f01196be8e70d56980"
+      "bytes": 8256,
+      "sha256": "d8e90b2fd42ae397979f1adbb7d2ecf335136a2f0ff4b7b7b2854227faebbd05"
     },
     {
       "path": "documents/footer/light/bg-none/800.png",
       "mediaType": "image/png",
-      "bytes": 10494,
-      "sha256": "93840ab6629bf6517a91bff0da1106dc2ec0d42be57d93fe5d988d2ceac0be76"
+      "bytes": 10317,
+      "sha256": "a5ff9987fd9f9618701861ccf5b75e7e3ba927a00bcb29efb08dcce41c091b08"
     },
     {
       "path": "documents/footer/light/bg-white/400.png",
       "mediaType": "image/png",
-      "bytes": 5122,
-      "sha256": "31b298747953aac502414db6d30e2428b86d4dea147246ceb6394f04b2f2c7ca"
+      "bytes": 5088,
+      "sha256": "d27b9b79838a0ee0de57e7512f9dd91439c520b546e2e1dac289435855f7b7ff"
     },
     {
       "path": "documents/footer/light/bg-white/600.png",
       "mediaType": "image/png",
-      "bytes": 7572,
-      "sha256": "e68f899b2cf5efe60b7674e7720757ea24f08ebaf3046347c1c188c3734b3045"
+      "bytes": 7790,
+      "sha256": "0b4658279547b62a7cb1f39d6573eeb27b3aebf48ea80c9ffd970bc4ad88e0bb"
     },
     {
       "path": "documents/footer/light/bg-white/800.png",
       "mediaType": "image/png",
-      "bytes": 9935,
-      "sha256": "51c41d15873d86902e5061c6dfb25ec177b2a5a6557b087e570a15e73020b829"
+      "bytes": 9768,
+      "sha256": "970148dacc71f87ea4877becaa4d2adec6ee8a990f6f7b05aad8325786a5d361"
     },
     {
       "path": "documents/footer/light/light.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 10981,
-      "sha256": "188864846870226f41f9624b6a21794ad0efaa20e2585755462b9d75135533d8"
+      "bytes": 7726,
+      "sha256": "3bd1468bda3cd0a4e6d977ba74bbee8cc7a10d4e367d13558574b22951fbb6c5"
     },
     {
       "path": "documents/letterhead/dark/bg-black/1200.png",
       "mediaType": "image/png",
-      "bytes": 14627,
-      "sha256": "17a2d92dcc05025ad6feef10efab992fe20dde7b49876ca0d9ca34e9da8f97dd"
+      "bytes": 14993,
+      "sha256": "1f4313d5749cf23ad84eacc5e4621674a015f2369f0ea145281411ebd87a57f2"
     },
     {
       "path": "documents/letterhead/dark/bg-black/1600.png",
       "mediaType": "image/png",
-      "bytes": 21162,
-      "sha256": "a8bcb2ed4cbad964299827800ee8e1ca92861abe9154ad54c8e537a56cbc8278"
+      "bytes": 20896,
+      "sha256": "52ccf5d66f7c108961a9fc9fc0d8b3bc7ec30418a81ec0c83d95e07274eca4ee"
     },
     {
       "path": "documents/letterhead/dark/bg-black/2400.png",
       "mediaType": "image/png",
-      "bytes": 33952,
-      "sha256": "9b1ec75cbc8819681a8a2a829e7189f0df5533657a741c14d2b2125f6fe3ad04"
+      "bytes": 33248,
+      "sha256": "241840105f084ce92bef3f0279aa4a7e327b1fa8425293a6565f9da63da172ed"
     },
     {
       "path": "documents/letterhead/dark/bg-none/1200.png",
       "mediaType": "image/png",
-      "bytes": 15252,
-      "sha256": "e064103324ca9b90e417dad476e9d2e4499f9cbf27410727e232ba98b641c3e0"
+      "bytes": 15483,
+      "sha256": "2543d1ff4e7f998e9fc6c4d567515d982a676c817a436eca0db6485ea82dea42"
     },
     {
       "path": "documents/letterhead/dark/bg-none/1600.png",
       "mediaType": "image/png",
-      "bytes": 21667,
-      "sha256": "1e90fcc366bff794c8a4701e771d45e04bb098219fafffe241613bedc32098bc"
+      "bytes": 21416,
+      "sha256": "68039179ae549e75f3e598b41c85e646eab57beefa04454921c63e7121a95d6b"
     },
     {
       "path": "documents/letterhead/dark/bg-none/2400.png",
       "mediaType": "image/png",
-      "bytes": 34651,
-      "sha256": "d83ef470f1d37af132ff3cdb3ad30ea86c12052fe237fcca5861abcb9bc5a67e"
+      "bytes": 33969,
+      "sha256": "fb359c1201808b2303034d4dc9697068d5e0d634969185bff3c4850ce853a142"
     },
     {
       "path": "documents/letterhead/dark/dark.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 10981,
-      "sha256": "1bfe3df5c424998ece98822dcb99dc1212c3865381d40c6bf2f44016026c6e75"
+      "bytes": 7726,
+      "sha256": "b895fb16e0f6be06ad9cf9020ec39646dfccc8f2ac01c9bd2940618972ea578d"
     },
     {
       "path": "documents/letterhead/light/bg-none/1200.png",
       "mediaType": "image/png",
-      "bytes": 15575,
-      "sha256": "6823b52097739a960cb711f07e9b9c9dddba3eb1dc875d9d95329fda21d4592d"
+      "bytes": 15548,
+      "sha256": "0cd60679c4977534fb8b2d947ed344a25649425239c69910372894fc9289f515"
     },
     {
       "path": "documents/letterhead/light/bg-none/1600.png",
       "mediaType": "image/png",
-      "bytes": 21837,
-      "sha256": "67a1eb523110f3aee96a16c8a25cac89f54d1a8710bdeb8db7f2fb926d23bf4a"
+      "bytes": 21444,
+      "sha256": "d027fcca2d43faa1c1f9eda62d3126fc961cbb5ebe34fd3769c8cfbf1de7b8fa"
     },
     {
       "path": "documents/letterhead/light/bg-none/2400.png",
       "mediaType": "image/png",
-      "bytes": 34691,
-      "sha256": "99c7f6796a53b3071efb36a22e3daa4d661a5edc777591fbd2d0bbee4b3f0837"
+      "bytes": 34119,
+      "sha256": "36444b9452857c99fbe3909b30773d62d8c64f9ffd460d7df6ea34c432511612"
     },
     {
       "path": "documents/letterhead/light/bg-white/1200.png",
       "mediaType": "image/png",
-      "bytes": 14853,
-      "sha256": "a923954988edb825b02693c6e48d6359f5c2ae1a6cc73de1432e8c4287d8f623"
+      "bytes": 14913,
+      "sha256": "b09a0cb335e98fb027d1bc4ff5a1f5077507e75f2b180a3f2b962a5ee5c83311"
     },
     {
       "path": "documents/letterhead/light/bg-white/1600.png",
       "mediaType": "image/png",
-      "bytes": 20948,
-      "sha256": "1cd02af3f3f1542004009d485684a5315794b7a5c1446a6cddfdf189ee360715"
+      "bytes": 20509,
+      "sha256": "8ab63573963cbada85498acd1689345b2284573789355623dfed2c2495dc4672"
     },
     {
       "path": "documents/letterhead/light/bg-white/2400.png",
       "mediaType": "image/png",
-      "bytes": 33095,
-      "sha256": "fd22a6078c7ebb21a6be8912ccdd9c4fff44dbb1c87f45aa638b2cc4179257b5"
+      "bytes": 32686,
+      "sha256": "40afff9ca17a9dba8fb0a099729527e1c6d18efc3f9e6af126244eadd056df36"
     },
     {
       "path": "documents/letterhead/light/light.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 10981,
-      "sha256": "188864846870226f41f9624b6a21794ad0efaa20e2585755462b9d75135533d8"
+      "bytes": 7726,
+      "sha256": "3bd1468bda3cd0a4e6d977ba74bbee8cc7a10d4e367d13558574b22951fbb6c5"
     },
     {
       "path": "email/signature/dark/bg-black/320.png",
       "mediaType": "image/png",
-      "bytes": 3978,
-      "sha256": "a38caa66e260baf9cc60d744103d07995a61fcf223cbe05e102213672a14f74f"
+      "bytes": 4035,
+      "sha256": "a174691397a2eb7d0a2fae19bf448c5af4e0798e37e5eafafcc884b4ade2ff63"
     },
     {
       "path": "email/signature/dark/bg-black/480.png",
       "mediaType": "image/png",
-      "bytes": 5852,
-      "sha256": "e193a9a14ca4fd7cf0687f944cc4fd615caed119dd7603d58c229c2359733ca5"
+      "bytes": 5994,
+      "sha256": "9adb81e43b602b3d35562309c7348c5c2c1f219b310841e1979ddcb3e77c6d40"
     },
     {
       "path": "email/signature/dark/bg-black/640.png",
       "mediaType": "image/png",
-      "bytes": 7820,
-      "sha256": "b89e3e13e7e9357d62569f24d9b477d6e65038f6b1297fdd0b15ff041fea4c9f"
+      "bytes": 7782,
+      "sha256": "6d439c1c99b51f3b0f659c01db8fde8f025c69284472c42f50fe91919e374313"
     },
     {
       "path": "email/signature/dark/bg-black/800.png",
       "mediaType": "image/png",
-      "bytes": 9389,
-      "sha256": "98263a757b61b636bd3f742838f8dc708017c40a20ca3b53fd107a32c40921bb"
+      "bytes": 9322,
+      "sha256": "b70e5f349fe96e3220ee69ebf3de16c88a3030f3aa475f714e62bdaf81fdd717"
     },
     {
       "path": "email/signature/dark/bg-none/320.png",
       "mediaType": "image/png",
-      "bytes": 4298,
-      "sha256": "753b13146dfff47538cbd2af701e767eed2ef6dc49837036cbeff8d6d9fece48"
+      "bytes": 4341,
+      "sha256": "8ff3b233a1b72f9d60b1d05ab9b6048b54f767b8aecb4135bc28505e3aa2c1e5"
     },
     {
       "path": "email/signature/dark/bg-none/480.png",
       "mediaType": "image/png",
-      "bytes": 6229,
-      "sha256": "e7cc614cc31f9400ba67d0fd265b83458e672d999985ed7511cdbbfe95ce6775"
+      "bytes": 6364,
+      "sha256": "64125cde9c3c256e84229a5b0d7c9e3fa4b4830e9cd2475727c0c94d9ba89c37"
     },
     {
       "path": "email/signature/dark/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 8237,
-      "sha256": "f6dacf54654f64c92424ea937b8d2a6643af3cd4eb487c51b05726b0e5eea1b1"
+      "bytes": 8179,
+      "sha256": "8925a4113c63f242637db925320fa76f64159d3707894bd34435dd3d657284f6"
     },
     {
       "path": "email/signature/dark/bg-none/800.png",
       "mediaType": "image/png",
-      "bytes": 9866,
-      "sha256": "0469d572d1276f1889b3c4acab2c4d645ca4cf931867fdf4cd01e7fbdf07939c"
+      "bytes": 9802,
+      "sha256": "513faa98d54542a3e2706a68fc1a8bc5f78df02d464cc886312f82bf053f87ff"
     },
     {
       "path": "email/signature/dark/dark.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 7765,
-      "sha256": "de713711d6c45c90d1d8e51690d44222de2fa71ce8cd0bee6fd84d1504a5f462"
+      "bytes": 5598,
+      "sha256": "c9378fc0453b8a69072bcea0860b00e544f9d0687ebef812e7fc583bd6587407"
     },
     {
       "path": "email/signature/light/bg-none/320.png",
       "mediaType": "image/png",
-      "bytes": 4342,
-      "sha256": "7fd5fc8739375d05975eb76b0bbb68585165676f0596261291df444dbae19f4d"
+      "bytes": 4338,
+      "sha256": "12277f82cbd4b4a99fcacfdf9e04c5e21415093a1e62a9a1310f7caa5b93c795"
     },
     {
       "path": "email/signature/light/bg-none/480.png",
       "mediaType": "image/png",
-      "bytes": 6254,
-      "sha256": "5a788fa9246cd178965005d78af06797d65b1301d95c859999c0968d0afbbe9b"
+      "bytes": 6392,
+      "sha256": "a3c70f22e1d1a190f54f6a6b6d55602491cc7dbaad1ec0985127d7c4421577aa"
     },
     {
       "path": "email/signature/light/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 8287,
-      "sha256": "47d1881c8b7aa84cf08137099355be865aa9db865626d2c4295826384eba8a44"
+      "bytes": 8224,
+      "sha256": "a5a2e9f09df447f45838170fd2ae3231f8d5349d28c423c9815c35cef5b76394"
     },
     {
       "path": "email/signature/light/bg-none/800.png",
       "mediaType": "image/png",
-      "bytes": 9944,
-      "sha256": "f9b6fbdb9f9aeed5fd1aee1792eca3bb9e896bc451d96729e54decc0bc776954"
+      "bytes": 9913,
+      "sha256": "f1f4a67ccd86cc7c95a498911160f4d2cf0f16894c7b64de63bdaaae48495941"
     },
     {
       "path": "email/signature/light/bg-white/320.png",
       "mediaType": "image/png",
-      "bytes": 3989,
-      "sha256": "5c8932b22b3a4b10b5c7bf02396af4d6a62f335eea974ce018018352c03cf4d2"
+      "bytes": 3973,
+      "sha256": "ed3497a5f3955026a80864e4806a3c6d6e6a43d2f55fbf2cf62ea02a46d46153"
     },
     {
       "path": "email/signature/light/bg-white/480.png",
       "mediaType": "image/png",
-      "bytes": 5829,
-      "sha256": "aa1ea328cfb84f907414e31570e7ebcf75493bfc0cd852734daabdaca1ed6ae2"
+      "bytes": 5976,
+      "sha256": "da7e9896586edea028a7f8772d12e6c6e729b0fd9dfe22f1dce2b0dd441fe5b9"
     },
     {
       "path": "email/signature/light/bg-white/640.png",
       "mediaType": "image/png",
-      "bytes": 7738,
-      "sha256": "d72529e485d6fe9aff139bf8a196db272d64aa8a9cd48e7fe00c939d8f79406b"
+      "bytes": 7633,
+      "sha256": "a5d12dc7ac515a8fad3457265af6feadefc652c1dd0fbe66f9d27cc19d151511"
     },
     {
       "path": "email/signature/light/bg-white/800.png",
       "mediaType": "image/png",
-      "bytes": 9274,
-      "sha256": "89c3d03738cad139ee5f3ece8f16542674b36758853f2c1fdf414424051ea39e"
+      "bytes": 9296,
+      "sha256": "270963e8b877154560fe613852a49d86c7360523691c867cf7bc4f368d2376d3"
     },
     {
       "path": "email/signature/light/light.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 7757,
-      "sha256": "c0fc27bd85fe5103ac81873d742db0214b536f3d8139660f175f143339eb8dd6"
+      "bytes": 5590,
+      "sha256": "9c9d653a1b793fbbefb01f271d9349af3c39ab0c30421a40c3f9de2db27eff50"
     },
     {
       "path": "favicons/circle/bg-black/android-chrome-192x192.png",
       "mediaType": "image/png",
-      "bytes": 5572,
-      "sha256": "3d53c1e82e7cb8ca580dd83b29a9388418080807def251c7586b85b178e4b6e6"
+      "bytes": 5589,
+      "sha256": "c110048ec8024ab4c6b9510d07ef2d1e4197e9daf3d7d87d6b3db46d6d151352"
     },
     {
       "path": "favicons/circle/bg-black/android-chrome-512x512.png",
       "mediaType": "image/png",
-      "bytes": 8172,
-      "sha256": "1a348b73ee867f30e9dbe14c7784e726dc3515aca0ce2dbac1e627b346b0a0ba"
+      "bytes": 9920,
+      "sha256": "f371b6478e198a4aff556fbe24aa64769cd395a96ca0ebf433b7e509243d683f"
     },
     {
       "path": "favicons/circle/bg-black/apple-touch-icon.png",
       "mediaType": "image/png",
-      "bytes": 5195,
-      "sha256": "9d80e601f90791cc22eb7823ce0e3586031b8ef299f097e6373dc14b737707bc"
+      "bytes": 5187,
+      "sha256": "c1e09e66f5edaf491a508688e69384db399b46737fb202e741b1dddd638288db"
     },
     {
       "path": "favicons/circle/bg-black/favicon-16x16.png",
       "mediaType": "image/png",
-      "bytes": 672,
-      "sha256": "20a3d84eca98ce186b49930a41019a5738894777719f5d5e2990fea98ae76e19"
+      "bytes": 673,
+      "sha256": "22a12f40cbb7100be66ee78ae2e9f2fe733912561456d3d74f26abf3c7baf23e"
     },
     {
       "path": "favicons/circle/bg-black/favicon-32x32.png",
       "mediaType": "image/png",
-      "bytes": 1380,
-      "sha256": "2450cf945093e826f3bf8988489b317d3843c7c7be284055eeaa1fa8719aa74f"
+      "bytes": 1393,
+      "sha256": "48310a412788325e41347aa73d0b58f8748a758e6be99e9ef50f97a64e38648e"
     },
     {
       "path": "favicons/circle/bg-black/favicon-4096x4096.png",
       "mediaType": "image/png",
-      "bytes": 294544,
-      "sha256": "48b258d7b99dbbe31eecd29f65c1a8e3ea0b2227e94386b3c27d0002862400a1"
+      "bytes": 293216,
+      "sha256": "885e0be0f47dbcac5a449e1ea1d92442ad7bc8a72aa41a10fd5dc5cbd0bdbe71"
     },
     {
       "path": "favicons/circle/bg-black/favicon.png",
       "mediaType": "image/png",
-      "bytes": 1380,
-      "sha256": "2450cf945093e826f3bf8988489b317d3843c7c7be284055eeaa1fa8719aa74f"
+      "bytes": 1393,
+      "sha256": "48310a412788325e41347aa73d0b58f8748a758e6be99e9ef50f97a64e38648e"
     },
     {
       "path": "favicons/circle/bg-black/site.webmanifest",
@@ -346,62 +346,62 @@
     {
       "path": "favicons/circle/bg-none/android-chrome-192x192.png",
       "mediaType": "image/png",
-      "bytes": 4544,
-      "sha256": "6d68415a10ef670877b91d2ad055dcaf5d841f4d8781dff58b080d5cf299852d"
+      "bytes": 4535,
+      "sha256": "6e20f9d51f4eea6c2427e83ad5f83fdb41814f7bbecc17a55ee118517a1660da"
     },
     {
       "path": "favicons/circle/bg-none/android-chrome-512x512.png",
       "mediaType": "image/png",
-      "bytes": 3796,
-      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+      "bytes": 5807,
+      "sha256": "be338b38c682d00b3a9b22f305ef351d37a4b75edb1daf1d94e6798837e649cc"
     },
     {
       "path": "favicons/circle/bg-none/apple-touch-icon.png",
       "mediaType": "image/png",
-      "bytes": 4242,
-      "sha256": "1d55fe12b7bc626e6d46c43789d9352c77e105b5231b9e234b2b60ca30697fb2"
+      "bytes": 4211,
+      "sha256": "bc5b852ec85e9dd3133c953fbf2bfc0de0af30cf16eac099882757e505dbe186"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/android-chrome-192x192.png",
       "mediaType": "image/png",
-      "bytes": 6959,
-      "sha256": "682df0717aba9ca1470afba8d93c5c61f4b523bbe2ad951143f7aa855f6e48a4"
+      "bytes": 6998,
+      "sha256": "9d048b73fffa0ed1af42ebc0e86dd2190f86df653ea8fa24764e817b5dd0ef12"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/android-chrome-512x512.png",
       "mediaType": "image/png",
-      "bytes": 11555,
-      "sha256": "a568bfd8564604b249c70192524c26936d07073372b988de0cc0803cbf60af1f"
+      "bytes": 13154,
+      "sha256": "7edadbb6ed9f621ea7b37edaa25e8a4de7dc10d4aeb38908b86d4c4638c69e30"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/apple-touch-icon.png",
       "mediaType": "image/png",
-      "bytes": 6494,
-      "sha256": "ea718d2884674da11f2f7c0836accf74f4e23fc4d56ec237aac7db0a73cf860b"
+      "bytes": 6507,
+      "sha256": "b8f82748ea238dfa03e397d69a2dacb57f44d69907cdba8d31f2794ebdf3fa27"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/favicon-16x16.png",
       "mediaType": "image/png",
-      "bytes": 837,
-      "sha256": "5af8f139eb2b853944461bc478bb5f1de1cabe39570f2f648ce79bf22ba55299"
+      "bytes": 840,
+      "sha256": "7443f826dc50164bacde41481c595170ff2dd123b951a0fb0ef6106dade281ee"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/favicon-32x32.png",
       "mediaType": "image/png",
-      "bytes": 1691,
-      "sha256": "7dad24c9123054c04eb314df2b8bcaa09d0f8275a504883eb96c3ceeda585a0d"
+      "bytes": 1702,
+      "sha256": "d32dc6cb1511f60c3ae2e28ae57fa3c6d886a872d1fd2c44f177f47b0489883a"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/favicon-4096x4096.png",
       "mediaType": "image/png",
-      "bytes": 326808,
-      "sha256": "a2edababc42693991fe3a6950e6edac9904ee36ad40811534f26fb3f98cfd735"
+      "bytes": 320381,
+      "sha256": "b746e6e9b4dc862e6dc60d0db6aa69e0f31052869a1d0b5dbfe5c573b8ac8f47"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/favicon.png",
       "mediaType": "image/png",
-      "bytes": 1691,
-      "sha256": "7dad24c9123054c04eb314df2b8bcaa09d0f8275a504883eb96c3ceeda585a0d"
+      "bytes": 1702,
+      "sha256": "d32dc6cb1511f60c3ae2e28ae57fa3c6d886a872d1fd2c44f177f47b0489883a"
     },
     {
       "path": "favicons/circle/bg-none/bd-white/site.webmanifest",
@@ -412,26 +412,26 @@
     {
       "path": "favicons/circle/bg-none/favicon-16x16.png",
       "mediaType": "image/png",
-      "bytes": 546,
-      "sha256": "2c985cf3f92785065b026552b986e300cc6cbc796a5e59dddf9a55aa37002c9f"
+      "bytes": 557,
+      "sha256": "f871ae51bc765109e644d952c7406d33c7a6acb8ceb3a0015a40cc807e7d1109"
     },
     {
       "path": "favicons/circle/bg-none/favicon-32x32.png",
       "mediaType": "image/png",
-      "bytes": 1108,
-      "sha256": "5fa9506ab8503a9c3b325c00f94971ccf94b047d4a33c7d9991f9d582e251e1e"
+      "bytes": 1136,
+      "sha256": "bb29181e7c6f39831e459211fbe322dc517b1ef6188ad74de8f0b9e964d59f20"
     },
     {
       "path": "favicons/circle/bg-none/favicon-4096x4096.png",
       "mediaType": "image/png",
-      "bytes": 274834,
-      "sha256": "2adb1d637fce94b79fb87542213cf8ccb968abf767dd8fe4cac9d3cf068e7bdd"
+      "bytes": 270916,
+      "sha256": "cc4dae0281016b0156bf3f715b9dc9a51a13b5eac10b8063dbef8fcc6d6e485b"
     },
     {
       "path": "favicons/circle/bg-none/favicon.png",
       "mediaType": "image/png",
-      "bytes": 1108,
-      "sha256": "5fa9506ab8503a9c3b325c00f94971ccf94b047d4a33c7d9991f9d582e251e1e"
+      "bytes": 1136,
+      "sha256": "bb29181e7c6f39831e459211fbe322dc517b1ef6188ad74de8f0b9e964d59f20"
     },
     {
       "path": "favicons/circle/bg-none/site.webmanifest",
@@ -442,44 +442,44 @@
     {
       "path": "favicons/square/bg-black/android-chrome-192x192.png",
       "mediaType": "image/png",
-      "bytes": 4202,
-      "sha256": "1c08e3ee7894e4e39daa2d0ccfa07be5e67c7aea4f3290de7db79e059b904048"
+      "bytes": 4204,
+      "sha256": "b5ccba2651e1cbedfc9e5d4f757a33fe9ddbbc4f85af6c50a1f6514d543fbd81"
     },
     {
       "path": "favicons/square/bg-black/android-chrome-512x512.png",
       "mediaType": "image/png",
-      "bytes": 3707,
-      "sha256": "3026bf9bd4efc27fdfa2fd85a230e2475d46a34555d772d9f545c277fee0ee8e"
+      "bytes": 5592,
+      "sha256": "f1e4731f919b926662a686ff8dda3dd61fdc20e4903f2f57a10fafbc5683dd56"
     },
     {
       "path": "favicons/square/bg-black/apple-touch-icon.png",
       "mediaType": "image/png",
-      "bytes": 3908,
-      "sha256": "2658b2df6a00865d9f4f097d0aeb9dfe7639a14a5da86b11c00114556359cec3"
+      "bytes": 3879,
+      "sha256": "3ea3763ae63db0ed4f32396be4a5137b67e1af59a5bfde04aa4ff4b8a5e5a0b8"
     },
     {
       "path": "favicons/square/bg-black/favicon-16x16.png",
       "mediaType": "image/png",
       "bytes": 457,
-      "sha256": "fb694d3e1eea039c6284bb6e72b2a96ac2e58d8e0e017e53bfd33314829c1c38"
+      "sha256": "2ac2d6c18cc08ca192b5e422d160da8311785d5f58b92cb59df84d4d31dde021"
     },
     {
       "path": "favicons/square/bg-black/favicon-32x32.png",
       "mediaType": "image/png",
-      "bytes": 926,
-      "sha256": "e5033b010e83e407000ec2a60ab584ec8806198a7c8c4abe020133e02302eb13"
+      "bytes": 947,
+      "sha256": "f50bcbff151e2187c4be964de78b970e8aaeab371d1c03b332df6526d7ec6314"
     },
     {
       "path": "favicons/square/bg-black/favicon-4096x4096.png",
       "mediaType": "image/png",
-      "bytes": 274341,
-      "sha256": "9030cfd2a96b948e4e2822dc3f59de2be6ded295a965db128404723a4bace9c9"
+      "bytes": 269756,
+      "sha256": "5071fed26522967963fe8b45751f8e467d37101de7bde9626c1d78f8c8d46068"
     },
     {
       "path": "favicons/square/bg-black/favicon.png",
       "mediaType": "image/png",
-      "bytes": 926,
-      "sha256": "e5033b010e83e407000ec2a60ab584ec8806198a7c8c4abe020133e02302eb13"
+      "bytes": 947,
+      "sha256": "f50bcbff151e2187c4be964de78b970e8aaeab371d1c03b332df6526d7ec6314"
     },
     {
       "path": "favicons/square/bg-black/site.webmanifest",
@@ -490,62 +490,62 @@
     {
       "path": "favicons/square/bg-none/android-chrome-192x192.png",
       "mediaType": "image/png",
-      "bytes": 4544,
-      "sha256": "6d68415a10ef670877b91d2ad055dcaf5d841f4d8781dff58b080d5cf299852d"
+      "bytes": 4535,
+      "sha256": "6e20f9d51f4eea6c2427e83ad5f83fdb41814f7bbecc17a55ee118517a1660da"
     },
     {
       "path": "favicons/square/bg-none/android-chrome-512x512.png",
       "mediaType": "image/png",
-      "bytes": 3796,
-      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+      "bytes": 5807,
+      "sha256": "be338b38c682d00b3a9b22f305ef351d37a4b75edb1daf1d94e6798837e649cc"
     },
     {
       "path": "favicons/square/bg-none/apple-touch-icon.png",
       "mediaType": "image/png",
-      "bytes": 4242,
-      "sha256": "1d55fe12b7bc626e6d46c43789d9352c77e105b5231b9e234b2b60ca30697fb2"
+      "bytes": 4211,
+      "sha256": "bc5b852ec85e9dd3133c953fbf2bfc0de0af30cf16eac099882757e505dbe186"
     },
     {
       "path": "favicons/square/bg-none/bd-white/android-chrome-192x192.png",
       "mediaType": "image/png",
-      "bytes": 4689,
-      "sha256": "55a4bdbc7e1558e8c27a1ae017dda39d916ab18b21494bcd6854b16052802a55"
+      "bytes": 4695,
+      "sha256": "e51a78fed4f42c34e64954e907cd2c0ed5479e9619ccc7211ad2180aced8e216"
     },
     {
       "path": "favicons/square/bg-none/bd-white/android-chrome-512x512.png",
       "mediaType": "image/png",
-      "bytes": 4511,
-      "sha256": "9fe1cac878c8ab0c7f57c5ea98dd0cd9600fd48ce0e0066e280daa181fa7b6d7"
+      "bytes": 6498,
+      "sha256": "a2fbd43245511e913030529cfd334f9fc79228cb6c3a0504b04c4e5f16517ced"
     },
     {
       "path": "favicons/square/bg-none/bd-white/apple-touch-icon.png",
       "mediaType": "image/png",
-      "bytes": 4361,
-      "sha256": "6371883875ac0a080121df1fdce938a034fb7024db9b36b8e66889ea8923a4d4"
+      "bytes": 4349,
+      "sha256": "4c1ee6ee408be534ebd5cf037d6b46ce8fb6fe1426f67ec9bfa3d8417c60cd17"
     },
     {
       "path": "favicons/square/bg-none/bd-white/favicon-16x16.png",
       "mediaType": "image/png",
-      "bytes": 538,
-      "sha256": "ef4df44f0d118930ebf2c3ca324ee680112601fcdd5cdc2fec22eda9a9538f1d"
+      "bytes": 549,
+      "sha256": "ce22f3cc9f1836e6bb7e73eda87f4184ba2e5aa01df9983bd3a33f4e8527fbfe"
     },
     {
       "path": "favicons/square/bg-none/bd-white/favicon-32x32.png",
       "mediaType": "image/png",
-      "bytes": 1142,
-      "sha256": "d63f1ee954ced06925324d94cc73249ba78f6c0bbd0055ef28c75d353146a750"
+      "bytes": 1157,
+      "sha256": "3576bae84259d568b2115412255a727f7036388937fd9ac7da2bbc94d6982d39"
     },
     {
       "path": "favicons/square/bg-none/bd-white/favicon-4096x4096.png",
       "mediaType": "image/png",
-      "bytes": 286822,
-      "sha256": "b0b0e6c85da8d317fcbb005e071944871a4202c824dd3e5737704a246bc88f24"
+      "bytes": 282944,
+      "sha256": "0a7d5e90ea0aa642ca9a3d6c0754cde6752a05ef9a8724fc8c51774606d97e59"
     },
     {
       "path": "favicons/square/bg-none/bd-white/favicon.png",
       "mediaType": "image/png",
-      "bytes": 1142,
-      "sha256": "d63f1ee954ced06925324d94cc73249ba78f6c0bbd0055ef28c75d353146a750"
+      "bytes": 1157,
+      "sha256": "3576bae84259d568b2115412255a727f7036388937fd9ac7da2bbc94d6982d39"
     },
     {
       "path": "favicons/square/bg-none/bd-white/site.webmanifest",
@@ -556,26 +556,26 @@
     {
       "path": "favicons/square/bg-none/favicon-16x16.png",
       "mediaType": "image/png",
-      "bytes": 549,
-      "sha256": "d9ff070d4b0ed6e71c6bd91c4c278c07ead52d60b3290c6359f58142a915e528"
+      "bytes": 554,
+      "sha256": "7e48923449542663577e7b39fd8c11dc620378793d3bd8c73dcb87d67f0b9eb3"
     },
     {
       "path": "favicons/square/bg-none/favicon-32x32.png",
       "mediaType": "image/png",
-      "bytes": 1108,
-      "sha256": "d3e14e5d77f449db045dbd6d9c97c9e866a8e48ee9e05a0493b5fc682e0a973e"
+      "bytes": 1139,
+      "sha256": "a8f4cf4d2c88feb00a0288681565be80927dd1c1c88c5f6e9b9f03415dbed070"
     },
     {
       "path": "favicons/square/bg-none/favicon-4096x4096.png",
       "mediaType": "image/png",
-      "bytes": 274834,
-      "sha256": "2adb1d637fce94b79fb87542213cf8ccb968abf767dd8fe4cac9d3cf068e7bdd"
+      "bytes": 270916,
+      "sha256": "cc4dae0281016b0156bf3f715b9dc9a51a13b5eac10b8063dbef8fcc6d6e485b"
     },
     {
       "path": "favicons/square/bg-none/favicon.png",
       "mediaType": "image/png",
-      "bytes": 1108,
-      "sha256": "d3e14e5d77f449db045dbd6d9c97c9e866a8e48ee9e05a0493b5fc682e0a973e"
+      "bytes": 1139,
+      "sha256": "a8f4cf4d2c88feb00a0288681565be80927dd1c1c88c5f6e9b9f03415dbed070"
     },
     {
       "path": "favicons/square/bg-none/site.webmanifest",
@@ -586,512 +586,512 @@
     {
       "path": "index.html",
       "mediaType": "text/html",
-      "bytes": 23179,
-      "sha256": "6a4c46117503c3fcee3d61caf33365d26c8cbc6bebd288af7cd8298984e4d225"
+      "bytes": 23271,
+      "sha256": "ffa3fdcd0b516430abbea48eecad055b7feec6830ae4619e9ec5a1cf63c4eefc"
     },
     {
       "path": "logo/static/dark/circle/bg-black/320.png",
       "mediaType": "image/png",
-      "bytes": 9208,
-      "sha256": "0ab64b2c3b12b541ceeaf959adf9dbc92d483c3ea84153798fd2d91ca93fd64b"
+      "bytes": 9174,
+      "sha256": "ca5eb64ba9063fd7cd43479c4942c0db90ba7fca9e739fe723eae8ae460713c2"
     },
     {
       "path": "logo/static/dark/circle/bg-black/512.png",
       "mediaType": "image/png",
-      "bytes": 8172,
-      "sha256": "1a348b73ee867f30e9dbe14c7784e726dc3515aca0ce2dbac1e627b346b0a0ba"
+      "bytes": 9920,
+      "sha256": "f371b6478e198a4aff556fbe24aa64769cd395a96ca0ebf433b7e509243d683f"
     },
     {
       "path": "logo/static/dark/circle/bg-none/320.png",
       "mediaType": "image/png",
-      "bytes": 7140,
-      "sha256": "1963d5dc0ae6e3a1b59ccde261dd603ffa97c45e8dda3c1dc1f0fd31309f743e"
+      "bytes": 7145,
+      "sha256": "c5e918334dc44d65f7778e53a379696d5776a5456fab818076508ade2465a81b"
     },
     {
       "path": "logo/static/dark/circle/bg-none/512.png",
       "mediaType": "image/png",
-      "bytes": 3796,
-      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+      "bytes": 5807,
+      "sha256": "be338b38c682d00b3a9b22f305ef351d37a4b75edb1daf1d94e6798837e649cc"
     },
     {
       "path": "logo/static/dark/circle/bg-none/bd-white/320.png",
       "mediaType": "image/png",
-      "bytes": 11464,
-      "sha256": "8d5321be3540f9e11a301d8ea740b35c8a39b3ca2674a3b3728fa3b66eb7ee19"
+      "bytes": 11507,
+      "sha256": "fc84ac3740f54128a7146a24740949a1c4ac45d3f7c463925b01726ae0e7fdb6"
     },
     {
       "path": "logo/static/dark/circle/bg-none/bd-white/512.png",
       "mediaType": "image/png",
-      "bytes": 11555,
-      "sha256": "a568bfd8564604b249c70192524c26936d07073372b988de0cc0803cbf60af1f"
+      "bytes": 13154,
+      "sha256": "7edadbb6ed9f621ea7b37edaa25e8a4de7dc10d4aeb38908b86d4c4638c69e30"
     },
     {
       "path": "logo/static/dark/square/bg-black/320.png",
       "mediaType": "image/png",
-      "bytes": 6823,
-      "sha256": "d89d1d32c992e1847a1b5cc89411bf43fa0246d6e0d0777252ab6962110f60ce"
+      "bytes": 6795,
+      "sha256": "c2fd0ce3e3be0bf7a4bc6c4c10c41218a1f04a569cb2b6b627d54770e736c0a8"
     },
     {
       "path": "logo/static/dark/square/bg-black/512.png",
       "mediaType": "image/png",
-      "bytes": 3707,
-      "sha256": "3026bf9bd4efc27fdfa2fd85a230e2475d46a34555d772d9f545c277fee0ee8e"
+      "bytes": 5592,
+      "sha256": "f1e4731f919b926662a686ff8dda3dd61fdc20e4903f2f57a10fafbc5683dd56"
     },
     {
       "path": "logo/static/dark/square/bg-none/320.png",
       "mediaType": "image/png",
-      "bytes": 7140,
-      "sha256": "1963d5dc0ae6e3a1b59ccde261dd603ffa97c45e8dda3c1dc1f0fd31309f743e"
+      "bytes": 7145,
+      "sha256": "c5e918334dc44d65f7778e53a379696d5776a5456fab818076508ade2465a81b"
     },
     {
       "path": "logo/static/dark/square/bg-none/512.png",
       "mediaType": "image/png",
-      "bytes": 3796,
-      "sha256": "cb3489682f4d7f9b15ab8ac651520c1e9e498f876462d004ea39895b2ff78c8a"
+      "bytes": 5807,
+      "sha256": "be338b38c682d00b3a9b22f305ef351d37a4b75edb1daf1d94e6798837e649cc"
     },
     {
       "path": "logo/static/dark/square/bg-none/bd-white/320.png",
       "mediaType": "image/png",
-      "bytes": 7475,
-      "sha256": "6ea7e6dd6641075a1925f41976dcb558c3cd224fd8b0f7973b847cb6f5620b9d"
+      "bytes": 7485,
+      "sha256": "970d127c27ea6e443213d7736cd6e5cb97163a2559c7328e78761dd7421e1240"
     },
     {
       "path": "logo/static/dark/square/bg-none/bd-white/512.png",
       "mediaType": "image/png",
-      "bytes": 4511,
-      "sha256": "9fe1cac878c8ab0c7f57c5ea98dd0cd9600fd48ce0e0066e280daa181fa7b6d7"
+      "bytes": 6498,
+      "sha256": "a2fbd43245511e913030529cfd334f9fc79228cb6c3a0504b04c4e5f16517ced"
     },
     {
       "path": "logo/static/light/circle/bg-none/320.png",
       "mediaType": "image/png",
-      "bytes": 7292,
-      "sha256": "0cc321b52e10c64af947a6d5b78ef621ec9b2ec0c9a1edcead60869d860317d9"
+      "bytes": 7270,
+      "sha256": "dd03db20969014686631742c211ca37956827255c8b883c2c3a7669638254df6"
     },
     {
       "path": "logo/static/light/circle/bg-none/512.png",
       "mediaType": "image/png",
-      "bytes": 3841,
-      "sha256": "6ce2a97b7db853b204b19f790eaba09bd2f4b878fcbfbc8e938397d20f643568"
+      "bytes": 5863,
+      "sha256": "8935fb24e02f672d063263696bc520be6dfbe2917c07089b599a47c34df7ccc0"
     },
     {
       "path": "logo/static/light/circle/bg-none/bd-black/320.png",
       "mediaType": "image/png",
-      "bytes": 11577,
-      "sha256": "76b3c81f17fe4af9024631a75bf1f4cb86e8292b7bc5d7e868ea733d0ec01db9"
+      "bytes": 11574,
+      "sha256": "f5f47e58a40d2ba6bf8c14e5fb3a3066bc725631361221dfe8daeaaa8389eaf6"
     },
     {
       "path": "logo/static/light/circle/bg-none/bd-black/512.png",
       "mediaType": "image/png",
-      "bytes": 11625,
-      "sha256": "c6f832a54591c80cae15b17f45fe5b7c8ffb0ecf3c2ea9337987b0512bb68692"
+      "bytes": 13180,
+      "sha256": "a0851e707d79fff9c05c31d3c18935c8973c0dbf8381101951c5b46208c9f47d"
     },
     {
       "path": "logo/static/light/circle/bg-white/320.png",
       "mediaType": "image/png",
-      "bytes": 9184,
-      "sha256": "8d336603c1a2615791a9dc2ea8022e1c68bc633f956562657950b9dd3a76ba59"
+      "bytes": 9138,
+      "sha256": "f6b3ca365b28737cabb635f21450483672848e6ffec484a87bea2a846baf6d3a"
     },
     {
       "path": "logo/static/light/circle/bg-white/512.png",
       "mediaType": "image/png",
-      "bytes": 8176,
-      "sha256": "aa2dd1fed6a9601a07b7934b3ac957aa7d3c896f582564c6851bcbfd11199e98"
+      "bytes": 9866,
+      "sha256": "5ab695904c2b1e05747fbb0cc47a63903a50905ea920e6bed781b5cd47d7db3e"
     },
     {
       "path": "logo/static/light/square/bg-none/320.png",
       "mediaType": "image/png",
-      "bytes": 7292,
-      "sha256": "0cc321b52e10c64af947a6d5b78ef621ec9b2ec0c9a1edcead60869d860317d9"
+      "bytes": 7270,
+      "sha256": "dd03db20969014686631742c211ca37956827255c8b883c2c3a7669638254df6"
     },
     {
       "path": "logo/static/light/square/bg-none/512.png",
       "mediaType": "image/png",
-      "bytes": 3841,
-      "sha256": "6ce2a97b7db853b204b19f790eaba09bd2f4b878fcbfbc8e938397d20f643568"
+      "bytes": 5863,
+      "sha256": "8935fb24e02f672d063263696bc520be6dfbe2917c07089b599a47c34df7ccc0"
     },
     {
       "path": "logo/static/light/square/bg-none/bd-black/320.png",
       "mediaType": "image/png",
-      "bytes": 7622,
-      "sha256": "e2dd1631cd5395166b4f837e5494d905d561e283a6ee6e28630d3d7b0e9d9883"
+      "bytes": 7601,
+      "sha256": "8f8e750cdf9dc2d41bc3c378b1983266b84b8cbfe916a5d640569d72f142e9f3"
     },
     {
       "path": "logo/static/light/square/bg-none/bd-black/512.png",
       "mediaType": "image/png",
-      "bytes": 4551,
-      "sha256": "6b71ac1122d368233748e77a66948634445750bf7e5c13b90128d10f5410ab04"
+      "bytes": 6568,
+      "sha256": "c38e4c732ac403b6f510b9c3511632d8aab0cc0279c022730997377aca28157e"
     },
     {
       "path": "logo/static/light/square/bg-white/320.png",
       "mediaType": "image/png",
-      "bytes": 6816,
-      "sha256": "14111482768a45d995f3ad82205fe210bd455a69979b445bf0f83551a080cf49"
+      "bytes": 6779,
+      "sha256": "7654af5a6f2d752e6a39b52bb20b9cbb605b258e32e134659ff7e78de9450c5e"
     },
     {
       "path": "logo/static/light/square/bg-white/512.png",
       "mediaType": "image/png",
-      "bytes": 3704,
-      "sha256": "67f2929dd56ccbd6e4085cc7ad4ca6e2260c4d0838d69344c260400e19338d92"
+      "bytes": 5593,
+      "sha256": "78ed2f578ff939e7380055e86c190571dfa568c02d287ab6f818ffeb8c391e57"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-black/1280.png",
       "mediaType": "image/png",
-      "bytes": 14933,
-      "sha256": "ae07314ec4fdee680f0d4f7871b12fc4ae6535b87b6037fd9fabea9932252249"
+      "bytes": 14803,
+      "sha256": "014274220d2c1f7aa7bbfe5ad0ed300da5a3a9787a3fca5e42fedb6c7cfb3099"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-black/2560.png",
       "mediaType": "image/png",
-      "bytes": 31162,
-      "sha256": "4d3bf8ca38e7d022d3497a6e7026bf3ba265d74882725fea4b2a6c8996a4d66b"
+      "bytes": 31107,
+      "sha256": "cdc876ab5944ba5fab32a4b712d5ede51558b7ea29ae123dab349fe2e42b6996"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-black/640.png",
       "mediaType": "image/png",
-      "bytes": 7820,
-      "sha256": "b89e3e13e7e9357d62569f24d9b477d6e65038f6b1297fdd0b15ff041fea4c9f"
+      "bytes": 7782,
+      "sha256": "6d439c1c99b51f3b0f659c01db8fde8f025c69284472c42f50fe91919e374313"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-gray/1280.png",
       "mediaType": "image/png",
-      "bytes": 13856,
-      "sha256": "873655a68bd53535fca7f6b05a81ba0057e2949aa1e142e7848a5153e05b59c8"
+      "bytes": 13812,
+      "sha256": "d9175f9b4f11c40706fae42dd0edc3432e3c5f95d00c0c0b1bf785269a3321c0"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-gray/2560.png",
       "mediaType": "image/png",
-      "bytes": 28779,
-      "sha256": "dfd3834bde4fda9a465581a189901efdbbce0daab50cc341b735dfe6d6101ce7"
+      "bytes": 28715,
+      "sha256": "fb7c3f8b3f969ec1b62b827d3e7a6f156f2c7c2cd6943e90d86a34fec5699444"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-gray/640.png",
       "mediaType": "image/png",
-      "bytes": 7157,
-      "sha256": "959fbca1a24134d06e7925a2c7cc544976e210b5b0ce9d5b855aaf93c184c9c6"
+      "bytes": 7126,
+      "sha256": "45dca293aaac65f398737a975f6b374b0a564fe0827f4b0b289dc14e9bf46ce4"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-none/1280.png",
       "mediaType": "image/png",
-      "bytes": 15433,
-      "sha256": "34cda6fe4c80a84d701a37f110a1df7e50fa277f057c957bbf908bb7de0fc128"
+      "bytes": 15395,
+      "sha256": "da3cd29f13d74c91ff0a0b9579d30ba314d96eae3b89c58148c46fd9304ddece"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-none/2560.png",
       "mediaType": "image/png",
-      "bytes": 31702,
-      "sha256": "ed78b569d2843644b35c6dee3aa5208c1792cdf428df5d52ab0099bacbaaaec0"
+      "bytes": 31680,
+      "sha256": "d11a5c61c693230b7dd5f4d6cf71006ac9494c1945562c2a1862026d43cc7df0"
     },
     {
       "path": "logo/wordmark/compact/dark/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 8237,
-      "sha256": "f6dacf54654f64c92424ea937b8d2a6643af3cd4eb487c51b05726b0e5eea1b1"
+      "bytes": 8179,
+      "sha256": "8925a4113c63f242637db925320fa76f64159d3707894bd34435dd3d657284f6"
     },
     {
       "path": "logo/wordmark/compact/dark/dark.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 7765,
-      "sha256": "de713711d6c45c90d1d8e51690d44222de2fa71ce8cd0bee6fd84d1504a5f462"
+      "bytes": 5598,
+      "sha256": "c9378fc0453b8a69072bcea0860b00e544f9d0687ebef812e7fc583bd6587407"
     },
     {
       "path": "logo/wordmark/compact/light/bg-gray-light/1280.png",
       "mediaType": "image/png",
-      "bytes": 14670,
-      "sha256": "0bdb3a0bc026b0c01357fcbaf72349c108d5fc46351e0b4fd2490b517f8c0a67"
+      "bytes": 14690,
+      "sha256": "9e1dfeaeb60c137cc635e50acf72760aca70c1694a96984cb6abb827a276149a"
     },
     {
       "path": "logo/wordmark/compact/light/bg-gray-light/2560.png",
       "mediaType": "image/png",
-      "bytes": 30299,
-      "sha256": "789d85090ac5eb87bc97c4997142f10bd14e3424c6a285c4b83ff91ee0d343ed"
+      "bytes": 30167,
+      "sha256": "1c242409f7a6171ae6e1ac3d84cc928ed366057782e15ad39efa5a780e95c392"
     },
     {
       "path": "logo/wordmark/compact/light/bg-gray-light/640.png",
       "mediaType": "image/png",
-      "bytes": 7763,
-      "sha256": "283285e3fe643b7d5486fed8a09d39c954c83217ebb4c4fb97a1d9aff3c96424"
+      "bytes": 7679,
+      "sha256": "21ddfcb03193b1280b6cba7dd6962b2e80992c507d566a3242a9a108b2b41125"
     },
     {
       "path": "logo/wordmark/compact/light/bg-none/1280.png",
       "mediaType": "image/png",
-      "bytes": 15503,
-      "sha256": "dddeb8572e32dada88d8a7b3ad5e67e4b090a9615fafa6f0c48d76fd6af2a69d"
+      "bytes": 15519,
+      "sha256": "8b34fd7060d1943cb956a2a2b06af168f9ba1c19bfe313916d844fb5f3211146"
     },
     {
       "path": "logo/wordmark/compact/light/bg-none/2560.png",
       "mediaType": "image/png",
-      "bytes": 31840,
-      "sha256": "9d2bab844302acf819b3c6029206e3a91b7538609afdf522e56e99e88648a221"
+      "bytes": 31937,
+      "sha256": "7364677266ffd112bbd42720630170e7b707a9ee4f87df6e33de26f78188ab2c"
     },
     {
       "path": "logo/wordmark/compact/light/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 8287,
-      "sha256": "47d1881c8b7aa84cf08137099355be865aa9db865626d2c4295826384eba8a44"
+      "bytes": 8224,
+      "sha256": "a5a2e9f09df447f45838170fd2ae3231f8d5349d28c423c9815c35cef5b76394"
     },
     {
       "path": "logo/wordmark/compact/light/bg-white/1280.png",
       "mediaType": "image/png",
-      "bytes": 14669,
-      "sha256": "429c0f000fb46cbbc94b6f2241050851302d1f45c16235a545afd4ad5c82f32a"
+      "bytes": 14697,
+      "sha256": "da0bb74e67de50f2694b0d041fe9e19c38d3c8e2132a748723993f49a460b286"
     },
     {
       "path": "logo/wordmark/compact/light/bg-white/2560.png",
       "mediaType": "image/png",
-      "bytes": 30365,
-      "sha256": "271104fff47f1986419a963ea97d61e8b0f398102872b4e63c4c4ecf19314fbd"
+      "bytes": 30269,
+      "sha256": "7d997dc15274b447a6b852febd349f6b63624ce1b9658f032224aea387f2c3a2"
     },
     {
       "path": "logo/wordmark/compact/light/bg-white/640.png",
       "mediaType": "image/png",
-      "bytes": 7738,
-      "sha256": "d72529e485d6fe9aff139bf8a196db272d64aa8a9cd48e7fe00c939d8f79406b"
+      "bytes": 7633,
+      "sha256": "a5d12dc7ac515a8fad3457265af6feadefc652c1dd0fbe66f9d27cc19d151511"
     },
     {
       "path": "logo/wordmark/compact/light/light.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 7757,
-      "sha256": "c0fc27bd85fe5103ac81873d742db0214b536f3d8139660f175f143339eb8dd6"
+      "bytes": 5590,
+      "sha256": "9c9d653a1b793fbbefb01f271d9349af3c39ab0c30421a40c3f9de2db27eff50"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-black/1280.png",
       "mediaType": "image/png",
-      "bytes": 17204,
-      "sha256": "cdfde329baf3784539afedcc8c5dc061bb3a87a0297c399fe6ea8a4310bca9d9"
+      "bytes": 17210,
+      "sha256": "7a435d0bdcba0bf31e4085b09591c87a1f07bdb16eb7237ad3dc01aae1e3398c"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-black/2560.png",
       "mediaType": "image/png",
-      "bytes": 38457,
-      "sha256": "b4be1f103afd02812d004f16d8b6f7a91e6da57df4597f9e61e2d5241fc7dd14"
+      "bytes": 38420,
+      "sha256": "e428de7d3cc73ca2a7aab18ead9baf5b088d6dd44fd8033363af8a827ca50cbc"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-black/640.png",
       "mediaType": "image/png",
-      "bytes": 8681,
-      "sha256": "5d68d52c4d4e8c069a76d6bc10fffefbba5cc507933b8ae6564d1909a4d241e2"
+      "bytes": 8611,
+      "sha256": "a97442347d44b5a5e5686e0d92406d9737938702c82017c0368d2abf9290f085"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-gray/1280.png",
       "mediaType": "image/png",
-      "bytes": 15823,
-      "sha256": "ef61e25c3d039c4eeb2b3321fe6d39c7cddcdaefc2c7a3fafedf52aaa72dbf16"
+      "bytes": 15832,
+      "sha256": "8ae083a065ffd31b98b61963c5283c9da7fd5fec5c2cdc46caffcd8400c7ed91"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-gray/2560.png",
       "mediaType": "image/png",
-      "bytes": 35455,
-      "sha256": "6da1eba87f8cd100b8bdb76c63b521de9f9da8e9778974a089603988b146c988"
+      "bytes": 35352,
+      "sha256": "d05be7d2d4290a1d9e8af0570a2b7e3f02cefcf889814cf4e0afc9b8991f8708"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-gray/640.png",
       "mediaType": "image/png",
-      "bytes": 7993,
-      "sha256": "005fe2746f1d8c27a6b6b7098821e79ee278bb90aab5c40e341328b3341fdde4"
+      "bytes": 7896,
+      "sha256": "bc313783ef63c79e070909d36b9434fb461a4d01e23354b30757df8e85ba69a0"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-none/1280.png",
       "mediaType": "image/png",
-      "bytes": 17796,
-      "sha256": "53510b17f937dc1c4afde668d54c7b0de475b8159018e2b41d59a03b49b9eb35"
+      "bytes": 17782,
+      "sha256": "6e8052d8671c63c38274f7a605039e3ae5f6ae6c07eb905a825e380efb9778ad"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-none/2560.png",
       "mediaType": "image/png",
-      "bytes": 39279,
-      "sha256": "2b7695b6255a05f33e120dea77b9c9b0dad0becc753d97dcc89821fe39c196d2"
+      "bytes": 39234,
+      "sha256": "d1662c3db7ce20396ba57c3fedcf55524c4fad79d82743b2cf7ade4523b5c1c3"
     },
     {
       "path": "logo/wordmark/descriptor/dark/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 9056,
-      "sha256": "b157c19c817b556622f82e465695ce9a7b178eabc0f1056c6ddb13734aabf8ec"
+      "bytes": 9002,
+      "sha256": "1bee8a372ec84c0bcb5d5cefddb2ad2db5e8d19a58b4f375bcf367bbe826da67"
     },
     {
       "path": "logo/wordmark/descriptor/dark/dark.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 13779,
-      "sha256": "8f158865a4c6ead23f3ce3362db265a8d2bad20825e037978cb5457fd7efe975"
+      "bytes": 9738,
+      "sha256": "fd4517ae7debfd065dab70bc29b9ffaa864bccaa4700c918ac4dc8b1eb90fbae"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-gray-light/1280.png",
       "mediaType": "image/png",
-      "bytes": 17203,
-      "sha256": "fc625aa43b2e2fabe04685be31e48d435e37192a34faac43032e82798af84639"
+      "bytes": 17134,
+      "sha256": "82d6c20e8b32dbdb7574ca7432e18c7e695c32854ade665c9ddfdf957bba285c"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-gray-light/2560.png",
       "mediaType": "image/png",
-      "bytes": 37815,
-      "sha256": "21a38b132d5602787d1851e21c96072d46599b8957654fdd0e629360afb7fe37"
+      "bytes": 37607,
+      "sha256": "f87718043f40ebe23d59ffa83faf422ef9f395c02409f868f4c17e15691b7ff0"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-gray-light/640.png",
       "mediaType": "image/png",
-      "bytes": 8612,
-      "sha256": "86fd92c816ea3ead0428aa683996c208adf1366470791a7c673699399c1bed92"
+      "bytes": 8653,
+      "sha256": "fc42b56c3f7b5e267acdcf503e3af81283ffcec24a73bfe0ce1a65cfc9437ae5"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-none/1280.png",
       "mediaType": "image/png",
-      "bytes": 18015,
-      "sha256": "089b3f3f1f15d3c20e03b0b49316640c7a63b799b15384da52668b4660da4e69"
+      "bytes": 17907,
+      "sha256": "da293fe94353bb16186e7f7894a1d64df30661576dbf79924db76c495d4e1d6e"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-none/2560.png",
       "mediaType": "image/png",
-      "bytes": 39512,
-      "sha256": "4b7868fc05cdb9cb8c45428b3c893d5e927e689aec178682441914192e8bed19"
+      "bytes": 39439,
+      "sha256": "3e29bce0e841a9c047f1a6f1cbc8c24971f17a73f47915e0f243b334d2fe4a15"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 9157,
-      "sha256": "591d88a50f6992b2f1174f062ff11869b3160f2361f73feef1548d1e899508c2"
+      "bytes": 9124,
+      "sha256": "a8afd6c329f6fddfb7702d2dd6c456deb328272d890c4bd16c1da932f93fccdf"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-white/1280.png",
       "mediaType": "image/png",
-      "bytes": 17203,
-      "sha256": "01fea363dbc5e38fed60e4dd1c7acd4ebd58cb8d46f935bc3023ae051c08b13c"
+      "bytes": 17129,
+      "sha256": "4a30cf8d1fae99797e263e1ad2ca6999956e553ae95ad526e603aef6b00a8436"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-white/2560.png",
       "mediaType": "image/png",
-      "bytes": 37769,
-      "sha256": "dd70e6e67fe1822c33753f5a4887121b9844625d4f0f76c762d1b77420d50dca"
+      "bytes": 37668,
+      "sha256": "a7a2f5d24ed2107c0d0c0e1b90fd6ce53050fced25cbb601b7137c9f60f69cac"
     },
     {
       "path": "logo/wordmark/descriptor/light/bg-white/640.png",
       "mediaType": "image/png",
-      "bytes": 8625,
-      "sha256": "7c8fb66b1424d64d2411cf274b607efcc22d36ef93a51a44a7685c14900eee42"
+      "bytes": 8626,
+      "sha256": "68cc58fa550a3a0f5f28489fe2693a9000cfb91e4d9fc484103273379d80a8a8"
     },
     {
       "path": "logo/wordmark/descriptor/light/light.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 13777,
-      "sha256": "0161779061a19d27e5f41efa8819a9b88cd25599fdf1bc149cab57c2a6c0a9c1"
+      "bytes": 9736,
+      "sha256": "b60cf83cfc722ecdaa7c2d3dd9fac53febbd3106b6bb3a6e07d793e10b837ff5"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-black/1280.png",
       "mediaType": "image/png",
-      "bytes": 15868,
-      "sha256": "0a8b28eef1baac6bb3b3d4cb6732de8e8e3e756111c2a85706a5b80bf5f99484"
+      "bytes": 15788,
+      "sha256": "4a8059fceb6383562b5cb6d7a0fcbb71898ba6fa4f3e319a3a6b553ba58b5d71"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-black/2560.png",
       "mediaType": "image/png",
-      "bytes": 34861,
-      "sha256": "a769fdc943577dcb66923de9a006e8b68b158f5f72280171238051c5ea36f885"
+      "bytes": 34917,
+      "sha256": "f9898ff069d553279703609a22e61942528ae80efcfe21ec673d8f6fad7b8e06"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-black/640.png",
       "mediaType": "image/png",
-      "bytes": 8051,
-      "sha256": "920fe656bdef9b50843f4a977165e058cdf53d3c15426838d29e7147453a9a7c"
+      "bytes": 8007,
+      "sha256": "121ec2eac08f6cec55ebcb9891271cf81373c7abef427604e20478b9d3bdd18c"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-gray/1280.png",
       "mediaType": "image/png",
-      "bytes": 14688,
-      "sha256": "350035b55a69e3cabbc381a9ff21e2674fc8e5ca5a7310c6cae1d8a235974fb3"
+      "bytes": 14611,
+      "sha256": "6430933d6d260313209356e2720eb6b53d681bd0b3310b10897cfa5fb5bd3b06"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-gray/2560.png",
       "mediaType": "image/png",
-      "bytes": 31923,
-      "sha256": "5a5cc99ff615102a0ce42916f3b03315d00943b972d7789c5e37ca8fc2715c84"
+      "bytes": 32120,
+      "sha256": "545020006dbb2ecc7a25b985f312de65714266986f66f416fcbbc2d541f637dd"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-gray/640.png",
       "mediaType": "image/png",
-      "bytes": 7383,
-      "sha256": "e3e62b2d123d53320c0f7688c4957543aefdcaf038f6a53032e39135ab6a16b9"
+      "bytes": 7324,
+      "sha256": "99d5ecbf54d935349944c31ce6667484f46d6244b8b9578ef9463521eca56f25"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-none/1280.png",
       "mediaType": "image/png",
-      "bytes": 16413,
-      "sha256": "e009c8b361d45ff65fdcb4ee2a982275a47e18666a2c2f26f6f9b6e37fdebfc6"
+      "bytes": 16322,
+      "sha256": "c979baa40b47ed06d1e87647f681bcf3de5937d3863d8689d3781a6359dce3c9"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-none/2560.png",
       "mediaType": "image/png",
-      "bytes": 35601,
-      "sha256": "c202cfffaba44da4b8c5e428535685e1b3b39c6361b43718893e5f60c84fe15d"
+      "bytes": 35632,
+      "sha256": "5ee6a8459175b0d7786a1f608c40f8cac0fb6f2a0ef110b424065ed2f9a935fb"
     },
     {
       "path": "logo/wordmark/legal/dark/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 8408,
-      "sha256": "5d44dd408ab5639d7c13474a52d902ef6aa2d2417fd847b2c89ec0ff0dc69c8e"
+      "bytes": 8410,
+      "sha256": "9971b58a3abcd55abfdde31de0fb6ff35d69fb7fae130cc2b5d6158cdd063104"
     },
     {
       "path": "logo/wordmark/legal/dark/dark.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 10981,
-      "sha256": "1bfe3df5c424998ece98822dcb99dc1212c3865381d40c6bf2f44016026c6e75"
+      "bytes": 7726,
+      "sha256": "b895fb16e0f6be06ad9cf9020ec39646dfccc8f2ac01c9bd2940618972ea578d"
     },
     {
       "path": "logo/wordmark/legal/light/bg-gray-light/1280.png",
       "mediaType": "image/png",
-      "bytes": 15709,
-      "sha256": "56566ee6d8f683882517226fd65ac94dd60d61e95383eed09175b689b5de7088"
+      "bytes": 15774,
+      "sha256": "10501b5a1abf802c2c597be1fb36564ae166a6eb0f409132d33f77a5a5d9b1dd"
     },
     {
       "path": "logo/wordmark/legal/light/bg-gray-light/2560.png",
       "mediaType": "image/png",
-      "bytes": 34300,
-      "sha256": "46ecd3c134eda477eebd48ee2e41c88111f31923b4b0df14b2c79e79221e93fd"
+      "bytes": 34390,
+      "sha256": "c4c0672cecd7ddd1e1fb5f1da1a6541d1a317ed76b757add8880feb433b47a1f"
     },
     {
       "path": "logo/wordmark/legal/light/bg-gray-light/640.png",
       "mediaType": "image/png",
-      "bytes": 7876,
-      "sha256": "7dc2b9b1b33548fed5000eff11804cfe72592b86fcf5d297d2b804acedcb3cca"
+      "bytes": 7994,
+      "sha256": "d18e4e469aa5d615d930f14621fb192b317844697d5e4ebe9fdb030fa86699ab"
     },
     {
       "path": "logo/wordmark/legal/light/bg-none/1280.png",
       "mediaType": "image/png",
-      "bytes": 16471,
-      "sha256": "32bf8b5be5567de378c45ec7a26420c5687976b8f15ecc7b9aeeb93e660540cf"
+      "bytes": 16447,
+      "sha256": "5cc316f49d41fa67b3e2a3282e1b2b2fa98d36957e7a1c5c84205afcc74245f8"
     },
     {
       "path": "logo/wordmark/legal/light/bg-none/2560.png",
       "mediaType": "image/png",
-      "bytes": 35900,
-      "sha256": "b08d899781a56a5b6ebe1e9dace815abb86e14651f7be7193bb03630c8e11a9a"
+      "bytes": 35899,
+      "sha256": "7dc841bb88b8ddefa4a69b5178e723de61ed34c09ac16de0541d8817d8dde977"
     },
     {
       "path": "logo/wordmark/legal/light/bg-none/640.png",
       "mediaType": "image/png",
-      "bytes": 8484,
-      "sha256": "6ae479f7b0588c8b2cfa3faa97dc130ce633475677bad183506c4da07b327b24"
+      "bytes": 8472,
+      "sha256": "fe55ad060c9b54c9d3949b7bfb82046ba78f90c34276bfec35d906503234100c"
     },
     {
       "path": "logo/wordmark/legal/light/bg-white/1280.png",
       "mediaType": "image/png",
-      "bytes": 15701,
-      "sha256": "e89997249151543252eae43a9cab75ed16e93f109e5b12eacab2026e5618e445"
+      "bytes": 15716,
+      "sha256": "8877d7ae02a37c5669418444e9368d4c162090a7c4e62636b17ad1389f749145"
     },
     {
       "path": "logo/wordmark/legal/light/bg-white/2560.png",
       "mediaType": "image/png",
-      "bytes": 34254,
-      "sha256": "23357b5578c773968a5888b16e627c40a58bfbcdd34d19f618c5e7340d92654e"
+      "bytes": 34303,
+      "sha256": "7af225fa3016daf664ac90f86e1eaf1bc68f16d74499531bb58e8c5942dc1628"
     },
     {
       "path": "logo/wordmark/legal/light/bg-white/640.png",
       "mediaType": "image/png",
-      "bytes": 7917,
-      "sha256": "799750a4638a427e5becbb6198aa8ddd6ced8cb56150443054b1312bccf4e5c3"
+      "bytes": 8005,
+      "sha256": "a93abbe78888f623f622fba78fa8623784ef638957b4b451c2ceee600cbd49bd"
     },
     {
       "path": "logo/wordmark/legal/light/light.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 10981,
-      "sha256": "188864846870226f41f9624b6a21794ad0efaa20e2585755462b9d75135533d8"
+      "bytes": 7726,
+      "sha256": "3bd1468bda3cd0a4e6d977ba74bbee8cc7a10d4e367d13558574b22951fbb6c5"
     },
     {
       "path": "og-image/dark/og-default.jpg",
