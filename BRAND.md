@@ -6,6 +6,10 @@ Token **values** live in `@singleton-sd/tokens` — [AGENTS.md](https://gitlab.c
 
 Shareable snapshot (no Penpot login): [assets.singletonsd.com/brand/](https://assets.singletonsd.com/brand/). Print from the browser to save a PDF.
 
+## Tagline
+
+We care. We build. We perfect.
+
 ## Formats
 
 - **SVG** — preferred for web and print vectors. Drop masters next to PNGs (`light.svg` / `dark.svg`).
